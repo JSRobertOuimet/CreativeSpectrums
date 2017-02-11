@@ -3,9 +3,81 @@ html(lang="en")
 head
   meta(charset="UTF-8")
   meta(name="viewport", content="width=device-width, initial-scale=1")
+  link(href="https://use.fontawesome.com/fdb3aa021a.js")
+  link(href="css/bootstrap.min.css", rel="stylesheet")
   link(href="css/main.min.css", rel="stylesheet")
-  title Jean-Simon Robert Ouimet
+  title JS Robert Ouimet
 
 body
-  
+
+  //- Mixins
+  mixin media(title)
+    .media
+      .media-left
+        a(href="#")
+          img.media-object(src="https://dummyimage.com/200/eeeeee/eeeeee.jpg" alt="La Parapharmacie")
+      .media-body
+        .col-md-9
+          h2.media-heading= title
+          a.no-udl.mg-r(href="#"): span.label.label-default tag1
+          a.no-udl.mg-r(href="#"): span.label.label-default tag2
+          a.no-udl.mg-r(href="#"): span.label.label-default tag3
+          a.no-udl.mg-r(href="#"): span.label.label-default tag4
+          p.mg-t Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae odio nisi ab veniam facilis doloribus sequi, libero architecto accusantium dicta voluptas reprehenderit laudantium molestiae nesciunt dolorem ea fuga enim, iste. Quae odio nisi ab veniam facilis doloribus sequi, libero architecto accusantium dicta voluptas&hellip;
+    hr
+  //- End of Mixins
+
+  nav
+    .navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        //- Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target="#bs-example-navbar-collapse-1", aria-expanded="false")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href="#") JS Robert Ouimet
+
+        //- Collect the nav links, forms, and other content for toggling
+        .collapse.navbar-collapse(id="bs-example-navbar-collapse-1")
+          ul.nav.navbar-nav.navbar-right
+            li: a(href="#") About
+
+  header
+    .jumbotron
+
+  main
+
+    h1.mg-b What&#8217;s New
+
+    ul.nav.nav-tabs.nav-justified
+      li.active(role="presentation"): a(href="#") Branding
+      li(role="presentation"): a(href="#") Print
+      li(role="presentation"): a(href="#") Web
+      li(role="presentation"): a(href="#") Development
+      li(role="presentation"): a(href="#") Insights
+
+    +media('Back to Work!')
+    +media('Symbiosys')
+    +media('Concerts by the Canal')
+    +media('Doors Open for Music at Southminster')
+    +media('Expert Piano Plateau')
+    +media('La Parapharmacie')
+    +media('Master Piano Recital Series')
+    +media('Rideau Chorale')
+    +media('Assent Compliance')
+    +media('Task Angels')
+    +media('mimiB')
+    +media('Agence Nancy Paquette')
+    +media('Lina Côté')
+    +media('KEM Solutions')
+    +media('Quadrant Engineering Ltd.')
+    +media('OICRM / Université de Montréal')
+
+  footer
+    .jumbotron.inverted
+
+  script(src="js/jquery.min.js")
+  script(src="js/bootstrap.min.js")
   script(src="js/main.min.js")

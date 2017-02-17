@@ -1,15 +1,15 @@
 // Visibility
 .desktop-only
   @media screen and (max-width: 960px)
-    display: none
+    display: none !important
   @media screen and (min-width: 961px)
-    display: block
+    display: block !important
 
 .mobile-only
   @media screen and (max-width: 960px)
-    display: block
+    display: block !important
   @media screen and (min-width: 961px)
-    display: none
+    display: none !important
 
 // Alignment
 .left
@@ -17,3 +17,10 @@
 
 .right
   float: right !important
+
+.justify
+  text-align: justify !important
+
+// Typography
+.bold
+  font-weight: bold !important

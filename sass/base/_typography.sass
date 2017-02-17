@@ -22,10 +22,14 @@ html
   line-height: 1em * 2
 
 p
+  margin-bottom: 1em
   font:
     size: 1em
   line-height: 1em * 2
+  &:last-of-type
+    margin-bottom: 0 !important
 
+// Links
 a
   font-weight: bold
   color: $primary-color
@@ -33,3 +37,8 @@ a
 
 a:visited
   color: $primary-color
+
+// Text-decoration
+.horizontal-bar
+  position: relative
+  bottom: -9px

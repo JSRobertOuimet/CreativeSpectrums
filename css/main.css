@@ -47,17 +47,17 @@ body {
 
 @media screen and (max-width: 960px) {
   .desktop-only {
-    display: none; } }
+    display: none !important; } }
 @media screen and (min-width: 961px) {
   .desktop-only {
-    display: block; } }
+    display: block !important; } }
 
 @media screen and (max-width: 960px) {
   .mobile-only {
-    display: block; } }
+    display: block !important; } }
 @media screen and (min-width: 961px) {
   .mobile-only {
-    display: none; } }
+    display: none !important; } }
 
 .left {
   float: left !important; }
@@ -65,9 +65,15 @@ body {
 .right {
   float: right !important; }
 
+.justify {
+  text-align: justify !important; }
+
+.bold {
+  font-weight: bold !important; }
+
 html {
   font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #444; }
+  color: #005ab9; }
 
 .title-big {
   font-size: 2.618em;
@@ -85,8 +91,11 @@ html {
   line-height: 2em; }
 
 p {
+  margin-bottom: 1em;
   font-size: 1em;
   line-height: 2em; }
+  p:last-of-type {
+    margin-bottom: 0 !important; }
 
 a {
   font-weight: bold;
@@ -95,6 +104,10 @@ a {
 
 a:visited {
   color: #005ab9; }
+
+.horizontal-bar {
+  position: relative;
+  bottom: -9px; }
 
 * {
   margin: 0;
@@ -225,6 +238,36 @@ a:visited {
   .bit-10,
   .bit-12 {
     width: 50%; } }
+.case {
+  position: relative; }
+  .case:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%; }
+  .case h3 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    text-align: left;
+    line-height: 1;
+    color: white; }
+  .case:hover {
+    cursor: pointer; }
+
+.label {
+  position: absolute;
+  left: -9999px; }
+
+.jumbotron {
+  width: 100%;
+  height: calc(100vh - 75px);
+  background-image: url("../img/concentric-form-light-blue.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+  @media screen and (max-width: 960px) {
+    .jumbotron {
+      background-size: contain; } }
+
 #main-nav,
 #main-footer {
   width: 100%;
@@ -243,5 +286,8 @@ a:visited {
 
 #main-footer {
   clear: both; }
+  #main-footer p {
+    display: inline-block;
+    line-height: 50px; }
 
 /*# sourceMappingURL=main.css.map */

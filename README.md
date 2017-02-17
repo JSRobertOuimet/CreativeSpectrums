@@ -1,1 +1,0 @@
-Built with my starter-kit (https://github.com/JSRobertOuimet/starter-kit), this is the second version of my portfolio.

@@ -18,30 +18,47 @@
 
     <!--Main header-->
     <header class="bit-1">
-        <nav id="main-nav" class="desktop-only">
-          <div class="left">
-            <a id="brand" href="index.html">JS Robert Ouimet</a>
-          </div>
-          <div class="right desktop-only">
-            <a href="index.html">home</a>
-            <a href="blog.html">blog</a>
-            <a href="about.html">about</a>
-            <a href="contact.html">contact</a>
-            <a href="french.html">/&nbsp;FR</a>
-          </div>
-        </nav>
 
-        <nav id="main-nav" class="mobile-main-nav mobile-only">
-          <div class="left">
-            <a id="brand" href="index.html">JS Robert Ouimet</a>
-          </div>
-          <div class="right">
-            <a id="menu-icon" href="index.html#">☰</a>
-          </div>
-        </nav>
+      <!--Desktop Navigation-->
+      <nav id="main-nav" class="desktop-only">
+        <div class="left">
+          <a id="brand" href="index.html">JS Robert Ouimet</a>
+        </div>
+        <div class="right desktop-only">
+          <a href="index.html">home</a>
+          <a href="blog.html">blog</a>
+          <a href="about.html">about</a>
+          <a href="contact.html">contact</a>
+          <a href="french.html">/&nbsp;FR</a>
+        </div>
+      </nav>
 
-        <div class="jumbotron"></div>
-      </header>
+      <!--Mobile Navigation-->
+      <nav id="main-nav" class="mobile-main-nav mobile-only">
+        <div class="left">
+          <a id="brand" href="index.html">JS Robert Ouimet</a>
+        </div>
+        <div class="right">
+          <a onclick="openNav()">menu</a>
+        </div>
+      </nav>
+
+      <!--Mobile Overlay-->
+      <nav id="myNav" class="overlay">
+        <div class="overlay-nav">
+          <a class="close-btn right" href="javascript:void(0)" onclick="closeNav()">close</a>
+        </div>
+        <div class="overlay-content">
+          <a href="index.html">home</a>
+          <a href="blog.html">blog</a>
+          <a href="about.html">about</a>
+          <a href="contact.html">contact</a>
+          <a href="french.html">/&nbsp;FR</a>
+        </div>
+      </nav>
+
+      <div class="jumbotron"></div>
+    </header>
 
     <!--Main Content-->
     <main>
@@ -55,14 +72,13 @@
         <section class="bit-3">
           <h2 class="title-small">Communication</h2>
           <h3 class="subtitle">Clarify, express, persuade.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque odit, cumque nisi nulla, officia, autem distinctio quasi iusto commodi quo minima, eveniet repellat. Animi ex commodi modi, blanditiis, recusandae optio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt fugiat obcaecati atque reprehenderit nesciunt modi ducimus suscipit amet consectetur illum aspernatur laudantium assumenda, doloremque tenetur necessitatibus vitae beatae autem quis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque odit, cumque nisi nulla, officia, autem distinctio quasi iusto commodi quo minima, eveniet repellat. Animi ex commodi modi, blanditiis, recusandae optio! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </section>
 
         <section class="bit-3">
           <h2 class="title-small">Creation</h2>
           <h3 class="subtitle">Imagine, explore, touch.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque odit, cumque nisi nulla, officia, autem distinctio quasi iusto commodi quo minima, eveniet repellat. Animi ex commodi modi, blanditiis, recusandae optio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt fugiat obcaecati atque reprehenderit nesciunt modi ducimus suscipit amet consectetur illum aspernatur laudantium assumenda, doloremque tenetur necessitatibus vitae beatae autem quis.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque odit, cumque nisi nulla, officia, autem distinctio quasi iusto commodi quo minima, eveniet repellat. Animi ex commodi modi, blanditiis, recusandae optio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt fugiat obcaecati atque reprehenderit nesciunt modi ducimus suscipit amet consectetur illum aspernatur laudantium assumenda, doloremque tenetur necessitatibus vitae beatae autem quis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque odit, cumque nisi nulla, officia, autem distinctio quasi iusto commodi quo minima, eveniet repellat.</p>
         </section>
 
         <section class="bit-3">
@@ -193,22 +209,40 @@
       <article>
         <header class="bit-1">
           <h1 class="title-big">Contact<span class="horizontal-bar">―</span></h1>
-          <h2 class="title-small">Need a quote?</h2>
+          <h2 class="title-small">Want a quote?</h2>
         </header>
 
         <form action="contact.php">
-          <div class="form-group bit-1">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Name">
-          </div>
           
-          <div class="form-group bit-1">
-            <label for="message">Subject</label>
-            <textarea id="message" name="message" placeholder="Message" rows="3"></textarea>
+          <div class="frame">
+            <div class="form-group bit-2">
+              <label for="name">Name</label>
+              <input type="text" id="first-name" name="first-name" placeholder="first name">
+            </div>
+
+            <div class="form-group bit-2">
+              <label for="name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" placeholder="last name">
+            </div>
           </div>
 
           <div class="form-group bit-1">
-            <input type="submit" value="Submit">
+            <label for="name">Email</label>
+            <input type="email" id="email" name="email" placeholder="email">
+          </div>
+
+          <div class="form-group bit-1">
+            <label for="name">Site URL</label>
+            <input type="text" id="site-url" name="site-url" placeholder="site url (optional)">
+          </div>
+          
+          <div class="form-group bit-1">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="message" rows="10"></textarea>
+          </div>
+
+          <div class="form-group bit-1">
+            <input type="submit" value="submit">
           </div>
           
         </form>
@@ -220,7 +254,7 @@
     <footer id="main-footer" class="bit-1">
       <nav id="secondary-nav">
         <div class="left mg-b">
-          <p class="copy">&copy; 2017 JS Robert Ouimet</p>
+          <p class="copy">Copyright &copy; 2017 JS Robert Ouimet. All rights reserved.</p>
         </div>
         <div class="right mg-b desktop-only">
           <a href="index.html">home</a>
@@ -235,6 +269,7 @@
   </div>
 
   <!--<script src="js/slideshow.js"></script>-->
+  <script src="js/overlay-menu.js"></script>
 
 </body>
 

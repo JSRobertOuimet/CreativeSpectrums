@@ -11,9 +11,47 @@
     display: inline-block
     margin-left: 25px
     font-weight: bold
-    
+
+#mobile-main-nav-overlay
+  margin-top: 4.8px
+  padding: 0 4.8px
+  height: 50px
+
 #main-footer
   clear: both
+  margin-top: $base-unit * 4
+  margin-bottom: $base-unit
   p
     display: inline-block
     line-height: 50px
+
+// Overlay Menu
+.overlay
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 1
+  width: 0
+  height: 100%
+  background: $primary-color
+  overflow-x: hidden
+
+.overlay-nav
+  margin: 4.8px auto 0
+  width: calc(100% - 39.6px)
+  height: 50px
+
+.overlay-content
+  margin-top: $base-unit * 2
+  padding-right: 19.8px
+  height: 100%
+  width: 100%
+  text-align: right
+  background-color: $primary-color
+
+.overlay-content a
+  display: block
+  font-size: 1.618em
+  line-height: 1.618em * 2
+  color: white
+  text-decoration: none

@@ -29,7 +29,7 @@
           <a href="blog.html">blog</a>
           <a href="about.html">about</a>
           <a href="contact.html">contact</a>
-          <a href="french.html">/&nbsp;FR</a>
+          <a href="french.html">/&nbsp;fr</a>
         </div>
       </nav>
 
@@ -44,16 +44,18 @@
       </nav>
 
       <!--Mobile Overlay-->
-      <nav id="myNav" class="overlay">
+      <nav id="overlay" class="overlay">
         <div class="overlay-nav">
           <a class="close-btn right" href="javascript:void(0)" onclick="closeNav()">close</a>
         </div>
         <div class="overlay-content">
-          <a href="index.html">home</a>
-          <a href="blog.html">blog</a>
-          <a href="about.html">about</a>
-          <a href="contact.html">contact</a>
-          <a href="french.html">/&nbsp;FR</a>
+          <div class="links-wrapper">
+            <a href="index.html">home</a>
+            <a href="blog.html">blog</a>
+            <a href="about.html">about</a>
+            <a href="contact.html">contact</a>
+            <a href="french.html">/&nbsp;fr</a>
+          </div>
         </div>
       </nav>
 
@@ -149,7 +151,7 @@
                 <div class="avatar"></div>
               </div>
               <div class="bit-66">
-                <p class="justify">“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n’est pas une option.”</p>
+                <p >“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n’est pas une option.”</p>
                 <p class="right"><span class="bold">Amine Lahlou</span>, CTO @ <a href="http://smbsol.com/" target="_blank">Symbiosys</a></p>
               </div>
             </div>
@@ -161,7 +163,7 @@
                 <div class="avatar"></div>
               </div>
               <div class="bit-66">
-                <p class="justify">“Nous avons été très heureux de travailler avec Jean-Simon à l’élaboration d’un concept visuel basé sur une musique. Jean-Simon a fait la création et la réalisation d’une oeuvre graphique très inspirée qui a ensuite été imprimée sur tissus. Dans cette réalisation, son talent de designer et son expérience en musique ont été très profitables. Bravo.”</p>
+                <p >“Nous avons été très heureux de travailler avec Jean-Simon à l’élaboration d’un concept visuel basé sur une musique. Jean-Simon a fait la création et la réalisation d’une oeuvre graphique très inspirée qui a ensuite été imprimée sur tissus. Dans cette réalisation, son talent de designer et son expérience en musique ont été très profitables. Bravo.”</p>
                 <p class="right"><span class="bold">Lucie Charbonneau</span>, Artistic Director @ <a href="http://www.atypic.ca/en/" target="_blank">Atypic</a></p>
               </div>
             </div>          
@@ -173,7 +175,7 @@
                 <div class="avatar"></div>
               </div>
               <div class="bit-66">
-                <p class="justify">“Je reçois des commentaires élogieux de la part de hauts dirigeants, et à l’unanimité, on me dit que cette carte [d’affaires] exceptionnelle est à l’image du service et de la coach d’exception que je suis. Je tiens personnellement à vous dire que vous avez répondu en tous points à mes besoins. Vous avez été le prolongement de ma créativité, l’écho de mes aspirations!”</p>
+                <p >“Je reçois des commentaires élogieux de la part de hauts dirigeants, et à l’unanimité, on me dit que cette carte [d’affaires] exceptionnelle est à l’image du service et de la coach d’exception que je suis. Je tiens personnellement à vous dire que vous avez répondu en tous points à mes besoins. Vous avez été le prolongement de ma créativité, l’écho de mes aspirations!”</p>
                 <p class="right"><span class="bold">Lina Côté</span>, Business Consultant @ <a href="http://www.coachdexception.com/" target="_blank">Coach d’exception</a></p>
               </div>
             </div>          
@@ -185,7 +187,7 @@
                 <div class="avatar"></div>
               </div>
               <div class="bit-66">
-                <p class="justify">“Jean-Simon is very accommodating and understanding when it comes to client graphic design requirements. His input was helpful, communication was prompt and to the point. Great attention to detail and eye for style.”</p>
+                <p >“Jean-Simon is very accommodating and understanding when it comes to client graphic design requirements. His input was helpful, communication was prompt and to the point. Great attention to detail and eye for style.”</p>
                 <p class="right"><span class="bold">Kyle van Riemsdyk</span>, Mechanical Designer @ <a href="http://www.gwal.com/" target="_blank">Goodkey Weedmark</a></p>
               </div>
             </div>
@@ -198,8 +200,8 @@
               </div>
             </div>
             <div class="bit-66">
-              <p class="justify">“Professionnel, créatif, à l'écoute et très habile techniquement, je le recommande fortement.”</p>
-            <p class="justify"><span class="bold">Rémy Vanherweghem</span>, Product Manager @ <a href="http://kemsolutions.com/" target="_blank">KEM Solutions</a></p>
+              <p >“Professionnel, créatif, à l'écoute et très habile techniquement, je le recommande fortement.”</p>
+            <p ><span class="bold">Rémy Vanherweghem</span>, Product Manager @ <a href="http://kemsolutions.com/" target="_blank">KEM Solutions</a></p>
             </div>
           </section>
         </div>
@@ -214,16 +216,14 @@
 
         <form action="contact.php">
           
-          <div class="frame">
-            <div class="form-group bit-2">
-              <label for="name">Name</label>
-              <input type="text" id="first-name" name="first-name" placeholder="first name">
-            </div>
+          <div class="form-group bit-1">
+            <label for="name">First Name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="first name">
+          </div>
 
-            <div class="form-group bit-2">
-              <label for="name">Last Name</label>
-              <input type="text" id="last-name" name="last-name" placeholder="last name">
-            </div>
+          <div class="form-group bit-1">
+            <label for="name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="last name">
           </div>
 
           <div class="form-group bit-1">
@@ -250,23 +250,26 @@
 
     </main>
 
-    <!--Main Footer-->
-    <footer id="main-footer" class="bit-1">
+    <!--Desktop Footer-->
+    <footer id="main-footer" class="bit-1 desktop-only">
       <nav id="secondary-nav">
         <div class="left mg-b">
-          <p class="copy">Copyright &copy; 2017 JS Robert Ouimet. All rights reserved.</p>
+          <p class="copy">Copyright &copy; 2017 JS Robert Ouimet</p>
         </div>
-        <div class="right mg-b desktop-only">
+        <div class="right mg-b">
           <a href="index.html">home</a>
           <a href="blog.html">blog</a>
           <a href="about.html">about</a>
           <a href="contact.html">contact</a>
-          <a href="index/fr.html">/&nbsp;FR</a>
+          <a href="index/fr.html">/&nbsp;fr</a>
         </div>
       </nav>
     </footer>
 
-  </div>
+    <!--Mobile Footer-->
+    <footer id="main-footer" class="bit-1 center mobile-only">
+      <p class="copy">Copyright &copy; 2017 JS Robert Ouimet</p>
+    </footer>
 
   <!--<script src="js/slideshow.js"></script>-->
   <script src="js/overlay-menu.js"></script>

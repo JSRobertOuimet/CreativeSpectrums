@@ -12,20 +12,24 @@
     margin-left: 25px
     font-weight: bold
 
-#mobile-main-nav-overlay
-  margin-top: 4.8px
-  padding: 0 4.8px
-  height: 50px
+#main-nav
+  @media screen and (max-width: 960px)
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 1
+    padding: 0 15px
+  @media screen and (min-width: 960px)
+    padding: 0
 
 #main-footer
   clear: both
   margin-top: $base-unit * 4
-  margin-bottom: $base-unit
   p
     display: inline-block
     line-height: 50px
 
-// Overlay Menu
+Overlay Menu
 .overlay
   position: fixed
   top: 0
@@ -37,21 +41,27 @@
   overflow-x: hidden
 
 .overlay-nav
-  margin: 4.8px auto 0
-  width: calc(100% - 39.6px)
+  margin: 0 auto
+  width: calc(100% - 30px)
   height: 50px
+  line-height: 50px
+  a
+    color: white
 
 .overlay-content
-  margin-top: $base-unit * 2
-  padding-right: 19.8px
-  height: 100%
+  height: calc(100% - 50px)
   width: 100%
-  text-align: right
+  text-align: center
   background-color: $primary-color
+  a
+    display: block
+    font-size: 1.618em
+    line-height: 1.618em * 2
+    color: white
+    text-decoration: none
 
-.overlay-content a
-  display: block
-  font-size: 1.618em
-  line-height: 1.618em * 2
-  color: white
-  text-decoration: none
+.links-wrapper
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)

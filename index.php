@@ -19,47 +19,10 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <!--Desktop Navigation-->
-      <nav id="main-nav" class="desktop-only">
-        <div class="left">
-          <a id="brand" href="index.html">JS Robert Ouimet</a>
-        </div>
-        <div class="right desktop-only">
-          <a href="index.html">home</a>
-          <a href="blog.html">blog</a>
-          <a href="about.html">about</a>
-          <a href="contact.html">contact</a>
-          <a href="french.html">/&nbsp;fr</a>
-        </div>
-      </nav>
-
-      <!--Mobile Navigation-->
-      <nav id="main-nav" class="mobile-main-nav mobile-only">
-        <div class="left">
-          <a id="brand" href="index.html">JS Robert Ouimet</a>
-        </div>
-        <div class="right">
-          <a onclick="openNav()">menu</a>
-        </div>
-      </nav>
-
-      <!--Mobile Overlay-->
-      <nav id="overlay" class="overlay">
-        <div class="overlay-nav">
-          <a class="close-btn right" href="javascript:void(0)" onclick="closeNav()">close</a>
-        </div>
-        <div class="overlay-content">
-          <div class="links-wrapper">
-            <a href="index.html">home</a>
-            <a href="blog.html">blog</a>
-            <a href="about.html">about</a>
-            <a href="contact.html">contact</a>
-            <a href="french.html">/&nbsp;fr</a>
-          </div>
-        </div>
-      </nav>
+      <?php include('templates/navigation.php'); ?>
 
       <div class="jumbotron"></div>
+
     </header>
 
     <!--Main Content-->
@@ -209,26 +172,7 @@
 
     </main>
 
-    <!--Desktop Footer-->
-    <footer id="main-footer" class="bit-1 desktop-only">
-      <nav id="secondary-nav">
-        <div class="left mg-b">
-          <p class="copy">Copyright &copy; 2017 JS Robert Ouimet</p>
-        </div>
-        <div class="right mg-b">
-          <a href="index.html">home</a>
-          <a href="blog.html">blog</a>
-          <a href="about.html">about</a>
-          <a href="contact.html">contact</a>
-          <a href="index/fr.html">/&nbsp;fr</a>
-        </div>
-      </nav>
-    </footer>
-
-    <!--Mobile Footer-->
-    <footer id="main-footer" class="bit-1 center mobile-only">
-      <p class="copy">Copyright &copy; 2017 JS Robert Ouimet</p>
-    </footer>
+    <?php include('templates/footer.php'); ?>
   
   </div>
 

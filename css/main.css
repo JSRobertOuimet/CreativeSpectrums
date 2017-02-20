@@ -107,7 +107,8 @@ p {
 a {
   font-weight: bold;
   color: #000080;
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
 
 a:visited {
   color: #000080; }
@@ -245,22 +246,6 @@ a:visited {
   .bit-10,
   .bit-12 {
     width: 50%; } }
-.case {
-  position: relative; }
-  .case:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%; }
-  .case h3 {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    text-align: left;
-    line-height: 1;
-    color: white; }
-  .case:hover {
-    cursor: pointer; }
-
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],
 input[type=email],
@@ -371,5 +356,22 @@ label {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
+
+.thumbnail {
+  position: relative;
+  background: #000080; }
+  .thumbnail:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%; }
+  .thumbnail h3 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    text-align: left;
+    line-height: 1;
+    color: white; }
+  .thumbnail:hover {
+    cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

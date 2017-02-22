@@ -1,10 +1,10 @@
 <!--Desktop Footer-->
 <footer id="main-footer" class="bit-1 desktop-only">
   <nav id="secondary-nav">
-    <div class="left mg-b">
-      <p class="copy">&copy; Jean-Simon Robert Ouimet 2017</p>
+    <div class="left">
+      <p class="copy">&copy; Creative Spectrums 2017</p>
     </div>
-    <div class="right mg-b">
+    <div class="right">
       <a href="index.php">home</a>
       <a href="thoughts.php">thoughts</a>
       <a href="about.php">about</a>
@@ -16,5 +16,5 @@
 
 <!--Mobile Footer-->
 <footer id="main-footer" class="bit-1 center mobile-only">
-  <p class="copy">&copy; Jean-Simon Robert Ouimet 2017</p>
+  <p class="copy">&copy; Creative Spectrums 2017</p>
 </footer>

@@ -108,6 +108,9 @@ p {
   font-size: 1em;
   line-height: 2em; }
 
+.copy {
+  margin-bottom: 0 !important; }
+
 .link,
 .tag {
   margin-right: 5px;
@@ -200,7 +203,7 @@ a:visited {
 .bit-75 {
   width: 75%; }
 
-@media (max-width: 30em) {
+@media (max-width: 600px) {
   .bit-1 {
     width: 100%; }
 
@@ -236,7 +239,7 @@ a:visited {
 
   .bit-12 {
     width: 100%; } }
-@media (min-width: 30em) and (max-width: 50em) {
+@media (min-width: 600px) and (max-width: 960px) {
   .bit-4,
   .bit-6,
   .bit-8,
@@ -252,7 +255,7 @@ a:visited {
   .bit-9,
   .bit-11 {
     width: 100%; } }
-@media (min-width: 50em) and (max-width: 68.75em) {
+@media (min-width: 960px) and (max-width: 1200px) {
   .bit-2,
   .bit-7 {
     width: 100%; }
@@ -300,8 +303,8 @@ label {
   background-color: #000080;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 75%; }
-  @media screen and (max-width: 960px) {
+  background-size: 50%; }
+  @media screen and (max-width: 600px) {
     .jumbotron {
       margin-top: 50px;
       height: calc(100vh - 65px);
@@ -439,7 +442,7 @@ label {
     content: "";
     display: block;
     padding-bottom: 50%; }
-    @media screen and (max-width: 50em) {
+    @media screen and (max-width: 960px) {
       .thumbnail-2-1:after {
         padding-bottom: 100%; } }
   .thumbnail-2-1 h3 {

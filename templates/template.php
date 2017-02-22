@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--<meta http-equiv="refresh" content="3">-->
 
-  <title>JS Robert Ouimet &ndash; Home</title>
+  <title>Creative Spectrums &ndash; Home</title>
 
   <!--Main stylesheet-->
   <link rel="stylesheet" href="css/main.css">
@@ -69,7 +69,7 @@
 
             <h3 class="subtitle">Testimonial</h3>
             <p class="testimonial">“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n’est pas une option.”</p>
-            <p class="right"><span class="bold">Amine Lahlou</span>, CTO @ <a href="http://smbsol.com/" target="_blank" class="link">Symbiosys</a></p>
+            <p class="right"><span class="bold">Amine Lahlou</span>, CTO &commat; <a href="http://smbsol.com/" target="_blank" class="link">Symbiosys</a></p>
           </div>
 
           </section>

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--<meta http-equiv="refresh" content="3">-->
 
-  <title>JS Robert Ouimet &ndash; Home</title>
+  <title>Creative Spectrums &ndash; Home</title>
 
   <!--Main stylesheet-->
   <link rel="stylesheet" href="css/main.css">
@@ -130,7 +130,7 @@
               </div>
               <div class="bit-66">
                 <p>“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n’est pas une option.”</p>
-                <p class="right"><span class="bold">Amine Lahlou</span>, CTO @ <a href="http://smbsol.com/" target="_blank">Symbiosys</a></p>
+                <p class="right"><span class="bold">Amine Lahlou</span>, CTO &commat; <a href="http://smbsol.com/" target="_blank">Symbiosys</a></p>
               </div>
             </div>
           </section>
@@ -142,7 +142,7 @@
               </div>
               <div class="bit-66">
                 <p >“Nous avons été très heureux de travailler avec Jean-Simon à l’élaboration d’un concept visuel basé sur une musique. Jean-Simon a fait la création et la réalisation d’une oeuvre graphique très inspirée qui a ensuite été imprimée sur tissus. Dans cette réalisation, son talent de designer et son expérience en musique ont été très profitables. Bravo.”</p>
-                <p class="right"><span class="bold">Lucie Charbonneau</span>, Artistic Director @ <a href="http://www.atypic.ca/en/" target="_blank">Atypic</a></p>
+                <p class="right"><span class="bold">Lucie Charbonneau</span>, Artistic Director &commat; <a href="http://www.atypic.ca/en/" target="_blank">Atypic</a></p>
               </div>
             </div>          
           </section>
@@ -154,7 +154,7 @@
               </div>
               <div class="bit-66">
                 <p >“Je reçois des commentaires élogieux de la part de hauts dirigeants, et à l’unanimité, on me dit que cette carte [d’affaires] exceptionnelle est à l’image du service et de la coach d’exception que je suis. Je tiens personnellement à vous dire que vous avez répondu en tous points à mes besoins. Vous avez été le prolongement de ma créativité, l’écho de mes aspirations!”</p>
-                <p class="right"><span class="bold">Lina Côté</span>, Business Consultant @ <a href="http://www.coachdexception.com/" target="_blank">Coach d’exception</a></p>
+                <p class="right"><span class="bold">Lina Côté</span>, Business Consultant &commat; <a href="http://www.coachdexception.com/" target="_blank">Coach d’exception</a></p>
               </div>
             </div>          
           </section>
@@ -166,7 +166,7 @@
               </div>
               <div class="bit-66">
                 <p >“Jean-Simon is very accommodating and understanding when it comes to client graphic design requirements. His input was helpful, communication was prompt and to the point. Great attention to detail and eye for style.”</p>
-                <p class="right"><span class="bold">Kyle van Riemsdyk</span>, Mechanical Designer @ <a href="http://www.gwal.com/" target="_blank">Goodkey Weedmark</a></p>
+                <p class="right"><span class="bold">Kyle van Riemsdyk</span>, Mechanical Designer &commat; <a href="http://www.gwal.com/" target="_blank">Goodkey Weedmark</a></p>
               </div>
             </div>
           </section>
@@ -179,7 +179,7 @@
             </div>
             <div class="bit-66">
               <p >“Professionnel, créatif, à l'écoute et très habile techniquement, je le recommande fortement.”</p>
-            <p ><span class="bold">Rémy Vanherweghem</span>, Product Manager @ <a href="http://kemsolutions.com/" target="_blank">KEM Solutions</a></p>
+            <p ><span class="bold">Rémy Vanherweghem</span>, Product Manager &commat; <a href="http://kemsolutions.com/" target="_blank">KEM Solutions</a></p>
             </div>
           </section>
         </div>

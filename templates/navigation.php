@@ -5,7 +5,7 @@
   </div>
   <div class="right desktop-only">
     <a href="index.php">home</a>
-    <a href="blog.php">blog</a>
+    <a href="thoughts.php">thoughts</a>
     <a href="about.php">about</a>
     <a href="contact.php">contact</a>
     <a href="french.php">/&nbsp;fr</a>

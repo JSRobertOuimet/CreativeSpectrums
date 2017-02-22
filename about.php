@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--<meta http-equiv="refresh" content="3">-->
 
-  <title>JS Robert Ouimet | About</title>
+  <title>JS Robert Ouimet &ndash; About</title>
 
   <!--Main stylesheet-->
   <link rel="stylesheet" href="css/main.css">

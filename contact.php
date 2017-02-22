@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--<meta http-equiv="refresh" content="3">-->
 
-  <title>JS Robert Ouimet | Contact</title>
+  <title>JS Robert Ouimet &ndash; Contact</title>
 
   <!--Main stylesheet-->
   <link rel="stylesheet" href="css/main.css">
@@ -27,11 +27,13 @@
     <!--Contact-->
     <article>
       <header class="bit-1">
-        <h1 class="title-big">Contact<span class="horizontal-bar">―</span></h1>
+        <h1 class="title-big">Contact<span class="horizontal-bar">&horbar;</span></h1>
         <h2 class="title-small">Want a quote?</h2>
       </header>
 
-      <form action="contact.php">
+      <div class="bit-2">
+      
+        <form action="contact.php">
         
         <div class="form-group bit-1">
           <label for="name">First Name</label>
@@ -63,6 +65,9 @@
         </div>
         
       </form>
+
+      </div>
+
     </article>
 
     <?php include('templates/footer.php'); ?>

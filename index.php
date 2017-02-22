@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--<meta http-equiv="refresh" content="3">-->
 
-  <title>JS Robert Ouimet | Home</title>
+  <title>JS Robert Ouimet &ndash; Home</title>
 
   <!--Main stylesheet-->
   <link rel="stylesheet" href="css/main.css">
@@ -21,7 +21,7 @@
 
       <?php include('templates/navigation.php'); ?>
 
-      <div class="jumbotron"></div>
+      <div class="jumbotron" style="background-image: url('/img/concentric-form-light-blue.svg')"></div>
 
     </header>
 
@@ -29,9 +29,9 @@
     <main>
 
       <!--Expertise-->
-      <article>
+      <!--<article>
         <header class="bit-1">
-          <h1 class="title-big">Expertise<span class="horizontal-bar">―</span></h1>
+          <h1 class="title-big">Expertise<span class="horizontal-bar">&horbar;</span></h1>
         </header>
 
         <section class="bit-3">
@@ -51,59 +51,69 @@
           <h3 class="subtitle">Listen, plan, guide.</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque odit, cumque nisi nulla, officia, autem distinctio quasi iusto commodi quo minima, eveniet repellat. Animi ex commodi modi, blanditiis, recusandae optio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt fugiat obcaecati atque reprehenderit nesciunt modi ducimus suscipit amet consectetur illum aspernatur laudantium assumenda, doloremque tenetur necessitatibus vitae beatae autem quis.</p>
         </section>
-      </article>
+      </article>-->
 
       <!--Work-->
       <article>
         <header class="bit-1">
-          <h1 class="title-big">Work<span class="horizontal-bar">―</span></h1>
-          <h2 class="title-small">Print, Web.</h2>
+          <h1 class="title-big">Work<span class="horizontal-bar">&horbar;</span></h1>
+          <h2 class="title-small">Latest</h2>
         </header>
 
-        <section class="thumbnail bit-4" style="background-image: url(&#39;img/05.jpg&#39;)">
-          <h3 class="title-small case-title no-line-height">Concerts<br> by the Canal</h3>
-        </section>
-        <section class="thumbnail bit-4" style="background-image: url(&#39;img/06.jpg&#39;)">
-          <h3 class="title-small case-title no-line-height">Doors Open<br> for Music at Southminster</h3>
-        </section>
-        <section class="thumbnail bit-4" style="background-image: url(&#39;img/07.jpg&#39;)">
-          <h3 class="title-small case-title no-line-height">Expert<br> Piano Plateau</h3>
-        </section>
-        <section class="thumbnail bit-4" style="background-image: url(&#39;img/08.jpg&#39;)">
-          <h3 class="title-small case-title no-line-height">Master Piano<br> Recital Series</h3>
-        </section>
+        <a href="concerts-by-the-canal.php">
+          <section class="bit-2 thumbnail-1-1 " style="background: red">
+            <h3 class="title-small case-title no-line-height">Title</h3>
+          </section>
+        </a>
+        
+        <a href="concerts-by-the-canal.php">
+          <section class="bit-2 thumbnail-1-1 " style="background: yellow">
+            <h3 class="title-small case-title no-line-height">Title</h3>
+          </section>
+        </a>
 
-        <section class="thumbnail bit-4" style="background-image: url(&#39;img/01.jpg&#39;)">
-          <h3 class="title-small case-title no-line-height">La Parapharmacie</h3>
-        </section>
-        <section class="thumbnail bit-4" style="background-image: url(&#39;img/02.jpg&#39;)">
-          <h3 class="title-small case-title no-line-height">Rideau Chorale</h3>
-        </section>
-        <section class="thumbnail bit-4" style="background-image: url(&#39;img/03.jpg&#39;)">
-          <h3 class="title-small case-title no-line-height">Assent Compliance</h3>
-        </section>
-        <section class="thumbnail bit-4" style="background-image: url(&#39;img/04.jpg&#39;)">
-          <h3 class="title-small case-title no-line-height">Task Angels</h3>
-        </section>
+        <a href="concerts-by-the-canal.php">
+          <section class="bit-3 thumbnail-1-1 " style="background: lime">
+            <h3 class="title-small case-title no-line-height">Title</h3>
+          </section>
+        </a>
 
-        <section class="thumbnail bit-4" style="background-image: url(&#39;img/05.jpg&#39;)">
-          <h3 class="title-small case-title no-line-height">Lina Côté</h3>
-        </section>
-        <section class="thumbnail bit-4" style="background-image: url(&#39;img/06.jpg&#39;)">
-          <h3 class="title-small case-title no-line-height">KEM Solutions</h3>
-        </section>
-        <section class="thumbnail bit-4" style="background-image: url(&#39;img/07.jpg&#39;)">
-          <h3 class="title-small case-title no-line-height">Quadrant Engineering Ltd.</h3>
-        </section>
-        <section class="thumbnail bit-4" style="background-image: url(&#39;img/08.jpg&#39;)">
-          <h3 class="title-small case-title no-line-height">OICRM / Université<br> de Montréal</h3>
-        </section>
+        <a href="concerts-by-the-canal.php">
+          <section class="bit-3 thumbnail-1-1 " style="background: orange">
+            <h3 class="title-small case-title no-line-height">Title</h3>
+          </section>
+        </a>
+
+        <a href="concerts-by-the-canal.php">
+          <section class="bit-3 thumbnail-1-1 " style="background: black">
+            <h3 class="title-small case-title no-line-height">Title</h3>
+          </section>
+        </a>
+
+        <a href="concerts-by-the-canal.php">
+          <section class="bit-3 thumbnail-1-1 " style="background: cyan">
+            <h3 class="title-small case-title no-line-height">Title</h3>
+          </section>
+        </a>
+
+        <a href="concerts-by-the-canal.php">
+          <section class="bit-3 thumbnail-1-1 " style="background: purple">
+            <h3 class="title-small case-title no-line-height">Title</h3>
+          </section>
+        </a>
+
+        <a href="concerts-by-the-canal.php">
+          <section class="bit-3 thumbnail-1-1 " style="background: red">
+            <h3 class="title-small case-title no-line-height">Title</h3>
+          </section>
+        </a>
+
       </article>
 
       <!--Testimonials-->
-      <article>
+      <!--<article>
         <header class="bit-1">
-          <h1 class="title-big">Testimonials<span class="horizontal-bar">―</span></h1>
+          <h1 class="title-big">Testimonials<span class="horizontal-bar">&horbar;</span></h1>
           <h2 class="title-small">What they say.</h2>
         </header>
 
@@ -168,6 +178,66 @@
             </div>
           </section>
         </div>
+      </article>-->
+
+      <!--Thoughts-->
+      <article>
+        <header class="bit-1">
+          <h1 class="title-big">Thoughts<span class="horizontal-bar">&horbar;</span></h1>
+        </header>
+
+        <a href="concerts-by-the-canal.php">
+          <section class="bit-4 thumbnail-1-1 " style="background: green">
+            <h3 class="title-small case-title no-line-height">Title</h3>
+          </section>
+        </a>
+
+        <a href="concerts-by-the-canal.php">
+          <section class="bit-4 thumbnail-1-1 " style="background: brown">
+            <h3 class="title-small case-title no-line-height">Title</h3>
+          </section>
+        </a>
+
+        <a href="concerts-by-the-canal.php">
+          <section class="bit-4 thumbnail-1-1 " style="background: black">
+            <h3 class="title-small case-title no-line-height">Title</h3>
+          </section>
+        </a>
+
+        <a href="concerts-by-the-canal.php">
+          <section class="bit-4 thumbnail-1-1 " style="background: orang">
+            <h3 class="title-small case-title no-line-height">Title</h3>
+          </section>
+        </a>
+      
+      </article>
+
+      <!--Newsletter-->
+      <article>
+        <header class="bit-1">
+          <h1 class="title-big">Newsletter<span class="horizontal-bar">&horbar;</span></h1>
+          <h2 class="title-small">Get in touch</h2>
+        </header>
+
+        <section>
+          <form action="newsletter.php">
+            
+            <div class="bit-2">
+
+              <div class="form-group bit-1">
+                <label for="name">Email</label>
+                <input type="email" id="email" name="email" placeholder="email">
+              </div>
+
+              <div class="form-group bit-1">
+                <input type="submit" value="sign up">
+              </div>
+
+            </div>
+          
+          </form>
+        </section>
+
       </article>
 
     </main>

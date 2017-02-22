@@ -55,6 +55,15 @@ table {
   .mobile-only {
     display: none !important; } }
 
+.mg-t {
+  margin-top: 15px !important; }
+
+.pd-r {
+  padding-right: 15px !important; }
+
+.no-mg-b {
+  margin-bottom: 0 !important; }
+
 .left {
   float: left !important; }
 
@@ -98,17 +107,14 @@ p {
   margin-bottom: 1em;
   font-size: 1em;
   line-height: 2em; }
-  p:last-of-type {
+  p:last-of-child {
     margin-bottom: 0 !important; }
-
-.copy {
-  font-size: 0.75em; }
 
 a {
   font-weight: bold;
   color: #000080;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer !important; }
 
 a:visited {
   color: #000080; }
@@ -262,11 +268,13 @@ textarea {
 
 input[type=submit] {
   float: right !important;
-  background-color: #000080;
-  color: white;
   padding: 15px;
   border: none;
+  background-color: #000080;
+  color: white;
   font-size: 1em;
+  appearance: none;
+  -webkit-appearance: none;
   cursor: pointer; }
   input[type=submit]:hover {
     background-color: rgba(0, 0, 128, 0.75); }
@@ -279,9 +287,10 @@ label {
   margin-top: 0;
   width: 100%;
   height: calc(100vh - 75px);
-  background-image: url("../img/concentric-form-light-blue.svg");
+  background-color: #000080;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: contain; }
   @media screen and (max-width: 960px) {
     .jumbotron {
       margin-top: 50px;
@@ -345,7 +354,8 @@ label {
   text-align: center;
   background-color: #000080; }
   .overlay-content a {
-    display: block;
+    display: inline-block;
+    width: 100vw;
     font-size: 1.618em;
     line-height: 3.236em;
     color: white;
@@ -357,21 +367,75 @@ label {
   left: 50%;
   transform: translate(-50%, -50%); }
 
-.thumbnail {
+.color-swatch {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%; }
+
+.concerts-by-the-canal-yellow {
+  background: #FFC20D; }
+
+.concerts-by-the-canal-blue {
+  background: #3081A2; }
+
+.other-projects {
+  margin-top: 60px !important; }
+
+.other-project-prev {
   position: relative;
-  background: #000080; }
-  .thumbnail:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%; }
-  .thumbnail h3 {
+  height: 150px; }
+  .other-project-prev h2 {
     position: absolute;
     bottom: 15px;
     left: 15px;
     text-align: left;
     line-height: 1;
     color: white; }
-  .thumbnail:hover {
+
+.other-project-next {
+  position: relative;
+  height: 150px; }
+  .other-project-next h2 {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    text-align: right;
+    line-height: 1;
+    color: white; }
+
+.thumbnail-1-1 {
+  position: relative;
+  background: #000080; }
+  .thumbnail-1-1:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%; }
+  .thumbnail-1-1 h3 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    text-align: left;
+    line-height: 1;
+    color: white; }
+  .thumbnail-1-1:hover {
+    cursor: pointer; }
+
+.thumbnail-2-1 {
+  position: relative;
+  background: #000080; }
+  .thumbnail-2-1:after {
+    content: "";
+    display: block;
+    padding-bottom: 50%; }
+  .thumbnail-2-1 h3 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    text-align: left;
+    line-height: 1;
+    color: white; }
+  .thumbnail-2-1:hover {
     cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

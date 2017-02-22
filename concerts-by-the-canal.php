@@ -97,12 +97,12 @@
           <footer class="bit-1 other-projects">
             <a href="#">
               <div class="bit-2 other-project-prev" style="background: red">
-                <h2 class="title-small">&larr;&nbsp;Previous Project</h3>
+                <h2 class="title-small">&larr;&nbsp;Previous</h3>
               </div>
             </a>
             <a href="#">
               <div class="bit-2 other-project-next" style="background: purple">
-                <h2 class="title-small">Next Project&nbsp;&rarr;</h3>
+                <h2 class="title-small">Next&nbsp;&rarr;</h3>
               </div>
             </a>
           </footer>

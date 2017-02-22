@@ -129,7 +129,7 @@
                 <div class="avatar"></div>
               </div>
               <div class="bit-66">
-                <p >“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n’est pas une option.”</p>
+                <p>“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n’est pas une option.”</p>
                 <p class="right"><span class="bold">Amine Lahlou</span>, CTO @ <a href="http://smbsol.com/" target="_blank">Symbiosys</a></p>
               </div>
             </div>

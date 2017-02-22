@@ -108,11 +108,20 @@ p {
   font-size: 1em;
   line-height: 2em; }
 
-a {
-  font-weight: bold;
-  color: #000080;
+.link,
+.tag {
+  margin-right: 5px;
+  padding: 3px;
+  font-weight: normal !important;
+  color: white !important;
   text-decoration: none;
+  background: #000080;
   cursor: pointer !important; }
+
+a {
+  color: #000080;
+  font-weight: bold;
+  text-decoration: none; }
 
 a:visited {
   color: #000080; }
@@ -121,12 +130,8 @@ a:visited {
   position: relative;
   bottom: -9px; }
 
-.tag {
-  margin-right: 5px;
-  padding: 3px;
-  font-weight: normal !important;
-  color: white !important;
-  background: #000080; }
+.testimonial {
+  font-style: italic !important; }
 
 * {
   margin: 0;

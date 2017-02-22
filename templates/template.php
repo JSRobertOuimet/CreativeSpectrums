@@ -38,8 +38,18 @@
         <section>
 
           <div class="bit-2">
-            <h3 class="subtitle">Keywords</h3>
-              <p>2016, blue, logo, music, ottawa, yellow</p>
+            <h3 class="subtitle">Tags</h3>
+              <p>
+                <a href="#" class="tag">2016</a>
+                <a href="#" class="tag">blue</a>
+                <a href="#" class="tag">logo</a>
+                <a href="#" class="tag">music</a>
+                <br>
+                <a href="#" class="tag">night</a>                
+                <a href="#" class="tag">ottawa</a>
+                <a href="#" class="tag">water</a>
+                <a href="#" class="tag">yellow</a>
+              </p>
             
             <h3 class="subtitle">Color Palette</h3>
               <p>
@@ -48,20 +58,25 @@
               </p>
 
             <h3 class="subtitle">Font</h3>
-              <p>Some Serif Font TT <a href="#">&nearr;</a></p>
+              <p><a href="#" class="link">Some Serif Font TT&nbsp;&nearr;</a></p>
           </div>
 
           <div class="bit-2">
             <h3 class="subtitle">Overview</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.</p>
+
+            <h3 class="subtitle">Testimonial</h3>
+            <p class="testimonial">“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n’est pas une option.”</p>
+            <p class="right"><span class="bold">Amine Lahlou</span>, CTO @ <a href="http://smbsol.com/" target="_blank" class="link">Symbiosys</a></p>
           </div>
 
           </section>
 
           <section>
           
-            <div class="bit-1">
+            <div class="bit-1 mg-t">
               <div class="thumbnail-2-1" style="background: red"></div>
             </div>
 

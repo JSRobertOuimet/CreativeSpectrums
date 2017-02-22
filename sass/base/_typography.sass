@@ -31,11 +31,24 @@ p
   //   margin-bottom: 0 !important
 
 // Links
-a
-  font-weight: bold
-  color: $primary-color
+
+%underlined
+  margin-right: 5px
+  padding: 3px
+  font-weight: normal !important
+  color: white !important
   text-decoration: none
+  background: $primary-color
   cursor: pointer !important
+
+.link,
+.tag
+  @extend %underlined
+
+a
+  color: $primary-color
+  font-weight: bold
+  text-decoration: none
 
 a:visited
   color: $primary-color
@@ -45,9 +58,5 @@ a:visited
   position: relative
   bottom: -9px
 
-.tag
-  margin-right: 5px
-  padding: 3px
-  font-weight: normal !important
-  color: white !important
-  background: $primary-color
+.testimonial
+  font-style: italic !important

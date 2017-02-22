@@ -38,7 +38,7 @@
         <section>
 
           <div class="bit-2">
-            <h3 class="subtitle">Context</h3>
+            <h3 class="subtitle">Tags</h3>
               <p>
                 <a href="#" class="tag">2016</a>
                 <a href="#" class="tag">blue</a>
@@ -58,14 +58,18 @@
               </p>
 
             <h3 class="subtitle">Font</h3>
-              <p>Some Serif Font TT <a href="#">&nearr;</a></p>
+              <p><a href="#" class="link">Some Serif Font TT&nbsp;&nearr;</a></p>
           </div>
 
           <div class="bit-2">
-            <h3 class="subtitle">Process</h3>
+            <h3 class="subtitle">Overview</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.</p>
+
+            <h3 class="subtitle">Testimonial</h3>
+            <p class="testimonial">“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n’est pas une option.”</p>
+            <p class="right"><span class="bold">Amine Lahlou</span>, CTO @ <a href="http://smbsol.com/" target="_blank" class="link">Symbiosys</a></p>
           </div>
 
           </section>

@@ -56,7 +56,7 @@ table {
     display: none !important; } }
 
 .mg-t {
-  margin-top: 15px !important; }
+  margin-top: 59px !important; }
 
 .pd-r {
   padding-right: 15px !important; }
@@ -107,8 +107,6 @@ p {
   margin-bottom: 1em;
   font-size: 1em;
   line-height: 2em; }
-  p:last-of-child {
-    margin-bottom: 0 !important; }
 
 a {
   font-weight: bold;
@@ -122,6 +120,13 @@ a:visited {
 .horizontal-bar {
   position: relative;
   bottom: -9px; }
+
+.tag {
+  margin-right: 5px;
+  padding: 3px;
+  font-weight: normal !important;
+  color: white !important;
+  background: #000080; }
 
 * {
   margin: 0;
@@ -286,15 +291,16 @@ label {
 .jumbotron {
   margin-top: 0;
   width: 100%;
-  height: calc(100vh - 75px);
+  height: calc(100vh - 100px);
   background-color: #000080;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; }
+  background-size: 75%; }
   @media screen and (max-width: 960px) {
     .jumbotron {
       margin-top: 50px;
-      background-size: contain; } }
+      height: calc(100vh - 65px);
+      background-size: 85%; } }
 
 #main-nav,
 #main-footer {
@@ -428,6 +434,9 @@ label {
     content: "";
     display: block;
     padding-bottom: 50%; }
+    @media screen and (max-width: 50em) {
+      .thumbnail-2-1:after {
+        padding-bottom: 100%; } }
   .thumbnail-2-1 h3 {
     position: absolute;
     bottom: 15px;

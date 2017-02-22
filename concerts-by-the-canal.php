@@ -38,8 +38,18 @@
         <section>
 
           <div class="bit-2">
-            <h3 class="subtitle">Keywords</h3>
-              <p>2016, blue, logo, music, ottawa, yellow</p>
+            <h3 class="subtitle">Context</h3>
+              <p>
+                <a href="#" class="tag">2016</a>
+                <a href="#" class="tag">blue</a>
+                <a href="#" class="tag">logo</a>
+                <a href="#" class="tag">music</a>
+                <br>
+                <a href="#" class="tag">night</a>                
+                <a href="#" class="tag">ottawa</a>
+                <a href="#" class="tag">water</a>
+                <a href="#" class="tag">yellow</a>
+              </p>
             
             <h3 class="subtitle">Color Palette</h3>
               <p>
@@ -52,16 +62,17 @@
           </div>
 
           <div class="bit-2">
-            <h3 class="subtitle">Overview</h3>
+            <h3 class="subtitle">Process</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.</p>
           </div>
 
           </section>
 
           <section>
           
-            <div class="bit-1">
+            <div class="bit-1 mg-t">
               <div class="thumbnail-2-1" style="background: red"></div>
             </div>
 

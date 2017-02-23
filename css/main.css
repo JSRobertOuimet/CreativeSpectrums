@@ -306,16 +306,17 @@ label {
 .jumbotron {
   margin-top: 0;
   width: 100%;
-  height: calc(100vh - 100px);
-  background-color: #000080;
+  height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 75%; }
   @media screen and (max-width: 960px) {
     .jumbotron {
       margin-top: 50px;
-      height: calc(100vh - 65px);
-      background-size: 85%; } }
+      height: 50vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 75%; } }
 
 #main-nav,
 #main-footer {
@@ -385,18 +386,6 @@ label {
   left: 50%;
   transform: translate(-50%, -50%); }
 
-.color-swatch {
-  display: inline-block;
-  width: 3em;
-  height: 3em;
-  border-radius: 50%; }
-
-.concerts-by-the-canal-yellow {
-  background: #FFC20D; }
-
-.concerts-by-the-canal-blue {
-  background: #3081A2; }
-
 .other-projects {
   margin-top: 60px !important; }
 
@@ -421,6 +410,24 @@ label {
     text-align: right;
     line-height: 1;
     color: white; }
+
+.color-swatch {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%; }
+
+.assent-compliance-orange {
+  background: #F0553C; }
+
+.assent-compliance-grey {
+  background: #969696; }
+
+.concerts-by-the-canal-yellow {
+  background: #FFC20D; }
+
+.concerts-by-the-canal-blue {
+  background: #3081A2; }
 
 .thumbnail-1-1 {
   position: relative;

@@ -9,7 +9,7 @@
   <title>Creative Spectrums &ndash; About</title>
 
   <!--Main stylesheet-->
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php include('templates/navigation.php'); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/templates/navigation.php"; include_once($path); ?>
 
       <div class="jumbotron"></div>
     </header>
@@ -110,7 +110,7 @@
 
     </article>
 
-    <?php include('templates/footer.php'); ?>
+    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/templates/footer.php"; include_once($path); ?>
         
   </div>
 

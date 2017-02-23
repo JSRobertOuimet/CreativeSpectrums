@@ -19,7 +19,7 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php include('templates/navigation.php'); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/templates/navigation.php"; include_once($path); ?>
 
       <div class="jumbotron" style="background-image: url('/img/concentric-form-light-blue.svg')"></div>
 
@@ -63,49 +63,49 @@
 
         <section>
         
-          <a href="concerts-by-the-canal.php">
+          <a href="projects/assent-compliance.php">
             <div class="bit-2 thumbnail-1-1 " style="background: red">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
           
-          <a href="concerts-by-the-canal.php">
+          <a href="projects/assent-compliance.php">
             <div class="bit-2 thumbnail-1-1 " style="background: yellow">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
-          <a href="concerts-by-the-canal.php">
+          <a href="projects/assent-compliance.php">
             <div class="bit-3 thumbnail-1-1 " style="background: lime">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
-          <a href="concerts-by-the-canal.php">
+          <a href="projects/assent-compliance.php">
             <div class="bit-3 thumbnail-1-1 " style="background: orange">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
-          <a href="concerts-by-the-canal.php">
+          <a href="projects/assent-compliance.php">
             <div class="bit-3 thumbnail-1-1 " style="background: black">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
-          <a href="concerts-by-the-canal.php">
+          <a href="projects/assent-compliance.php">
             <div class="bit-3 thumbnail-1-1 " style="background: cyan">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
-          <a href="concerts-by-the-canal.php">
+          <a href="projects/assent-compliance.php">
             <div class="bit-3 thumbnail-1-1 " style="background: purple">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
-          <a href="concerts-by-the-canal.php">
+          <a href="projects/assent-compliance.php">
             <div class="bit-3 thumbnail-1-1 " style="background: red">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
@@ -186,7 +186,7 @@
       </article>-->
 
       <!--Thoughts-->
-      <article>
+      <!--<article>
 
         <header class="bit-1">
           <h1 class="title-big">Thoughts<span class="horizontal-bar">&horbar;</span></h1>
@@ -194,25 +194,25 @@
 
         <section>
 
-          <a href="concerts-by-the-canal.php">
+          <a href="projects/assent-compliance.php">
             <div class="bit-4 thumbnail-1-1 " style="background: green">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
-          <a href="concerts-by-the-canal.php">
+          <a href="projects/assent-compliance.php">
             <div class="bit-4 thumbnail-1-1 " style="background: brown">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
-          <a href="concerts-by-the-canal.php">
+          <a href="projects/assent-compliance.php">
             <div class="bit-4 thumbnail-1-1 " style="background: black">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
-          <a href="concerts-by-the-canal.php">
+          <a href="projects/assent-compliance.php">
             <div class="bit-4 thumbnail-1-1 " style="background: orang">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
@@ -220,7 +220,7 @@
         
         </section>
       
-      </article>
+      </article>-->
 
       <!--Newsletter-->
       <article>
@@ -253,7 +253,7 @@
 
     </main>
 
-    <?php include('templates/footer.php'); ?>
+    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/templates/footer.php"; include_once($path); ?>
   
   </div>
 

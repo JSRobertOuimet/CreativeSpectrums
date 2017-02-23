@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--<meta http-equiv="refresh" content="3">-->
 
-  <title>Creative Spectrums &ndash; Home</title>
+  <title>Assent Compliance</title>
 
   <!--Main stylesheet-->
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
@@ -19,9 +19,9 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php include('templates/navigation.php'); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/templates/navigation.php"; include_once($path); ?>
 
-      <div class="jumbotron" style="background-image: url('')"></div>
+      <div class="jumbotron" style="background-image: url('img/concerts-by-the-canal/0052-SES-BRANDING-logo.png')"></div>
 
     </header>
 
@@ -31,7 +31,7 @@
       <!--Project-->
       <article>
         <header>
-          <h1 class="title-big">Concerts by the Canal<span class="horizontal-bar">&horbar;</span></h1>
+          <h1 class="title-big">Assent Compliance<span class="horizontal-bar">&horbar;</span></h1>
           <h2 class="title-small">Project Detail</h2>
         </header>
 
@@ -66,10 +66,6 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.</p>
-
-            <h3 class="subtitle">Testimonial</h3>
-            <p class="testimonial">“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n&#8217;est pas une option.”</p>
-            <p class="right"><span class="bold">Amine Lahlou</span>, CTO &commat; <a href="http://smbsol.com/" target="_blank" class="link">Symbiosys&nbsp;&nearr;</a></p>
           </div>
 
           </section>
@@ -126,7 +122,7 @@
 
     </main>
 
-    <?php include('templates/footer.php'); ?>
+    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/templates/footer.php"; include_once($path); ?>
   
   </div>
 

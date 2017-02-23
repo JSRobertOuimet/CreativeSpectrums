@@ -5,11 +5,11 @@
       <p class="copy">&copy; Creative Spectrums 2017</p>
     </div>
     <div class="right">
-      <a href="index.php">home</a>
-      <a href="thoughts.php">thoughts</a>
-      <a href="about.php">about</a>
-      <a href="contact.php">contact</a>
-      <a href="index/fr.php">/&nbsp;fr</a>
+      <a href="/index.php">home</a>
+      <!--<a href="/main/thoughts.php">thoughts</a>-->
+      <a href="/main/about.php">about</a>
+      <a href="/main/contact.php">contact</a>
+      <!--<a href="/fr/french.php">/&nbsp;fr</a>-->
     </div>
   </nav>
 </footer>

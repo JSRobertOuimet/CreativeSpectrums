@@ -5,28 +5,36 @@ html
 
 // Typographic Scale
 .title-big
+  display: inline-block
   font:
     size: 2.618em
     weight: bold
-  line-height: 2.618em * 2
+  // line-height: 2.618em * 2
+  margin-top: 2.618em
+  margin-bottom: 1.309em
 
 .title-small
   font:
     size: 1.618em
     weight: bold
-  line-height: 1.618em * 2
+  // line-height: 1.618em * 2
+  margin: 1.309em 0
 
 .subtitle
   font:
     size: 1em
     weight: bold
-  line-height: 1em * 2
+  // line-height: 1em * 2
+  margin: 1.309em 0
 
 p
   margin-bottom: 1em
   font:
     size: 1em
   line-height: 1em * 2
+  text-align: justify
+  @media screen and (max-width: $small)
+    text-align: left
   // &:last-of-type
   //   margin-bottom: 0 !important
 
@@ -44,7 +52,7 @@ p
   background: $primary-color
   cursor: pointer !important
   &:hover
-    background: orange
+    background: transparentize($primary-color, 0.25)
 
 .link,
 .tag
@@ -60,6 +68,7 @@ a:visited
   color: $primary-color
 
 // Text-decoration
+
 .horizontal-bar
   position: relative
   bottom: -9px

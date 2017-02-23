@@ -215,27 +215,33 @@ body {
 
 html {
   font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #000080; }
+  color: #333333; }
 
 .title-big {
+  display: inline-block;
   font-size: 2.618em;
   font-weight: bold;
-  line-height: 5.236em; }
+  margin-top: 2.618em;
+  margin-bottom: 1.309em; }
 
 .title-small {
   font-size: 1.618em;
   font-weight: bold;
-  line-height: 3.236em; }
+  margin: 1.309em 0; }
 
 .subtitle {
   font-size: 1em;
   font-weight: bold;
-  line-height: 2em; }
+  margin: 1.309em 0; }
 
 p {
   margin-bottom: 1em;
   font-size: 1em;
-  line-height: 2em; }
+  line-height: 2em;
+  text-align: justify; }
+  @media screen and (max-width: 600px) {
+    p {
+      text-align: left; } }
 
 .copy {
   margin-bottom: 0 !important; }
@@ -247,20 +253,20 @@ p {
   font-weight: normal !important;
   color: white !important;
   text-decoration: none;
-  background: #000080;
+  background: #333333;
   cursor: pointer !important; }
   .link:hover,
   .tag:hover {
-    background: orange; }
+    background: rgba(51, 51, 51, 0.75); }
 
 a {
-  color: #000080;
+  color: #333333;
   font-weight: bold;
   text-decoration: none;
   cursor: pointer; }
 
 a:visited {
-  color: #000080; }
+  color: #333333; }
 
 .horizontal-bar {
   position: relative;
@@ -280,7 +286,7 @@ textarea {
   width: 100%;
   margin-bottom: 15px;
   padding: 15px;
-  border: 4px solid #000080;
+  border: 4px solid #333333;
   box-sizing: border-box;
   font-size: 1em; }
 
@@ -291,13 +297,13 @@ input[type=submit] {
   float: right !important;
   padding: 15px;
   border: none;
-  background: #000080;
+  background: #333333;
   color: white;
   font-size: 1em;
   appearance: none;
   cursor: pointer; }
   input[type=submit]:hover {
-    background: rgba(0, 0, 128, 0.75); }
+    background: rgba(51, 51, 51, 0.75); }
 
 label {
   position: absolute;
@@ -306,17 +312,46 @@ label {
 .jumbotron {
   margin-top: 0;
   width: 100%;
-  height: 500px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 75%; }
+  background-size: cover; }
   @media screen and (max-width: 960px) {
     .jumbotron {
       margin-top: 50px;
-      height: 50vh;
       background-repeat: no-repeat;
       background-position: center;
-      background-size: 75%; } }
+      background-size: cover; } }
+
+.img-1-1 h3, .img-2-1 h3 {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  text-align: left;
+  line-height: 1;
+  color: white; }
+
+.img-1-1 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .img-1-1:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%; }
+
+.img-2-1 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .img-2-1:after {
+    content: "";
+    display: block;
+    padding-bottom: 50%; }
+    @media screen and (max-width: 960px) {
+      .img-2-1:after {
+        padding-bottom: 100%; } }
 
 #main-nav,
 #main-footer {
@@ -356,7 +391,7 @@ label {
   z-index: 1;
   width: 0;
   height: 100%;
-  background: #000080;
+  background: #333333;
   overflow-x: hidden; }
 
 .overlay-nav {
@@ -371,7 +406,7 @@ label {
   height: calc(100% - 50px);
   width: 100%;
   text-align: center;
-  background-color: #000080; }
+  background-color: #333333; }
   .overlay-content a {
     display: inline-block;
     width: 100vw;
@@ -428,42 +463,5 @@ label {
 
 .concerts-by-the-canal-blue {
   background: #3081A2; }
-
-.thumbnail-1-1 {
-  position: relative;
-  background: #000080; }
-  .thumbnail-1-1:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%; }
-  .thumbnail-1-1 h3 {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    text-align: left;
-    line-height: 1;
-    color: white; }
-  .thumbnail-1-1:hover {
-    cursor: pointer; }
-
-.thumbnail-2-1 {
-  position: relative;
-  background: #000080; }
-  .thumbnail-2-1:after {
-    content: "";
-    display: block;
-    padding-bottom: 50%; }
-    @media screen and (max-width: 960px) {
-      .thumbnail-2-1:after {
-        padding-bottom: 100%; } }
-  .thumbnail-2-1 h3 {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    text-align: left;
-    line-height: 1;
-    color: white; }
-  .thumbnail-2-1:hover {
-    cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

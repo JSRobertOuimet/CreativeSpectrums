@@ -1,0 +1,51 @@
+.jumbotron
+  margin-top: 0
+  width: 100%
+  background:
+    repeat: no-repeat
+    position: center
+    size: cover
+  @media screen and (max-width: $medium)
+    margin-top: 50px
+    background:
+      repeat: no-repeat
+      position: center
+      size: cover
+
+%img-title
+  position: absolute
+  bottom: $base-unit
+  left: $base-unit
+  text-align: left
+  line-height: 1
+  color: white
+
+.img-1-1
+  position: relative
+  background:
+    repeat: no-repeat
+    position: center
+    size: cover
+  &:after
+    content: ""
+    display: block
+    padding-bottom: 100%
+  h3
+    @extend %img-title
+
+.img-2-1
+  position: relative
+  background:
+    repeat: no-repeat
+    position: center
+    size: cover
+  &:after
+    content: ""
+    display: block
+    padding-bottom: 50%
+    @media screen and (max-width: $medium)
+      padding-bottom: 100%
+  h3
+    @extend %img-title
+
+  

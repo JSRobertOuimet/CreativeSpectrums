@@ -19,7 +19,7 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/templates/navigation.php"; include_once($path); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/nav.php"; include_once($path); ?>
 
       <div class="jumbotron" style="background-image: url('/img/concentric-form-light-blue.svg')"></div>
 
@@ -63,50 +63,50 @@
 
         <section>
         
-          <a href="projects/assent-compliance.php">
-            <div class="bit-2 thumbnail-1-1 " style="background: red">
-              <h3 class="title-small case-title no-line-height">Title</h3>
+          <a href="/content/projects/assent-compliance.php">
+            <div class="bit-2 img-1-1" style="background-image: url('/assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')">
+              <!--<h3 class="title-small case-title no-line-height">Title</h3>-->
             </div>
           </a>
           
           <a href="projects/assent-compliance.php">
-            <div class="bit-2 thumbnail-1-1 " style="background: yellow">
+            <div class="bit-2 img-1-1" style="background: yellow">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-3 thumbnail-1-1 " style="background: lime">
+            <div class="bit-3 img-1-1" style="background: lime">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-3 thumbnail-1-1 " style="background: orange">
+            <div class="bit-3 img-1-1" style="background: orange">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-3 thumbnail-1-1 " style="background: black">
+            <div class="bit-3 img-1-1" style="background: black">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-3 thumbnail-1-1 " style="background: cyan">
+            <div class="bit-3 img-1-1" style="background: cyan">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-3 thumbnail-1-1 " style="background: purple">
+            <div class="bit-3 img-1-1" style="background: purple">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-3 thumbnail-1-1 " style="background: red">
+            <div class="bit-3 img-1-1" style="background: red">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
@@ -195,25 +195,25 @@
         <section>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-4 thumbnail-1-1 " style="background: green">
+            <div class="bit-4 img-1-1" style="background: green">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-4 thumbnail-1-1 " style="background: brown">
+            <div class="bit-4 img-1-1" style="background: brown">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-4 thumbnail-1-1 " style="background: black">
+            <div class="bit-4 img-1-1" style="background: black">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-4 thumbnail-1-1 " style="background: orang">
+            <div class="bit-4 img-1-1" style="background: orang">
               <h3 class="title-small case-title no-line-height">Title</h3>
             </div>
           </a>
@@ -253,7 +253,7 @@
 
     </main>
 
-    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/templates/footer.php"; include_once($path); ?>
+    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/footer.php"; include_once($path); ?>
   
   </div>
 

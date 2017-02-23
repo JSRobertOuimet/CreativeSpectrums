@@ -63,7 +63,7 @@
 
         <section>
         
-          <a href="/content/projects/assent-compliance.php">
+          <a href="/projects/assent-compliance.php">
             <div class="bit-2 img-1-1" style="background-image: url('/assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')">
               <!--<h3 class="title-small case-title no-line-height">Title</h3>-->
             </div>

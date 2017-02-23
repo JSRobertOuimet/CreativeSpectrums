@@ -6,9 +6,9 @@
     </div>
     <div class="right">
       <!--<a href="/index.php">home</a>-->
-      <!--<a href="common/content/thoughts.php">thoughts</a>-->
-      <a href="common/content/about.php">about</a>
-      <a href="common/content/contact.php">contact</a>
+      <!--<a href="/thoughts.php">thoughts</a>-->
+      <a href="/about.php">about</a>
+      <a href="/contact.php">contact</a>
       <!--<a href="/fr/french.php">/&nbsp;fr</a>-->
     </div>
   </nav>

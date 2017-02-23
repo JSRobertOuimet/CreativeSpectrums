@@ -19,7 +19,7 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/templates/nav.php"; include_once($path); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/nav.php"; include_once($path); ?>
 
       <div class="jumbotron"></div>
     </header>
@@ -70,7 +70,7 @@
 
     </article>
 
-    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/templates/footer.php"; include_once($path); ?>
+    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/footer.php"; include_once($path); ?>
         
   </div>
 

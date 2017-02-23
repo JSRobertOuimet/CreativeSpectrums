@@ -1,14 +1,14 @@
 // Visibility
 .desktop-only
-  @media screen and (max-width: 960px)
+  @media screen and (max-width: $large)
     display: none !important
-  @media screen and (min-width: 961px)
+  @media screen and (min-width: $large)
     display: block !important
 
 .mobile-only
-  @media screen and (max-width: 960px)
+  @media screen and (max-width: $small)
     display: block !important
-  @media screen and (min-width: 961px)
+  @media screen and (min-width: $large)
     display: none !important
 
 // Spacing

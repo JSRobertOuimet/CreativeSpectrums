@@ -129,7 +129,7 @@
                 <div class="avatar"></div>
               </div>
               <div class="bit-66">
-                <p>“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n’est pas une option.”</p>
+                <p>“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n&#8217;est pas une option.”</p>
                 <p class="right"><span class="bold">Amine Lahlou</span>, CTO &commat; <a href="http://smbsol.com/" target="_blank">Symbiosys</a></p>
               </div>
             </div>
@@ -141,7 +141,7 @@
                 <div class="avatar"></div>
               </div>
               <div class="bit-66">
-                <p >“Nous avons été très heureux de travailler avec Jean-Simon à l’élaboration d’un concept visuel basé sur une musique. Jean-Simon a fait la création et la réalisation d’une oeuvre graphique très inspirée qui a ensuite été imprimée sur tissus. Dans cette réalisation, son talent de designer et son expérience en musique ont été très profitables. Bravo.”</p>
+                <p >“Nous avons été très heureux de travailler avec Jean-Simon à l&#8217;élaboration d&#8217;un concept visuel basé sur une musique. Jean-Simon a fait la création et la réalisation d&#8217;une oeuvre graphique très inspirée qui a ensuite été imprimée sur tissus. Dans cette réalisation, son talent de designer et son expérience en musique ont été très profitables. Bravo.”</p>
                 <p class="right"><span class="bold">Lucie Charbonneau</span>, Artistic Director &commat; <a href="http://www.atypic.ca/en/" target="_blank">Atypic</a></p>
               </div>
             </div>          
@@ -153,8 +153,8 @@
                 <div class="avatar"></div>
               </div>
               <div class="bit-66">
-                <p >“Je reçois des commentaires élogieux de la part de hauts dirigeants, et à l’unanimité, on me dit que cette carte [d’affaires] exceptionnelle est à l’image du service et de la coach d’exception que je suis. Je tiens personnellement à vous dire que vous avez répondu en tous points à mes besoins. Vous avez été le prolongement de ma créativité, l’écho de mes aspirations!”</p>
-                <p class="right"><span class="bold">Lina Côté</span>, Business Consultant &commat; <a href="http://www.coachdexception.com/" target="_blank">Coach d’exception</a></p>
+                <p >“Je reçois des commentaires élogieux de la part de hauts dirigeants, et à l&#8217;unanimité, on me dit que cette carte [d&#8217;affaires] exceptionnelle est à l&#8217;image du service et de la coach d&#8217;exception que je suis. Je tiens personnellement à vous dire que vous avez répondu en tous points à mes besoins. Vous avez été le prolongement de ma créativité, l&#8217;écho de mes aspirations!”</p>
+                <p class="right"><span class="bold">Lina Côté</span>, Business Consultant &commat; <a href="http://www.coachdexception.com/" target="_blank">Coach d&#8217;exception</a></p>
               </div>
             </div>          
           </section>
@@ -193,7 +193,7 @@
         </header>
 
         <section>
-        
+
           <a href="concerts-by-the-canal.php">
             <div class="bit-4 thumbnail-1-1 " style="background: green">
               <h3 class="title-small case-title no-line-height">Title</h3>

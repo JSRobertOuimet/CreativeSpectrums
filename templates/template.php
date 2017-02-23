@@ -68,7 +68,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.</p>
 
             <h3 class="subtitle">Testimonial</h3>
-            <p class="testimonial">“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n’est pas une option.”</p>
+            <p class="testimonial">“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n&#8217;est pas une option.”</p>
             <p class="right"><span class="bold">Amine Lahlou</span>, CTO &commat; <a href="http://smbsol.com/" target="_blank" class="link">Symbiosys</a></p>
           </div>
 

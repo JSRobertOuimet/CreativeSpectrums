@@ -19,9 +19,9 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/nav.php"; include_once($path); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
 
-      <div class="jumbotron-full-page" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>
+      <div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>
       
     </header>
 
@@ -34,11 +34,9 @@
       <section>
 
         <div class="bit-1">
-        
           <h2 class="title-small">Summary</h2>
-          <p>Dans une autre vie, il a été organiste titulaire pour la congrégation des Sœurs de Ste-Croix et cofondateur de l&#8217;Ensemble Canto Felice, avec lequel il a donné plusieurs concerts et enregistré un disque. Parallèlement à ses activités d&#8217;interprète, il s&#8217;est attiré l&#8217;attention des médias par ses conférences grand public et ses notes de programme pour des organismes musicaux montréalais tels qu&#8217;Arion orchestre baroque, Clavecin en concert, l&#8217;Orchestre symphonique de Montréal et la Société de musique contemporaine du Québec. Appuyé par le <a href="http://www.frqsc.gouv.qc.ca/" target="_blank" class="link">FRQSC&nbsp;&nearr;</a> et le <a href="http://www.sshrc-crsh.gc.ca/home-accueil-fra.aspx" target="_blank" class="link">CRSH&nbsp;&nearr;</a>, il a rédigé un mémoire de maîtrise sur la médiation culturelle et son impact sur l&#8217;appréciation de la musique <a href="#" target="_blank" class="link">lire&nbsp;&nearr;</a>.</p>
-          <p>Au terme de ce parcours, il a opéré un virage à 180 degrés et suivi une formation en design graphique au Collège Salette. Après avoir habité à Ottawa pendant un peu plus d&#8217;un an, il est de retour à Montréal où il travaille tant dans l&#8217;imprimé et le web. Sa clientèle est issue de milieux aussi variés que le droit économique, la mécanique industrielle, la mode, la musique classique, la recherche universitaire et la santé.</p>
-        
+          <p>Dans une autre vie, il a été organiste titulaire pour la congrégation des Sœurs de Ste-Croix et cofondateur de l&#8217;Ensemble Canto Felice, avec lequel il a donné plusieurs concerts et enregistré un disque. Parallèlement à ses activités d&#8217;interprète, il s&#8217;est attiré l&#8217;attention des médias par ses conférences grand public et ses notes de programme pour des organismes musicaux montréalais tels qu&#8217;Arion orchestre baroque, Clavecin en concert, l&#8217;Orchestre symphonique de Montréal et la Société de musique contemporaine du Québec. Appuyé par le <a href="http://www.frqsc.gouv.qc.ca/" target="_blank" class="link">Fonds de recherche &ndash; Socité et culture&nbsp;&nearr;</a> et le <a href="http://www.sshrc-crsh.gc.ca/home-accueil-fra.aspx" target="_blank" class="link">Conseil de recherches en sciences humaines&nbsp;&nearr;</a>, il a rédigé un mémoire de maîtrise sur la médiation culturelle et son impact sur l&#8217;appréciation de la musique <a href="#" target="_blank" class="link">read&nbsp;&nearr;</a>.</p>
+          <p>Au terme de ce parcours, il a opéré un virage à 180 degrés et suivi une formation en design graphique au Collège Salette. Après avoir habité à Ottawa pendant un peu plus d&#8217;un an, il est de retour à Montréal où il travaille tant dans l&#8217;imprimé et le web. Sa clientèle est issue de plusieurs milieux tels le droit économique, la mécanique industrielle, la mode, la musique classique, la recherche universitaire et la santé.</p>
         </div>
 
         <div class="bit-2">
@@ -49,8 +47,7 @@
             <span class="bold">Front-end Developer</span><br>
             <a href="http://smbsol.com/" target="_blank" class="link">Symbiosys&nbsp;&nearr;</a>
           <p>
-            <span class="bold">Freelance Designer &amp; Developer</span><br>
-            Clients:<br>
+            <span class="bold">Freelance Graphic Designer &amp; Web Developer</span><br>
             <a href="http://smbsol.com/" target="_blank" class="link">Concerts by the Canal&nbsp;&nearr;</a><br>
             <a href="http://smbsol.com/" target="_blank" class="link">Doors Open for Music at Southminster&nbsp;&nearr;</a><br>
             <a href="http://smbsol.com/" target="_blank" class="link">Expert Piano Plateau&nbsp;&nearr;</a><br>
@@ -108,7 +105,7 @@
 
         <div class="bit-1 mg-t">
           <p class="right">
-            <a href="#" target="_blank" class="btn">download pdf&nbsp;<span class="icon-download">&rarr;</span></a>
+            <a href="#" target="_blank" class="btn">download pdf&nbsp;&nbsp;<span class="icon-download">&rarr;</span></a>
           </p>
         </div>
 

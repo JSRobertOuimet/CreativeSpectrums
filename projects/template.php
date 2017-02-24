@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--<meta http-equiv="refresh" content="3">-->
 
-  <title>Assent Compliance</title>
+  <title>mimiB</title>
 
   <!--Main stylesheet-->
   <link rel="stylesheet" href="../../css/main.css">
@@ -19,9 +19,9 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/nav.php"; include_once($path); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
 
-      <div class="jumbotron" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')"></div>
+      <div class="jumbotron" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg')"></div>
 
     </header>
 
@@ -31,7 +31,7 @@
       <!--Project-->
       <article>
         <header>
-          <h1 class="title-big">Assent Compliance<span class="horizontal-bar">&horbar;</span></h1>
+          <h1 class="title-big">mimiB<span class="horizontal-bar">&horbar;</span></h1>
           <h2 class="title-small">Project Detail</h2>
         </header>
 
@@ -42,21 +42,26 @@
                 <span class="bold">Tags</span><br>
                 <a href="#" class="tag">2015</a>
                 <a href="#" class="tag">branding</a>
-                <a href="#" class="tag">grey</a>
+                <a href="#" class="tag">diy</a>
+                <a href="#" class="tag">fashion</a>
                 <br>         
-                <a href="#" class="tag">orange</a>
+                <a href="#" class="tag">multimedia</a>
                 <a href="#" class="tag">ottawa</a>
-                <a href="#" class="tag">risk management</a>
+                <a href="#" class="tag">print</a>
+                <br>
+                <a href="#" class="tag">rose</a>
+                <a href="#" class="tag">sewing</a>
               </p>
             
               <p>
-                <span class="bold">Color Palette</span><br>
-                <span class="color-swatch assent-compliance-orange"></span>
-                <span class="color-swatch assent-compliance-grey"></span>
+                <span class="bold">Color Palette &amp; Texture</span><br>
+                <span class="color-swatch mimib-rose"></span>
+                <span class="color-swatch mimib-texture-paper"></span>
+                <span class="color-swatch mimib-texture-fabric"></span>
               </p>
 
               <p>
-                <span class="bold">Font</span><br>
+                <span class="bold">Fonts</span><br>
                 <a href="http://www.marksimonson.com/fonts/view/proxima-nova" target="_blank" class="link">Proxima Nova&nbsp;&nearr;</a>
               </p>
 
@@ -77,32 +82,32 @@
             <div class="bit-1 mg-t">
 
               <div class="bit-2">
-                <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-reversed-orange.jpg')"></div>
+                <div class="img-1-1" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-02.jpg')"></div>
               </div>
               <div class="bit-2">
-                <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-reversed-grey.jpg')"></div>
+                <div class="img-1-1" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-03.jpg')"></div>
               </div>
 
             </div>
 
             <div class="bit-3">
-              <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-typography-1.jpg')"></div>
+              <div class="img-1-1" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-04.jpg')"></div>
             </div>
 
             <div class="bit-3">
-              <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-graph.jpg')"></div>
+              <div class="img-1-1" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-05.jpg')"></div>
             </div>
 
             <div class="bit-3">
-              <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-typography-2.jpg')"></div>
+              <div class="img-1-1" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-06.jpg')"></div>
             </div>
 
             <div class="bit-1">
-              <div class="img-2-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-icons.jpg')"></div>
+              <div class="img-2-1" style="background-image: url('../../assets/img/mimib/0038-ACO-PROJECT-logo-icons.jpg')"></div>
             </div>
 
             <div class="bit-1">
-              <div class="img-2-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-outlined.jpg')"></div>
+              <div class="img-2-1" style="background-image: url('../../assets/img/mimib/0038-ACO-PROJECT-logo-outlined.jpg')"></div>
             </div>
 
           </section>

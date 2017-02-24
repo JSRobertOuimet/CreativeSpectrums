@@ -1,76 +1,30 @@
+@import '../base/mixins'
+
 // --------------------
-// Mixins
+// Jumbotron
 // --------------------
 
-%img-title
-  position: absolute
-  bottom: $base-unit
-  left: $base-unit
-  text-align: left
-  line-height: 1 !important
-  color: white
+.main-jumbotron
+  @include jumbotron(contain, contain)
+
+.project-jumbotron
+  @include jumbotron(cover, cover)
 
 // --------------------
 // Images
 // --------------------
 
-.jumbotron
-  width: 100%
-  height: calc(100vh - 100px)
-  background:
-    repeat: no-repeat
-    position: center
-    size: cover
-  @media screen and (max-width: $medium)
-    margin-top: 50px
-    height: calc(100vh - 65px)
-    background:
-      repeat: no-repeat
-      position: center
-      size: cover
-
-.jumbotron-full-page
-  width: 100%
-  height: calc(100vh - 100px)
-  background:
-    // color: $primary-color
-    repeat: no-repeat
-    position: center
-    size: contain
-  @media screen and (max-width: $medium)
-    margin-top: 50px
-    height: calc(100vh - 65px)
-    background:
-      repeat: no-repeat
-      position: center
-      size: contain
-
 .img-1-1
-  position: relative
-  background:
-    repeat: no-repeat
-    position: center
-    size: cover
-  &:after
-    content: ""
-    display: block
-    padding-bottom: 100%
+  @include img-ratio(100%)
+  h3
+    @extend %img-title
+
+.img-1-2
+  @include img-ratio(200%)
   h3
     @extend %img-title
 
 .img-2-1
-  position: relative
-  background:
-    repeat: no-repeat
-    position: center
-    size: cover
-  &:after
-    content: ""
-    display: block
-    padding-bottom: 50%
-    @media screen and (max-width: $medium)
-      padding-bottom: 100%
+  @include img-ratio(50%)
   h3
     @extend %img-title
-
-  

@@ -208,6 +208,9 @@ table {
 .bold {
   font-weight: bold !important; }
 
+.border {
+  border: 1px solid #333333; }
+
 body {
   margin: 0 auto;
   width: calc(100vw - 30px);
@@ -275,8 +278,14 @@ a:visited {
 .testimonial {
   font-style: italic !important; }
 
+.icon-submit {
+  display: inline-block;
+  position: relative;
+  bottom: 2px; }
+
 .icon-download {
   display: inline-block;
+  position: relative;
   transform: rotate(90deg) !important; }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -321,7 +330,7 @@ label {
   position: absolute;
   left: -9999px; }
 
-.img-1-1 h3, .img-2-1 h3 {
+.img-1-1 h3, .img-1-2 h3, .img-2-1 h3 {
   position: absolute;
   bottom: 15px;
   left: 15px;
@@ -329,56 +338,60 @@ label {
   line-height: 1 !important;
   color: white; }
 
-.jumbotron {
+.main-jumbotron {
   width: 100%;
-  height: calc(100vh - 100px);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
-  @media screen and (max-width: 960px) {
-    .jumbotron {
-      margin-top: 50px;
-      height: calc(100vh - 65px);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover; } }
-
-.jumbotron-full-page {
-  width: 100%;
-  height: calc(100vh - 100px);
+  height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; }
   @media screen and (max-width: 960px) {
-    .jumbotron-full-page {
+    .main-jumbotron {
       margin-top: 50px;
       height: calc(100vh - 65px);
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain; } }
 
+.project-jumbotron {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  @media screen and (max-width: 960px) {
+    .project-jumbotron {
+      margin-top: 50px;
+      height: calc(100vh - 65px);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; } }
+
 .img-1-1 {
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
-  .img-1-1:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%; }
+  background-size: cover;
+  content: "";
+  display: block;
+  padding-bottom: 100%; }
+
+.img-1-2 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: "";
+  display: block;
+  padding-bottom: 200%; }
 
 .img-2-1 {
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
-  .img-2-1:after {
-    content: "";
-    display: block;
-    padding-bottom: 50%; }
-    @media screen and (max-width: 960px) {
-      .img-2-1:after {
-        padding-bottom: 100%; } }
+  background-size: cover;
+  content: "";
+  display: block;
+  padding-bottom: 50%; }
 
 #main-nav,
 #main-footer {
@@ -494,5 +507,14 @@ label {
 
 .concerts-by-the-canal-blue {
   background: #3081A2; }
+
+.master-piano-recital-series-white {
+  background: white; }
+
+.master-piano-recital-series-black {
+  background: black; }
+
+.master-piano-recital-series-grey {
+  background: #C2CCCC; }
 
 /*# sourceMappingURL=main.css.map */

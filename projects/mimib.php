@@ -19,7 +19,7 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/nav.php"; include_once($path); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
 
       <div class="jumbotron" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg')"></div>
 

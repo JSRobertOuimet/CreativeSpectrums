@@ -19,9 +19,9 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/nav.php"; include_once($path); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
 
-      <div class="jumbotron-full-page" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>
+      <div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>
 
     </header>
 
@@ -71,8 +71,8 @@
             <div class="bit-2 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg')"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
-            <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mprs/MPRS-thumbnail.jpg"></div>
+          <a href="projects/master-piano-recital-series.php">
+            <div class="bit-3 img-1-1" style="background-image: url('/assets/img/master-piano-recital-series/MPRS-thumbnail.jpg"></div>
           </a>
 
           <a href="projects/assent-compliance.php">

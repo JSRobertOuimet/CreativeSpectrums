@@ -1,0 +1,41 @@
+// --------------------
+// Jumbotron
+// --------------------
+
+@mixin jumbotron($desktop-size, $mobile-size)
+  width: 100%
+  height: 500px
+  background:
+    repeat: no-repeat
+    position: center
+    size: $desktop-size
+  @media screen and (max-width: $medium)
+    margin-top: 50px
+    height: calc(100vh - 65px)
+    background:
+      repeat: no-repeat
+      position: center
+      size: $mobile-size
+
+// --------------------
+// Image
+// --------------------
+
+@mixin img-ratio($ratio)
+  position: relative
+  background:
+    repeat: no-repeat
+    position: center
+    size: cover
+  &:after
+  content: ""
+  display: block
+  padding-bottom: $ratio
+
+%img-title
+  position: absolute
+  bottom: $base-unit
+  left: $base-unit
+  text-align: left
+  line-height: 1 !important
+  color: white

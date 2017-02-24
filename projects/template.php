@@ -130,7 +130,7 @@
   </div>
 
   <!--<script src="js/slideshow.js"></script>-->
-  <script src="/js/overlay-menu.js"></script>
+  <script src="/js/overlay.js"></script>
 
 </body>
 

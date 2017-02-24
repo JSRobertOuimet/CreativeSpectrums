@@ -25,7 +25,7 @@
 <!--Mobile Overlay-->
 <nav id="overlay" class="overlay">
   <div class="overlay-nav">
-    <a class="close-btn right" href="javascript:void(0)" onclick="closeNav()">close</a>
+    <a class="right" onclick="closeNav()">close</a>
   </div>
   <div class="overlay-content">
     <div class="links-wrapper">

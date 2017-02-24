@@ -21,7 +21,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/nav.php"; include_once($path); ?>
 
-      <div class="jumbotron-full-page" style="background-image: url('/assets/img/concentric-form-white.svg')"></div>
+      <div class="jumbotron-full-page" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>
       
     </header>
 
@@ -76,7 +76,7 @@
   </div>
 
   <!--<script src="js/slideshow.js"></script>-->
-  <script src="js/overlay-menu.js"></script>
+  <script src="js/overlay.js"></script>
 
 </body>
 

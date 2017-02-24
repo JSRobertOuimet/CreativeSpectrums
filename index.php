@@ -21,7 +21,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/nav.php"; include_once($path); ?>
 
-      <div class="jumbotron" style="background-image: url('/img/concentric-form-light-blue.svg')"></div>
+      <div class="jumbotron-full-page" style="background-image: url('/assets/img/concentric-form-white.svg')"></div>
 
     </header>
 
@@ -64,51 +64,35 @@
         <section>
         
           <a href="/projects/assent-compliance.php">
-            <div class="bit-2 img-1-1" style="background-image: url('/assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')">
-              <!--<h3 class="title-small case-title no-line-height">Title</h3>-->
-            </div>
+            <div class="bit-2 img-1-1" style="background-image: url('/assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')"></div>
           </a>
           
-          <a href="projects/assent-compliance.php">
-            <div class="bit-2 img-1-1" style="background: yellow">
-              <h3 class="title-small case-title no-line-height">Title</h3>
-            </div>
+          <a href="projects/mimib.php">
+            <div class="bit-2 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg')"></div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-3 img-1-1" style="background: lime">
-              <h3 class="title-small case-title no-line-height">Title</h3>
-            </div>
+            <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mprs/MPRS-thumbnail.jpg"></div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-3 img-1-1" style="background: orange">
-              <h3 class="title-small case-title no-line-height">Title</h3>
-            </div>
+            <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-3 img-1-1" style="background: black">
-              <h3 class="title-small case-title no-line-height">Title</h3>
-            </div>
+            <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-3 img-1-1" style="background: cyan">
-              <h3 class="title-small case-title no-line-height">Title</h3>
-            </div>
+            <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-3 img-1-1" style="background: purple">
-              <h3 class="title-small case-title no-line-height">Title</h3>
-            </div>
+            <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-3 img-1-1" style="background: red">
-              <h3 class="title-small case-title no-line-height">Title</h3>
-            </div>
+            <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
           </a>
         
         </section>
@@ -195,26 +179,26 @@
         <section>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background: green">
-              <h3 class="title-small case-title no-line-height">Title</h3>
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg">
+              
             </div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background: brown">
-              <h3 class="title-small case-title no-line-height">Title</h3>
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg">
+              
             </div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background: black">
-              <h3 class="title-small case-title no-line-height">Title</h3>
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg">
+              
             </div>
           </a>
 
           <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background: orang">
-              <h3 class="title-small case-title no-line-height">Title</h3>
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg">
+              
             </div>
           </a>
         

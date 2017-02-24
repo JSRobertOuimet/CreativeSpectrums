@@ -9,7 +9,7 @@
   <title>Assent Compliance</title>
 
   <!--Main stylesheet-->
-  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../../css/main.css">
 </head>
 
 <body>
@@ -19,9 +19,9 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/templates/nav.php"; include_once($path); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/nav.php"; include_once($path); ?>
 
-      <div class="jumbotron" style="background-image: url('img/concerts-by-the-canal/0052-SES-BRANDING-logo.png')"></div>
+      <div class="jumbotron" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')"></div>
 
     </header>
 
@@ -38,34 +38,36 @@
         <section>
 
           <div class="bit-2">
-            <h3 class="subtitle">Tags</h3>
               <p>
-                <a href="#" class="tag">2016</a>
-                <a href="#" class="tag">blue</a>
-                <a href="#" class="tag">logo</a>
-                <a href="#" class="tag">music</a>
-                <br>
-                <a href="#" class="tag">night</a>                
+                <span class="bold">Tags</span><br>
+                <a href="#" class="tag">2015</a>
+                <a href="#" class="tag">branding</a>
+                <a href="#" class="tag">grey</a>
+                <br>         
+                <a href="#" class="tag">orange</a>
                 <a href="#" class="tag">ottawa</a>
-                <a href="#" class="tag">water</a>
-                <a href="#" class="tag">yellow</a>
+                <a href="#" class="tag">risk management</a>
               </p>
             
-            <h3 class="subtitle">Color Palette</h3>
               <p>
-                <span class="color-swatch concerts-by-the-canal-yellow"></span>
-                <span class="color-swatch concerts-by-the-canal-blue"></span>
+                <span class="bold">Color Palette</span><br>
+                <span class="color-swatch assent-compliance-orange"></span>
+                <span class="color-swatch assent-compliance-grey"></span>
               </p>
 
-            <h3 class="subtitle">Font</h3>
-              <p><a href="#" class="link">Some Serif Font TT&nbsp;&nearr;</a></p>
+              <p>
+                <span class="bold">Font</span><br>
+                <a href="http://www.marksimonson.com/fonts/view/proxima-nova" target="_blank" class="link">Proxima Nova&nbsp;&nearr;</a>
+              </p>
+
           </div>
 
           <div class="bit-2">
-            <h3 class="subtitle">Overview</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.</p>
+            <p>
+              <span class="bold">Overview</span><br>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.<br>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur cumque odio, perspiciatis architecto! Itaque tempora a amet ea accusamus, delectus at dolore voluptatum, quos nam, similique aut veniam fugiat!
+            </p>
           </div>
 
           </section>
@@ -73,47 +75,48 @@
           <section>
           
             <div class="bit-1 mg-t">
-              <div class="img-2-1" style="background: red"></div>
-            </div>
 
-            <div class="bit-2">
-              <div class="img-1-1" style="background: blue"></div>
-            </div>
-            <div class="bit-2">
-              <div class="img-1-1" style="background: black"></div>
-            </div>
+              <div class="bit-2">
+                <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-reversed-orange.jpg')"></div>
+              </div>
+              <div class="bit-2">
+                <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-reversed-grey.jpg')"></div>
+              </div>
 
-            <div class="bit-3">
-              <div class="img-1-1" style="background: cyan"></div>
             </div>
 
             <div class="bit-3">
-              <div class="img-1-1" style="background: lime"></div>
+              <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-typography-1.jpg')"></div>
             </div>
 
             <div class="bit-3">
-              <div class="img-1-1" style="background: magenta"></div>
+              <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-graph.jpg')"></div>
             </div>
 
-            <div class="bit-2">
-              <div class="img-1-1" style="background: brown"></div>
+            <div class="bit-3">
+              <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-typography-2.jpg')"></div>
             </div>
 
-            <div class="bit-2">
-              <div class="img-1-1" style="background: blue"></div>
+            <div class="bit-1">
+              <div class="img-2-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-icons.jpg')"></div>
+            </div>
+
+            <div class="bit-1">
+              <div class="img-2-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-outlined.jpg')"></div>
             </div>
 
           </section>
 
+          <!--Needs to be dynamic-->
           <footer class="bit-1 other-projects">
-            <a href="#">
-              <div class="bit-2 other-project-prev" style="background: red">
-                <h2 class="title-small">&larr;&nbsp;Previous</h3>
+            <a href="/projects/mimib.php">
+              <div class="bit-2 other-project-prev" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg')">
+                <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>
               </div>
             </a>
-            <a href="#">
+            <a href="/projects/">
               <div class="bit-2 other-project-next" style="background: purple">
-                <h2 class="title-small">Next&nbsp;&rarr;</h3>
+                <h2 class="title-small no-mg">next&nbsp;&rarr;</h3>
               </div>
             </a>
           </footer>
@@ -121,13 +124,13 @@
       </article>
 
     </main>
-
-    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/templates/footer.php"; include_once($path); ?>
+    
+    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/footer.php"; include_once($path); ?>
   
   </div>
 
   <!--<script src="js/slideshow.js"></script>-->
-  <script src="js/overlay-menu.js"></script>
+  <script src="/js/overlay-menu.js"></script>
 
 </body>
 

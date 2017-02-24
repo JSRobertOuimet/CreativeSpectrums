@@ -21,9 +21,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/nav.php"; include_once($path); ?>
 
-      <div class="img-2-1 jumbotron" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')"></div>
-
-      <!--<div class="jumbotron" style="background-image: url('img/concerts-by-the-canal/0052-SES-BRANDING-logo.png')"></div>-->
+      <div class="jumbotron" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')"></div>
 
     </header>
 
@@ -45,10 +43,14 @@
                 <a href="#" class="tag">2015</a>
                 <a href="#" class="tag">branding</a>
                 <a href="#" class="tag">grey</a>
-                <br>         
                 <a href="#" class="tag">orange</a>
                 <a href="#" class="tag">ottawa</a>
+                <br>         
                 <a href="#" class="tag">risk management</a>
+                <a href="#" class="tag">ui/ux</a>
+                <a href="#" class="tag">software design</a>
+                <br>
+                <a href="#" class="tag">web design</a>
               </p>
             
               <p>
@@ -109,15 +111,16 @@
 
           </section>
 
+          <!--Needs to be dynamic-->
           <footer class="bit-1 other-projects">
-            <a href="#">
-              <div class="bit-2 other-project-prev" style="background: red">
-                <h2 class="title-small">&larr;&nbsp;Previous</h3>
+            <a href="/projects/mimib.php">
+              <div class="bit-2 other-project-prev" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg')">
+                <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>
               </div>
             </a>
-            <a href="#">
+            <a href="/projects/">
               <div class="bit-2 other-project-next" style="background: purple">
-                <h2 class="title-small">Next&nbsp;&rarr;</h3>
+                <h2 class="title-small no-mg">next&nbsp;&rarr;</h3>
               </div>
             </a>
           </footer>
@@ -125,7 +128,7 @@
       </article>
 
     </main>
-
+    
     <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/footer.php"; include_once($path); ?>
   
   </div>

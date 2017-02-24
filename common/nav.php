@@ -15,7 +15,7 @@
 <!--Mobile Navigation-->
 <nav id="main-nav" class="mobile-main-nav mobile-only">
   <div class="left">
-    <a id="brand" href="index.php">Creative Spectrums</a>
+    <a id="brand" href="/index.php">Creative Spectrums</a>
   </div>
   <div class="right">
     <a onclick="openNav()">menu</a>
@@ -29,7 +29,7 @@
   </div>
   <div class="overlay-content">
     <div class="links-wrapper">
-      <!--<a href="/index.php">home</a>-->
+      <a href="/index.php">home</a>
       <!--<a href="/thoughts.php">thoughts</a>-->
       <a href="/about.php">about</a>
       <a href="/contact.php">contact</a>

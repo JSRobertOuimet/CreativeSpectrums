@@ -21,48 +21,49 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/nav.php"; include_once($path); ?>
 
-      <div class="jumbotron"></div>
+      <div class="jumbotron-full-page" style="background-image: url('/assets/img/concentric-form-white.svg')"></div>
+      
     </header>
 
     <!--Contact-->
     <article>
       <header class="bit-1">
         <h1 class="title-big">Contact<span class="horizontal-bar">&horbar;</span></h1>
-        <h2 class="title-small">Want a quote?</h2>
+        <h2 class="title-small">Have a question?</h2>
       </header>
 
       <div class="bit-2">
       
         <form action="contact.php">
         
-        <div class="form-group bit-1">
-          <label for="name">First Name</label>
-          <input type="text" id="first-name" name="first-name" placeholder="first name">
-        </div>
+          <div class="form-group bit-1">
+            <label for="name">First Name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="first name">
+          </div>
 
-        <div class="form-group bit-1">
-          <label for="name">Last Name</label>
-          <input type="text" id="last-name" name="last-name" placeholder="last name">
-        </div>
+          <div class="form-group bit-1">
+            <label for="name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="last name">
+          </div>
 
-        <div class="form-group bit-1">
-          <label for="name">Email</label>
-          <input type="email" id="email" name="email" placeholder="email">
-        </div>
+          <div class="form-group bit-1">
+            <label for="name">Email</label>
+            <input type="email" id="email" name="email" placeholder="email">
+          </div>
 
-        <div class="form-group bit-1">
-          <label for="name">Site URL</label>
-          <input type="text" id="site-url" name="site-url" placeholder="site url (optional)">
-        </div>
-        
-        <div class="form-group bit-1">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="message" rows="10"></textarea>
-        </div>
+          <div class="form-group bit-1">
+            <label for="name">Site URL</label>
+            <input type="text" id="site-url" name="site-url" placeholder="site url (optional)">
+          </div>
+          
+          <div class="form-group bit-1">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="message" rows="10"></textarea>
+          </div>
 
-        <div class="form-group bit-1">
-          <input type="submit" value="submit">
-        </div>
+          <div class="form-group bit-1">
+            <input type="submit" value="submit">
+          </div>
         
       </form>
 

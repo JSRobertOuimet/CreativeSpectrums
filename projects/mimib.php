@@ -21,7 +21,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
 
-      <div class="jumbotron" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg')"></div>
+      <div class="project-jumbotron" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg')"></div>
 
     </header>
 
@@ -100,14 +100,6 @@
 
             <div class="bit-3">
               <div class="img-1-1" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-06.jpg')"></div>
-            </div>
-
-            <div class="bit-1">
-              <div class="img-2-1" style="background-image: url('../../assets/img/mimib/0038-ACO-PROJECT-logo-icons.jpg')"></div>
-            </div>
-
-            <div class="bit-1">
-              <div class="img-2-1" style="background-image: url('../../assets/img/mimib/0038-ACO-PROJECT-logo-outlined.jpg')"></div>
             </div>
 
           </section>

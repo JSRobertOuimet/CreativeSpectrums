@@ -21,7 +21,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
 
-      <div class="jumbotron" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')"></div>
+      <div class="project-jumbotron" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')"></div>
 
     </header>
 

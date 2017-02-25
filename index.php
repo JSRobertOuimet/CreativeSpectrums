@@ -58,11 +58,12 @@
 
         <header class="bit-1">
           <h1 class="title-big">Work<span class="horizontal-bar">&horbar;</span></h1>
-          <h2 class="title-small">Latest</h2>
         </header>
 
         <section>
         
+          <h2 class="bit-1 title-small">Latest</h2>
+
           <a href="/projects/assent-compliance.php">
             <div class="bit-2 img-1-1" style="background-image: url('/assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')"></div>
           </a>

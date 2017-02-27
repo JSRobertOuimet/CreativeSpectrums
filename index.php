@@ -20,9 +20,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
 
-      <div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')">
-        <a href="#work" class="icon scroll">&darr;</a>
-      </div>
+      <div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>
 
     </header>
 
@@ -80,11 +78,11 @@
             <div class="bit-3 img-1-1" style="background-image: url('/assets/img/master-piano-recital-series/MPRS-thumbnail.jpg"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
+          <a href="#">
             <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
+          <a href="#">
             <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
           </a>
         
@@ -97,53 +95,52 @@
             <h2 class="bit-1 title-small">Other Work</h2>
           </header>
 
-          <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/quadrant-engineering-logo.svg"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/other-work/angelard-business-card.jpg"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/other-work/anaq-publicity.jpg"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/cote-logo.svg"></div>
           </a>
 
-          
-          <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/la-naturopathe-en-ville-icon.svg"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/la-naturopathe-en-ville-logo.svg"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/echo-logo.svg"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/regions-en-sante-logo.svg"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('assets/img/other-work/regions-en-sante-business-card.jpg"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/other-work/regions-en-sante-logo-2.jpg"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/other-work/kem-politique-de-retours.jpg"></div>
           </a>
 
-          <a href="projects/assent-compliance.php">
-            <div class="bit-4 img-1-1 no-mg" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          <a href="#">
+            <div class="bit-4 img-1-1 no-mg" style="background-image: url('/assets/svg/retrofico-logo.svg"></div>
           </a>
 
         </section>
@@ -229,25 +226,25 @@
 
         <section>
 
-          <a href="projects/assent-compliance.php">
+          <a href="#">
             <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg">
               
             </div>
           </a>
 
-          <a href="projects/assent-compliance.php">
+          <a href="#">
             <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg">
               
             </div>
           </a>
 
-          <a href="projects/assent-compliance.php">
+          <a href="#">
             <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg">
               
             </div>
           </a>
 
-          <a href="projects/assent-compliance.php">
+          <a href="#">
             <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg">
               
             </div>
@@ -285,6 +282,8 @@
 
       </article>
 
+      <!--<a href="http://www.1and1.com/web-hosting?kwk=520623385&ac=OM.US.US930K244547B7030a" rel="nofollow"><img src="http://adimg.uimserv.net/1und1/KWK/Classic-Hosting/US/NewHosting_kwk_us_sw_728x90.gif"/></a>-->
+
     </main>
 
     <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/footer.php"; include_once($path); ?>
@@ -293,6 +292,10 @@
 
   <!--<script src="js/slideshow.js"></script>-->
   <script src="js/overlay.js"></script>
+
+  <script src="//static.getclicky.com/js" type="text/javascript"></script>
+  <script type="text/javascript">try{ clicky.init(101028743); }catch(e){}</script>
+  <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101028743ns.gif" /></p></noscript>
 
 </body>
 

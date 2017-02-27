@@ -104,7 +104,7 @@
 
         <div class="bit-1 mg-t">
           <p class="right">
-            <a href="#" target="_blank" class="btn">download pdf&nbsp;&nbsp;<span class="icon download">&rarr;</span></a>
+            <a href="/assets/pdf/Jean-Simon_Robert_Ouimet_Resume.pdf" target="_blank" class="btn">download résumé&nbsp;&nbsp;<span class="icon download">&rarr;</span></a>
           </p>
         </div>
 

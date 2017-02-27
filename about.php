@@ -4,7 +4,6 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--<meta http-equiv="refresh" content="3">-->
 
   <title>Creative Spectrums &ndash; About</title>
 
@@ -21,14 +20,14 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
 
-      <div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>
+      <!--<div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>-->
       
     </header>
 
     <article>
       
       <header class="bit-1">
-        <h1 class="title-big">About<span class="horizontal-bar">&horbar;</span></h1>
+        <h1 class="title-big">About</h1>
       </header>
 
       <section>
@@ -47,7 +46,7 @@
             <span class="bold">Front-end Developer</span><br>
             <a href="http://smbsol.com/" target="_blank" class="link">Symbiosys&nbsp;&nearr;</a>
           <p>
-            <span class="bold">Freelance Graphic Designer &amp; Web Developer</span><br>
+            <span class="bold">Graphic Designer &amp; Front-end Developer</span><br>
             <a href="http://smbsol.com/" target="_blank" class="link">Concerts by the Canal&nbsp;&nearr;</a><br>
             <a href="http://smbsol.com/" target="_blank" class="link">Doors Open for Music at Southminster&nbsp;&nearr;</a><br>
             <a href="http://smbsol.com/" target="_blank" class="link">Expert Piano Plateau&nbsp;&nearr;</a><br>
@@ -105,7 +104,7 @@
 
         <div class="bit-1 mg-t">
           <p class="right">
-            <a href="#" target="_blank" class="btn">download pdf&nbsp;&nbsp;<span class="icon-download">&rarr;</span></a>
+            <a href="#" target="_blank" class="btn">download pdf&nbsp;&nbsp;<span class="icon download">&rarr;</span></a>
           </p>
         </div>
 

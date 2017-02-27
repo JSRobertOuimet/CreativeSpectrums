@@ -3,6 +3,7 @@
 // --------------------
 
 @mixin jumbotron($desktop-size, $mobile-size)
+  position: relative
   width: 100%
   height: calc(100vh - 100px)
   background:
@@ -31,11 +32,5 @@
     content: ""
     display: block
     padding-bottom: $ratio
-
-%img-title
-  position: absolute
-  bottom: $base-unit
-  left: $base-unit
-  text-align: left
-  line-height: 1 !important
-  color: white
+  @media screen and (max-width: $medium)
+    margin-bottom: $base-unit

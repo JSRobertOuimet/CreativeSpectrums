@@ -4,7 +4,6 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--<meta http-equiv="refresh" content="3">-->
 
   <title>mimiB</title>
 
@@ -31,7 +30,7 @@
       <!--Project-->
       <article>
         <header>
-          <h1 class="title-big">mimiB<span class="horizontal-bar">&horbar;</span></h1>
+          <h1 class="title-big">mimiB</h1>
           <h2 class="title-small">Project Detail</h2>
         </header>
 
@@ -106,6 +105,7 @@
 
           <!--Needs to be dynamic-->
           <footer class="bit-1 other-projects">
+            <h2 class="title-small">Other Projects</h2>
             <a href="/projects/mimib.php">
               <div class="bit-2 other-project-prev" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg')">
                 <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>

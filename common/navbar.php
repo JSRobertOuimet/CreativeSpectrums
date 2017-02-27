@@ -1,7 +1,7 @@
 <!--Desktop Navigation-->
 <nav id="main-nav" class="desktop-only">
   <div class="left">
-    <a id="brand" href="/index.php">Creative Spectrums</a>
+    <a id="brand" href="/index.php">Creative Spectrums<span class="underscore-brand">&ndash;</span></a>
   </div>
   <div class="right desktop-only">
     <!--<a href="/index.php">home</a>-->
@@ -15,7 +15,7 @@
 <!--Mobile Navigation-->
 <nav id="main-nav" class="mobile-main-nav mobile-only">
   <div class="left">
-    <a id="brand" href="/index.php">Creative Spectrums</a>
+    <a id="brand" href="/index.php">Creative Spectrums<span class="underscore-brand">&ndash;</span></a>
   </div>
   <div class="right">
     <a onclick="openNav()">menu</a>

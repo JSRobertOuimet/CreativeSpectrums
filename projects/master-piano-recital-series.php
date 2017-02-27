@@ -4,7 +4,6 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--<meta http-equiv="refresh" content="3">-->
 
   <title>Master Piano Recital Series</title>
 
@@ -31,7 +30,7 @@
       <!--Project-->
       <article>
         <header>
-          <h1 class="title-big">Master Piano Recital Series<span class="horizontal-bar">&horbar;</span></h1>
+          <h1 class="title-big">Master Piano Recital Series</h1>
           <h2 class="title-small">Project Detail</h2>
         </header>
 
@@ -84,7 +83,7 @@
             </p>
 
             <p class="right">
-              <a href="/assets/pdf/MPRS_Branding_Guide_Proposal.pdf" target="_blank" class="btn">download proposal&nbsp;&nbsp;<span class="icon-download">&rarr;</span></a>
+              <a href="/assets/pdf/MPRS_Branding_Guide_Proposal.pdf" target="_blank" class="btn">download proposal&nbsp;&nbsp;<span class="icon download">&rarr;</span></a>
             </p>
           </div>
 
@@ -124,6 +123,7 @@
 
           <!--Needs to be dynamic-->
           <footer class="bit-1 other-projects">
+            <h2 class="title-small">Other Projects</h2>
             <a href="/projects/mimib.php">
               <div class="bit-2 other-project-prev" style="background-image: url('../../assets/img/master-piano-recital-series/01.jpg')">
                 <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>

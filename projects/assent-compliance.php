@@ -4,7 +4,6 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--<meta http-equiv="refresh" content="3">-->
 
   <title>Assent Compliance</title>
 
@@ -31,7 +30,7 @@
       <!--Project-->
       <article>
         <header>
-          <h1 class="title-big">Assent Compliance<span class="horizontal-bar">&horbar;</span></h1>
+          <h1 class="title-big">Assent Compliance</h1>
           <h2 class="title-small">Project Detail</h2>
         </header>
 
@@ -106,13 +105,14 @@
             </div>
 
             <div class="bit-1">
-              <div class="img-2-1" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-outlined.jpg')"></div>
+              <div class="img-2-1 no-mg-b" style="background-image: url('../../assets/img/assent-compliance/0038-ACO-PROJECT-logo-outlined.jpg')"></div>
             </div>
 
           </section>
 
           <!--Needs to be dynamic-->
           <footer class="bit-1 other-projects">
+            <h2 class="title-small">Other Projects</h2>
             <a href="/projects/mimib.php">
               <div class="bit-2 other-project-prev" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg')">
                 <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>

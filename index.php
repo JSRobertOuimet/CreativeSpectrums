@@ -4,7 +4,6 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--<meta http-equiv="refresh" content="3">-->
 
   <title>Creative Spectrums &ndash; Home</title>
 
@@ -21,7 +20,9 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
 
-      <div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>
+      <div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')">
+        <a href="#work" class="icon scroll">&darr;</a>
+      </div>
 
     </header>
 
@@ -31,7 +32,7 @@
       <!--Expertise-->
       <!--<article>
         <header class="bit-1">
-          <h1 class="title-big">Expertise<span class="horizontal-bar">&horbar;</span></h1>
+          <h1 class="title-big">Expertise</h1>
         </header>
 
         <div class="bit-3">
@@ -56,13 +57,16 @@
       <!--Work-->
       <article>
 
-        <header class="bit-1">
-          <h1 class="title-big">Work<span class="horizontal-bar">&horbar;</span></h1>
+        <header id="work" class="bit-1">
+          <h1 class="title-big">Work</h1>
         </header>
 
+        <!--Latest-->
         <section>
         
-          <h2 class="bit-1 title-small">Latest</h2>
+          <header>
+            <h2 class="bit-1 title-small">Latest</h2>
+          </header>
 
           <a href="/projects/assent-compliance.php">
             <div class="bit-2 img-1-1" style="background-image: url('/assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')"></div>
@@ -83,19 +87,65 @@
           <a href="projects/assent-compliance.php">
             <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
           </a>
-
-          <a href="projects/assent-compliance.php">
-            <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
-          </a>
-
-          <a href="projects/assent-compliance.php">
-            <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
-          </a>
-
-          <a href="projects/assent-compliance.php">
-            <div class="bit-3 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
-          </a>
         
+        </section>
+
+        <!--Other Work-->
+        <section>
+        
+          <header>
+            <h2 class="bit-1 title-small">Other Work</h2>
+          </header>
+
+          <a href="projects/assent-compliance.php">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          </a>
+
+          <a href="projects/assent-compliance.php">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          </a>
+
+          <a href="projects/assent-compliance.php">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          </a>
+
+          <a href="projects/assent-compliance.php">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          </a>
+
+          
+          <a href="projects/assent-compliance.php">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          </a>
+
+          <a href="projects/assent-compliance.php">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          </a>
+
+          <a href="projects/assent-compliance.php">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          </a>
+
+          <a href="projects/assent-compliance.php">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          </a>
+
+          <a href="projects/assent-compliance.php">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          </a>
+
+          <a href="projects/assent-compliance.php">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          </a>
+
+          <a href="projects/assent-compliance.php">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          </a>
+
+          <a href="projects/assent-compliance.php">
+            <div class="bit-4 img-1-1 no-mg" style="background-image: url('/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+          </a>
+
         </section>
 
       </article>
@@ -103,7 +153,7 @@
       <!--Testimonials-->
       <!--<article>
         <header class="bit-1">
-          <h1 class="title-big">Testimonials<span class="horizontal-bar">&horbar;</span></h1>
+          <h1 class="title-big">Testimonials</h1>
           <h2 class="title-small">What they say.</h2>
         </header>
 
@@ -174,7 +224,7 @@
       <!--<article>
 
         <header class="bit-1">
-          <h1 class="title-big">Thoughts<span class="horizontal-bar">&horbar;</span></h1>
+          <h1 class="title-big">Thoughts</h1>
         </header>
 
         <section>
@@ -211,8 +261,7 @@
       <article>
       
         <header class="bit-1">
-          <h1 class="title-big">Newsletter<span class="horizontal-bar">&horbar;</span></h1>
-          <h2 class="title-small">Get in touch</h2>
+          <h1 class="title-small">Newsletter</h1>
         </header>
 
         <section>
@@ -225,9 +274,9 @@
                 <input type="email" id="email" name="email" placeholder="email">
               </div>
 
-              <div class="form-group bit-1">
-                <input type="submit" value="sign up">
-              </div>
+              <p class="form-group bit-1 no-mg right">
+                <a href="#" type="submit" class="btn">submit&nbsp;&nbsp;<span class="icon submit">&uarr;</span></a>
+              </p>
 
             </div>
           

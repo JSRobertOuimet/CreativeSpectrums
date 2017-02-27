@@ -4,7 +4,6 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--<meta http-equiv="refresh" content="3">-->
 
   <title>Creative Spectrums &ndash; Contact</title>
 
@@ -20,15 +19,13 @@
     <header class="bit-1">
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
-
-      <div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>
       
     </header>
 
     <!--Contact-->
     <article>
       <header class="bit-1">
-        <h1 class="title-big">Contact<span class="horizontal-bar">&horbar;</span></h1>
+        <h1 class="title-big">Contact</h1>
         <h2 class="title-small">Have a question?</h2>
       </header>
       
@@ -60,7 +57,7 @@
         </div>
 
         <p class="right">
-          <a href="#" type="submit" class="btn">submit&nbsp;&nbsp;<span class="icon-submit">&uarr;</span></a>
+          <a href="#" type="submit" class="btn">submit&nbsp;&nbsp;<span class="icon submit">&uarr;</span></a>
         </p>
         
       </form>

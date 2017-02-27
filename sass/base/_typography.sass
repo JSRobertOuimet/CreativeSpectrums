@@ -1,3 +1,6 @@
+@import '../modules/animations'
+@import 'placeholders'
+
 html
   font:
     family: "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
@@ -6,25 +9,24 @@ html
 // Typographic Scale
 .title-big
   display: inline-block
+  margin-top: calc(2.618em + 50px)
+  margin-bottom: 1.618em
   font:
     size: 2.618em
     weight: bold
-  // line-height: 2.618em * 2 (for line-breaks)
-  margin: 1.309em 0
+  line-height: 1
 
 .title-small
+  margin: 1.618em 0 1em
   font:
     size: 1.618em
     weight: bold
-  line-height: 1.618em * 2
-  margin: 1.309em 0
 
 .subtitle
+  margin-bottom: 1em
   font:
     size: 1em
     weight: bold
-  // line-height: 1em * 2
-  margin: 1.309em 0
 
 p
   margin-bottom: 1em
@@ -34,24 +36,11 @@ p
   text-align: justify
   @media screen and (max-width: $small)
     text-align: left
-  // &:last-of-type
-  //   margin-bottom: 0 !important
 
 .copy
-  margin-bottom: 0 !important
+  margin-bottom: 0
 
 // Links
-
-%underlined
-  margin-right: 5px
-  padding: 3px
-  font-weight: normal !important
-  color: white !important
-  text-decoration: none
-  background: $primary-color
-  cursor: pointer !important
-  &:hover
-    background: transparentize($primary-color, 0.25)
 
 .link,
 .tag
@@ -68,20 +57,38 @@ a:visited
 
 // Text-decoration
 
-.horizontal-bar
+.underscore-body
   position: relative
   bottom: -9px
+  left: 5px
+  // @extend %blinker
+
+.underscore-brand
+  position: relative
+  bottom: -4px
+  left: 2px
+  @extend %blinker
 
 .testimonial
   font-style: italic !important
 
 // Icons
-.icon-submit
-  display: inline-block
-  position: relative
+
+.icon.submit
+  @extend %icon
   bottom: 2px
 
-.icon-download
-  display: inline-block
-  position: relative
+.icon.download
+  @extend %icon
   transform: rotate(90deg) !important
+
+.icon.scroll
+  position: absolute
+  right: 0
+  bottom: 0
+  @media screen and (max-width: $small)
+    position: absolute
+    bottom: 0
+    left: 50%
+  font-size: 1.618em
+  // @extend %bob

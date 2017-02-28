@@ -57,7 +57,6 @@
                 <a href="#" class="tag">web design</a>
                 <a href="#" class="tag">web development</a>
                 <a href="#" class="tag">white</a>
-                <br>
               </p>
             
               <p>

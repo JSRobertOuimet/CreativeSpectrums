@@ -43,7 +43,7 @@
                 <a href="#" class="tag">branding</a>
                 <a href="#" class="tag">diy</a>
                 <a href="#" class="tag">fashion</a>
-                <br>         
+                <br>
                 <a href="#" class="tag">multimedia</a>
                 <a href="#" class="tag">ottawa</a>
                 <a href="#" class="tag">print</a>
@@ -61,7 +61,10 @@
 
               <p>
                 <span class="bold">Fonts</span><br>
-                <a href="http://www.marksimonson.com/fonts/view/proxima-nova" target="_blank" class="link">Proxima Nova&nbsp;&nearr;</a>
+                <a href="http://www.fontfabric.com/canter-free-font/" target="_blank" class="link">Canter&nbsp;&nearr;</a><br>
+                <a href="https://www.myfonts.com/fonts/urw/futura/" target="_blank" class="link">Futura&nbsp;&nearr;</a><br>
+                <a href="https://www.fonts.com/font/itc/itc-american-typewriter" target="_blank" class="link">ITC American Typewriter&trade;&nbsp;&nearr;</a><br>
+                <a href="https://fonts.google.com/specimen/Lobster" target="_blank" class="link">Lobster&nbsp;&nearr;</a>
               </p>
 
           </div>

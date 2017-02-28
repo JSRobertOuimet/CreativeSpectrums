@@ -96,7 +96,7 @@
           </header>
 
           <a href="#">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/quadrant-engineering-logo.svg"></div>
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/quadrant-engineering-logo.svg")></div>
           </a>
 
           <a href="#">
@@ -108,23 +108,23 @@
           </a>
 
           <a href="#">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/cote-logo.svg"></div>
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/cote-logo.svg")></div>
           </a>
 
           <a href="#">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/la-naturopathe-en-ville-icon.svg"></div>
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/la-naturopathe-en-ville-icon.svg")></div>
           </a>
 
           <a href="#">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/la-naturopathe-en-ville-logo.svg"></div>
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/la-naturopathe-en-ville-logo.svg")></div>
           </a>
 
           <a href="#">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/echo-logo.svg"></div>
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/echo-logo.svg")></div>
           </a>
 
           <a href="#">
-            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/regions-en-sante-logo.svg"></div>
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/regions-en-sante-logo.svg")></div>
           </a>
 
           <a href="#">
@@ -140,7 +140,51 @@
           </a>
 
           <a href="#">
-            <div class="bit-4 img-1-1 no-mg" style="background-image: url('/assets/svg/retrofico-logo.svg"></div>
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/kem-wireframe.svg")></div>
+          </a>
+
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/retrofico-logo.svg")></div>
+          </a>
+
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/officine-des-supplements-icon.svg")></div>
+          </a>
+
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/officine-des-supplements-logo.svg")></div>
+          </a>
+
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('assets/img/other-work/officine-des-supplements-business-card.jpg"></div>
+          </a>
+
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/img/other-work/task-angels-business-card.jpg"></div>
+          </a>
+
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/task-angels-logo.svg")></div>
+          </a>
+
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/task-angels-icon.svg")></div>
+          </a>
+
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/libido-guru-icon.svg")></div>
+          </a>
+
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/libido-guru-logo.svg")></div>
+          </a>
+
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('/assets/svg/rideau-canal-logo.svg")></div>
+          </a>
+
+          <a href="#">
+            <div class="bit-4 img-1-1" style="background-image: url('assets/svg/black-swan-nutrition-logo.svg")></div>
           </a>
 
         </section>

@@ -44,7 +44,7 @@
                 <a href="#" class="tag">grey</a>
                 <a href="#" class="tag">orange</a>
                 <a href="#" class="tag">ottawa</a>
-                <br>         
+                <br>    
                 <a href="#" class="tag">risk management</a>
                 <a href="#" class="tag">ui/ux</a>
                 <a href="#" class="tag">software design</a>

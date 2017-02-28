@@ -431,36 +431,36 @@ label {
   width: 100%;
   height: calc(100vh - 100px);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain; }
+  background-size: contain;
+  background-position: center; }
   @media screen and (max-width: 1200px) {
     .main-jumbotron {
       margin-top: 50px;
       height: calc(100vh - 65px);
       background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain; } }
+      background-size: contain;
+      background-position: center; } }
 
 .project-jumbotron {
   position: relative;
   width: 100%;
   height: calc(100vh - 100px);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
   @media screen and (max-width: 1200px) {
     .project-jumbotron {
       margin-top: 50px;
       height: calc(100vh - 65px);
       background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover; } }
+      background-size: cover;
+      background-position: center; } }
 
 .img-1-1 {
   position: relative;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
   .img-1-1:after {
     content: "";
     display: block;
@@ -472,8 +472,8 @@ label {
 .img-1-2 {
   position: relative;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
   .img-1-2:after {
     content: "";
     display: block;
@@ -485,8 +485,8 @@ label {
 .img-2-1 {
   position: relative;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
   .img-2-1:after {
     content: "";
     display: block;

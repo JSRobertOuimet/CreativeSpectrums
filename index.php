@@ -56,15 +56,15 @@
       <article>
 
         <header id="work" class="bit-1">
-          <h1 class="title-big">Work</h1>
+          <h1 class="title-big">Branding</h1>
         </header>
 
-        <!--Latest-->
+        <!--Branding-->
         <section>
         
-          <header>
-            <h2 class="bit-1 title-small">Latest</h2>
-          </header>
+          <!--<header>
+            <h2 class="bit-1 title-small">Branding</h2>
+          </header>-->
 
           <a href="/projects/assent-compliance.php">
             <div class="bit-2 img-1-1 lazy" style="background-image: url('/assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg')"></div>
@@ -75,7 +75,7 @@
           </a>
 
           <a href="projects/master-piano-recital-series.php">
-            <div class="bit-3 img-1-1 lazy" style="background-image: url('/assets/img/master-piano-recital-series/MPRS-thumbnail.jpg')"></div>
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/MPRS-thumbnail.jpg"></div>
           </a>
 
           <a href="#">
@@ -90,102 +90,137 @@
 
         <!--Other Work-->
         <section>
-        
-          <header>
-            <h2 class="bit-1 title-small">Other Work</h2>
-          </header>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/quadrant-engineering-logo.svg" type="image/svg+xml"></div>
-          </a>
+          <!--Logos-->
+          <section>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/angelard-business-card.jpg"></div>
-          </a>
+            <header>
+              <h2 class="bit-1 title-small">Logos</h2>
+            </header>
 
-          <!--<a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/anaq-publicity.jpg"></div>
-          </a>-->
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/quadrant-engineering-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/cote-logo.svg" type="image/svg+xml"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/la-naturopathe-en-ville-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/la-naturopathe-en-ville-icon.svg" type="image/svg+xml"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/echo-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/la-naturopathe-en-ville-logo.svg" type="image/svg+xml"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/regions-en-sante-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/echo-logo.svg" type="image/svg+xml"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/retrofico-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/regions-en-sante-logo.svg" type="image/svg+xml"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/officine-des-supplements-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <!--<a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/regions-en-sante-business-card.jpg"></div>
-          </a>-->
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/task-angels-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/regions-en-sante-logo-2.jpg"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/libido-guru-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/kem-politique-de-retours.jpg"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/rideau-canal-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <!--<a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/kem-wireframe.svg" type="image/svg+xml"></div>
-          </a>-->
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/black-swan-nutrition-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/retrofico-logo.svg" type="image/svg+xml"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/expert-piano-plateau-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/officine-des-supplements-icon.svg" type="image/svg+xml"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/doors-open-for-music-at-southminster-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/officine-des-supplements-logo.svg" type="image/svg+xml"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/concerts-on-the-canal-logo.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="assets/img/other-work/officine-des-supplements-business-card.jpg"></div>
-          </a>
+          </section>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/task-angels-business-card.jpg"></div>
-          </a>
+          <!--Icons-->
+          <section>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/task-angels-logo.svg" type="image/svg+xml"></div>
-          </a>
+            <header>
+              <h2 class="bit-1 title-small">Icons</h3>
+            </header>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/task-angels-icon.svg" type="image/svg+xml"></div>
-          </a>
+            <!--<a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/cote-logo.svg" type="image/svg+xml"></div>
+            </a>-->
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/libido-guru-icon.svg" type="image/svg+xml"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/la-naturopathe-en-ville-icon.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/libido-guru-logo.svg" type="image/svg+xml"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/officine-des-supplements-icon.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/rideau-canal-logo.svg" type="image/svg+xml"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/task-angels-icon.svg" type="image/svg+xml"></div>
+            </a>
 
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/black-swan-nutrition-logo.svg" type="image/svg+xml"></div>
-          </a>
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/libido-guru-icon.svg" type="image/svg+xml"></div>
+            </a>
+
+          </section>
+
+          <!--Print-->
+          <section>
+
+            <header>
+              <h2 class="bit-1 title-small">Print</h3>
+            </header>
+
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/anaq-publicity.jpg"></div>
+            </a>
+
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/angelard-business-card.jpg"></div>
+            </a>
+
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/oicrm-programme.jpg"></div>
+            </a>
+
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/denis-gougeon-poster.jpg"></div>
+            </a>
+
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/all-the-secrets-you-ve-kept-till-now-murale.jpg"></div>
+            </a>
+
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/regions-en-sante-business-card.jpg"></div>
+            </a>
+
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/task-angels-business-card.jpg"></div>
+            </a>
+
+            <a href="#">
+              <div class="bit-4 img-1-1 lazy" data-original="assets/img/other-work/officine-des-supplements-business-card.jpg"></div>
+            </a>
+
+          </section>
 
         </section>
 
@@ -341,14 +376,13 @@
 
   <script>
     $(function() {
-      // $("img.lazy").lazyload({
-      //   effect : "fadeIn"
-      // });
       $("div.lazy").lazyload({
         effect : "fadeIn"
       });
     });
   </script>
+
+  <script src="/js/slideshow.js"></script>
 
   <script src="//static.getclicky.com/js" type="text/javascript"></script>
   <script type="text/javascript">try{ clicky.init(101028743); }catch(e){}</script>

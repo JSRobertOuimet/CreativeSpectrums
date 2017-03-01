@@ -187,14 +187,17 @@ table {
 .mg-t {
   margin-top: 59px !important; }
 
-.pd-r {
-  padding-right: 15px !important; }
+.mg-b {
+  margin-bottom: 15px !important; }
 
 .no-mg {
   margin: 0 !important; }
 
 .no-mg-b {
   margin-bottom: 0 !important; }
+
+.pd-r {
+  padding-right: 15px !important; }
 
 .left {
   float: left !important; }

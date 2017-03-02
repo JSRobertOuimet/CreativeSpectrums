@@ -24,6 +24,7 @@
 
     <!--Contact-->
     <article>
+    
       <header class="bit-1">
         <h1 class="title-big">Contact</h1>
         <h2 class="title-small">Have a question?</h2>

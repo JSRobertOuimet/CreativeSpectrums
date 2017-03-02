@@ -4,8 +4,9 @@
     <a id="brand" href="/index.php">Creative Spectrums<span class="underscore-brand">&ndash;</span></a>
   </div>
   <div class="right desktop-only">
-    <!--<a href="/index.php">home</a>-->
+    <a href="/index.php">home</a>
     <!--<a href="/thoughts.php">thoughts</a>-->
+    <a href="/work.php">work</a>
     <a href="/about.php">about</a>
     <a href="/contact.php">contact</a>
     <!--<a href="/fr/french.php">/&nbsp;fr</a>-->
@@ -31,6 +32,7 @@
     <div class="links-wrapper">
       <a href="/index.php">home</a>
       <!--<a href="/thoughts.php">thoughts</a>-->
+      <a href="/work.php">work</a>
       <a href="/about.php">about</a>
       <a href="/contact.php">contact</a>
       <!--<a href="/fr/french.php">/&nbsp;fr</a>-->

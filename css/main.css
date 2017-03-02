@@ -293,11 +293,7 @@ html {
 p {
   margin-bottom: 1em;
   font-size: 1em;
-  line-height: 2em;
-  text-align: justify; }
-  @media screen and (max-width: 600px) {
-    p {
-      text-align: left; } }
+  line-height: 2em; }
 
 .copy {
   margin-bottom: 0; }

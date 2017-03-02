@@ -149,11 +149,11 @@
           </a>
 
           <a href="/projects/master-piano-recital-series.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/MPRS-thumbnail.jpg"></div>
+            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-1.jpg"></div>
           </a>
 
           <a href="/project/la-parapharmacie.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie.jpg"></div>
           </a>
         
         </section>

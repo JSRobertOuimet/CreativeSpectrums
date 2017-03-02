@@ -107,15 +107,15 @@
             </div>
 
             <div class="bit-3">
-              <div class="img-1-1" style="background-image: url('../../assets/img/mimib/0038-ACO-PROJECT-logo-icons.jpg')"></div>
+              <div class="img-1-1" style="background-image: url('../../assets/img/mimib/assent-compliance-logo-icons.jpg')"></div>
             </div>
 
             <div class="bit-3">
-              <div class="img-1-1" style="background-image: url('../../assets/img/mimib/0038-ACO-PROJECT-logo-outlined.jpg')"></div>
+              <div class="img-1-1" style="background-image: url('../../assets/img/mimib/assent-compliance-logo-outlined.jpg')"></div>
             </div>
 
             <div class="bit-3">
-              <div class="img-1-1" style="background-image: url('../../assets/img/mimib/0038-ACO-PROJECT-logo-outlined.jpg')"></div>
+              <div class="img-1-1" style="background-image: url('../../assets/img/mimib/assent-compliance-logo-outlined.jpg')"></div>
             </div>
 
           </section>

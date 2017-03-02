@@ -40,7 +40,7 @@
           </header>
 
           <a href="/projects/assent-compliance.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/assent-compliance/0038-ACO-PROJECT-logo-on-image.jpg"></div>
+            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-on-image.jpg"></div>
           </a>
           
           <a href="/projects/mimib.php">

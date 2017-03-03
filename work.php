@@ -46,7 +46,7 @@
           </a>
           
           <a href="/projects/mimib.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/mimib/0034-MBE-BRANDING-photo-01.jpg"></div>
+            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-01.jpg"></div>
           </a>
 
           <a href="/projects/master-piano-recital-series.php">

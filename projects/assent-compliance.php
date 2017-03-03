@@ -118,7 +118,7 @@
           <img class="img mg-b" src="../../assets/img/assent-compliance/assent-compliance-web-application-4.jpg" width="100%">
           <img class="img mg-b" src="../../assets/img/assent-compliance/assent-compliance-web-application-5.jpg" width="100%">
 
-          <p class="desktop-only">
+          <p class="bit-2">
             <span class="bold">Tags</span><br>
             <a href="#" class="tag">2015</a>
             <a href="#" class="tag">application design</a>
@@ -126,20 +126,6 @@
             <a href="#" class="tag">compliance</a>
             <a href="#" class="tag">environment</a>
             <a href="#" class="tag">grey</a><br>
-            <a href="#" class="tag">orange</a>
-            <a href="#" class="tag">ottawa</a>   
-            <a href="#" class="tag">ui/ux</a>
-            <a href="#" class="tag">web design</a>
-          </p>
-
-          <p class="mobile-only">
-            <span class="bold">Tags</span><br>
-            <a href="#" class="tag">2015</a>
-            <a href="#" class="tag">application design</a>
-            <a href="#" class="tag">branding</a>
-            <a href="#" class="tag">compliance</a>
-            <a href="#" class="tag">environment</a>
-            <a href="#" class="tag">grey</a>
             <a href="#" class="tag">orange</a>
             <a href="#" class="tag">ottawa</a>   
             <a href="#" class="tag">ui/ux</a>

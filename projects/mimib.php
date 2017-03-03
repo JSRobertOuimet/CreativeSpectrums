@@ -37,44 +37,41 @@
         <section>
 
           <div class="bit-2">
-              <p>
-                <span class="bold">Tags</span><br>
-                <a href="#" class="tag">2015</a>
-                <a href="#" class="tag">branding</a>
-                <a href="#" class="tag">diy</a>
-                <a href="#" class="tag">fashion</a>
-                <br>
-                <a href="#" class="tag">multimedia</a>
-                <a href="#" class="tag">ottawa</a>
-                <a href="#" class="tag">print</a>
-                <br>
-                <a href="#" class="tag">rose</a>
-                <a href="#" class="tag">sewing</a>
-              </p>
             
-              <p>
-                <span class="bold">Color Palette &amp; Texture</span><br>
-                <span class="color-swatch mimib-rose"></span>
-                <span class="color-swatch mimib-texture-paper"></span>
-                <span class="color-swatch mimib-texture-fabric"></span>
-              </p>
+            <p>
+              <span class="bold">Client</span><br>
+              Micheline Beaulieu
+            </p>
 
-              <p>
-                <span class="bold">Fonts</span><br>
-                <a href="http://www.fontfabric.com/canter-free-font/" target="_blank" class="link">Canter&nbsp;&nearr;</a><br>
-                <a href="https://www.myfonts.com/fonts/urw/futura/" target="_blank" class="link">Futura&nbsp;&nearr;</a><br>
-                <a href="https://www.fonts.com/font/itc/itc-american-typewriter" target="_blank" class="link">ITC American Typewriter&trade;&nbsp;&nearr;</a><br>
-                <a href="https://fonts.google.com/specimen/Lobster" target="_blank" class="link">Lobster&nbsp;&nearr;</a>
-              </p>
+            <p>
+              <span class="bold">Industry</span><br>
+              Fashion
+            </p>
 
           </div>
 
           <div class="bit-2">
+            
             <p>
-              <span class="bold">Overview</span><br>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat ea quisquam quia facilis, non, veritatis quos, culpa distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aspernatur eveniet, blanditiis alias, voluptatibus totam. Modi rem obcaecati explicabo dolores placeat.<br>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequatur cumque odio, perspiciatis architecto! Itaque tempora a amet ea accusamus, delectus at dolore voluptatum, quos nam, similique aut veniam fugiat!
+              <span class="bold">Deliverables</span><br>
+              Visual identity<br>
+              Business card
+              Promotional material: flyers, posters, programmes<br>
             </p>
+
+            <p>
+              <span class="bold">Color Palette</span><br>
+              <span class="color-swatch mimib-rose"></span>
+            </p>
+
+            <p>
+              <span class="bold">Fonts</span><br>
+              <a href="http://www.fontfabric.com/canter-free-font/" target="_blank" class="link">Canter&nbsp;&nearr;</a><br>
+              <a href="https://www.myfonts.com/fonts/urw/futura/" target="_blank" class="link">Futura&nbsp;&nearr;</a><br>
+              <a href="https://www.fonts.com/font/itc/itc-american-typewriter" target="_blank" class="link">ITC American Typewriter&trade;&nbsp;&nearr;</a><br>
+              <a href="https://fonts.google.com/specimen/Lobster" target="_blank" class="link">Lobster&nbsp;&nearr;</a>
+            </p>
+
           </div>
 
           </section>
@@ -103,6 +100,19 @@
             <div class="bit-3">
               <div class="img-1-1" style="background-image: url('../../assets/img/mimib/0034-MBE-BRANDING-photo-06.jpg')"></div>
             </div>
+
+            <p class="bit-2">
+              <span class="bold">Tags</span><br>
+              <a href="#" class="tag">2015</a>
+              <a href="#" class="tag">branding</a>
+              <a href="#" class="tag">diy</a>
+              <a href="#" class="tag">fashion</a>
+              <a href="#" class="tag">multimedia</a>
+              <a href="#" class="tag">ottawa</a>
+              <a href="#" class="tag">print</a>
+              <a href="#" class="tag">rose</a>
+              <a href="#" class="tag">sewing</a>
+            </p>
 
           </section>
 

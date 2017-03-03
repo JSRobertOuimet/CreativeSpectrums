@@ -125,26 +125,7 @@
 
           </div>
 
-          <p class="bit-1 desktop-only">
-            <span class="bold">Tags</span><br>
-            <a href="#" class="tag">2015</a>
-            <a href="#" class="tag">bilingual</a>
-            <a href="#" class="tag">black</a>
-            <a href="#" class="tag">branding</a>
-            <a href="#" class="tag">classical</a>
-            <a href="#" class="tag">google maps</a>
-            <a href="#" class="tag">grey</a><br>
-            <a href="#" class="tag">music</a>
-            <a href="#" class="tag">ottawa</a>
-            <a href="#" class="tag">print</a>
-            <a href="#" class="tag">social media</a>
-            <a href="#" class="tag">stripe</a>
-            <a href="#" class="tag">web design</a>
-            <a href="#" class="tag">web development</a>
-            <a href="#" class="tag">white</a>
-          </p>
-
-          <p class="bit-1 mobile-only">
+          <p class="bit-2">
             <span class="bold">Tags</span><br>
             <a href="#" class="tag">2015</a>
             <a href="#" class="tag">bilingual</a>

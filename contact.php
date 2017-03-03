@@ -57,7 +57,7 @@
           <textarea id="message" name="message" placeholder="message" rows="10"></textarea>
         </div>
 
-        <p class="right">
+        <p class="bit-1">
           <a href="#" type="submit" class="btn">submit&nbsp;&nbsp;<span class="icon submit">&uarr;</span></a>
         </p>
         

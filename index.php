@@ -20,7 +20,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
-      <div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>
+      <div class="main-jumbotron" style="background-image: url('/assets/svg/creative-spectrums-concentric-form-grey.svg')"></div>
 
     </header>
 
@@ -145,18 +145,18 @@
           </a>
           
           <a href="/projects/mimib.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-01.jpg"></div>
+            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
           </a>
 
           <a href="/projects/master-piano-recital-series.php">
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-1.jpg"></div>
           </a>
 
-          <a href="/project/la-parapharmacie.php">
-            <div class="bit-2 img-1-1 lazy mg-b" data-original="/assets/img/la-parapharmacie.jpg"></div>
+          <a href="/projects/la-parapharmacie.php">
+            <div class="bit-2 img-1-1 lazy" data-original="/assets/svg/la-parapharmacie-logo.svg"></div>
           </a>
 
-          <p class="bit-1">
+          <p class="bit-1 mg-t">
             <a href="/work.php" class="btn">view all&nbsp;&nbsp;<span class="icon">&rarr;</span></a>
           </p>
         
@@ -174,25 +174,25 @@
         <section>
 
           <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-01.jpg"></div>
+            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
               
             </div>
           </a>
 
           <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-01.jpg"></div>
+            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
               
             </div>
           </a>
 
           <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-01.jpg"></div>
+            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
               
             </div>
           </a>
 
           <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-01.jpg"></div>
+            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
               
             </div>
           </a>

@@ -56,15 +56,15 @@
             
             <p>
               <span class="bold">Deliverables</span><br>
-              New visual identity &amp; brand guidelines<br>
-              E-commerce website design &amp; development<br>
-              Promotional material: flyers, posters, programmes<br>
-              Ponctual social media announcements
+              - New visual identity &amp; brand guidelines<br>
+              - E-commerce website design &amp; development<br>
+              - Promotional material: flyers, posters, programmes<br>
+              - Social media assets &amp; announcements
             </p>
 
             <p>
               <span class="bold">Color Palette</span><br>
-              <span class="color-swatch master-piano-recital-series-white border"></span>
+              <span class="color-swatch border white"></span>
               <span class="color-swatch master-piano-recital-series-black"></span>
               <span class="color-swatch master-piano-recital-series-grey"></span>
             </p>
@@ -75,8 +75,8 @@
               <a href="https://www.fonts.com/font/adobe/kepler?QueryFontType=Web&src=GoogleWebFonts" target="_blank" class="link">Kepler&trade;&nbsp;&nearr;</a>
             </p>
 
-            <p class="right">
-              <a href="/assets/pdf/master-piano-recital-series-proposal.pdf" target="_blank" class="btn">download proposal&nbsp;&nbsp;<span class="icon download">&rarr;</span></a>
+            <p class="bit-1">
+              <a href="/assets/pdf/master-piano-recital-series-brand-guidelines.pdf" target="_blank" class="btn">download guidelines&nbsp;&nbsp;<span class="icon download">&rarr;</span></a>
             </p>
 
             <p class="bit-1 right">
@@ -169,8 +169,7 @@
   
   </div>
 
-  <!--<script src="js/slideshow.js"></script>-->
-  <script src="/js/overlay.js"></script>
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/scripts.php"; include_once($path); ?>
 
 </body>
 

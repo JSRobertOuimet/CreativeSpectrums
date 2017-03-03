@@ -57,9 +57,9 @@
           
             <p>
               <span class="bold">Deliverables</span><br>
-              New visual identity<br>
-              Landing page design<br>
-              Web application design
+              - New visual identity<br>
+              - Landing page design<br>
+              - Web application design
             </p>
 
             <p>
@@ -138,7 +138,7 @@
         <footer class="bit-1 other-projects">
           <h2 class="title-small">Other Projects</h2>
           <a href="/projects/mimib.php">
-            <div class="bit-2 other-project-prev" style="background-image: url('../../assets/img/mimib/mimib-photo-01.jpg')">
+            <div class="bit-2 other-project-prev" style="background-image: url('../../assets/img/mimib/mimib-photo-1.jpg')">
               <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>
             </div>
           </a>
@@ -157,8 +157,7 @@
   
   </div>
 
-  <!--<script src="js/slideshow.js"></script>-->
-  <script src="/js/overlay.js"></script>
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/scripts.php"; include_once($path); ?>
 
 </body>
 

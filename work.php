@@ -17,11 +17,7 @@
 
     <!--Main header-->
     <header class="bit-1">
-
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
-
-      <div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>
-
     </header>
 
     <!--Main Content-->
@@ -42,19 +38,19 @@
           </header>
 
           <a href="/projects/assent-compliance.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-on-image.jpg"></div>
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-on-image.jpg"></div>
           </a>
           
           <a href="/projects/mimib.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-01.jpg"></div>
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
           </a>
 
           <a href="/projects/master-piano-recital-series.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-1.jpg"></div>
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-1.jpg"></div>
           </a>
 
-          <a href="/project/la-parapharmacie.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie.jpg"></div>
+          <a href="/projects/la-parapharmacie.php">
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/la-parapharmacie.jpg"></div>
           </a>
         
         </section>

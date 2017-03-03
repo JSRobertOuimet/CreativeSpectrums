@@ -20,7 +20,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
-      <!--<div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>-->
+      <!--<div class="main-jumbotron" style="background-image: url('/assets/svg/creative-spectrums-concentric-form-grey.svg')"></div>-->
       
     </header>
 
@@ -102,11 +102,9 @@
 
         </div>
 
-        <div class="bit-1 mg-t">
-          <p class="right">
-            <a href="/assets/pdf/jean-simon-robert-ouimet-resume.pdf" target="_blank" class="btn">download résumé&nbsp;&nbsp;<span class="icon download">&rarr;</span></a>
-          </p>
-        </div>
+        <p class="bit-1 mg-t">
+          <a href="/assets/pdf/jean-simon-robert-ouimet-resume.pdf" target="_blank" class="btn">download résumé&nbsp;&nbsp;<span class="icon download">&rarr;</span></a>
+        </p>
 
       </section>
 

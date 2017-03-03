@@ -20,7 +20,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
-      <div class="project-jumbotron" style="background-image: url('/assets/img/mimib/mimib-photo-1.jpg')"></div>
+      <div class="project-jumbotron" style="background-image: url('/assets/img/la-parapharmacie/la-parapharmacie-le-papa-de-la-para.jpg')"></div>
 
     </header>
 
@@ -84,8 +84,6 @@
             <div class="bit-1">
 
               <img class="bit-1 img-1-1 lazy mg-t" src="/assets/svg/la-parapharmacie-logo.svg">
-
-              <img class="bit-1 img-2-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-le-papa-de-la-para.jpg" width="100%">
 
               <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-allergy.jpg">
               <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-digestion.jpg">

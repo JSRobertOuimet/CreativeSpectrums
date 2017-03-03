@@ -50,7 +50,7 @@
           </a>
 
           <a href="/projects/la-parapharmacie.php">
-            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/la-parapharmacie.jpg"></div>
+            <img class="bit-3 img-1-1 lazy" src="/assets/svg/la-parapharmacie-logo.svg">
           </a>
         
         </section>

@@ -8,7 +8,7 @@
   <title>Creative Spectrums &ndash; About</title>
 
   <!--Main stylesheet-->
-  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
@@ -116,8 +116,7 @@
         
   </div>
 
-  <!--<script src="/js/slideshow.js"></script>-->
-  <script src="js/overlay.js"></script>
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/scripts.php"; include_once($path); ?>
 
 </body>
 

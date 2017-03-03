@@ -8,7 +8,7 @@
   <title>Master Piano Recital Series</title>
 
   <!--Main stylesheet-->
-  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>

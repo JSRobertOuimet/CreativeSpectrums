@@ -98,10 +98,10 @@
               <img class="bit-3 img-1-1 lazy" src="/assets/svg/la-parapharmacie-icon-reversed-blue.svg">
               <img class="bit-3 img-1-1 lazy" src="/assets/svg/la-parapharmacie-icon-reversed-green.svg">
 
-              <img class="bit-2 img-1-1 lazy" style="background-image: url('/assets/img/la-parapharmacie/la-parapharmacie-addresses-clinique-intersante.jpg">
-              <img class="bit-2 img-1-1 lazy" style="background-image: url('/assets/img/la-parapharmacie/la-parapharmacie-addresses-crudessence.jpg">
-              <img class="bit-2 img-1-1 lazy" style="background-image: url('/assets/img/la-parapharmacie/la-parapharmacie-addresses-portes-de-sante-et-equilibre-lory.jpg">
-              <img class="bit-2 img-1-1 lazy" style="background-image: url('/assets/img/la-parapharmacie/la-parapharmacie-addresses-sante-alchimiste-en-herbe.jpg">
+              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-addresses-clinique-intersante.jpg">
+              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-addresses-crudessence.jpg">
+              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-addresses-portes-de-sante-et-equilibre-lory.jpg">
+              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-addresses-sante-alchimiste-en-herbe.jpg">
 
               <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-appointement.jpg" width="100%">
               <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-order.jpg" width="100%">

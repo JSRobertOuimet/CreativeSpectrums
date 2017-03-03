@@ -76,7 +76,11 @@
             </p>
 
             <p class="right">
-              <a href="/assets/pdf/MPRS_Branding_Guide_Proposal.pdf" target="_blank" class="btn">download proposal&nbsp;&nbsp;<span class="icon download">&rarr;</span></a>
+              <a href="/assets/pdf/master-piano-recital-series-proposal.pdf" target="_blank" class="btn">download proposal&nbsp;&nbsp;<span class="icon download">&rarr;</span></a>
+            </p>
+
+            <p class="bit-1 right">
+              <a href="https://masterpianorecitalseries.com/" target="_blank" class="btn">view website&nbsp;&nearr;</a>
             </p>
 
           </div>
@@ -118,10 +122,6 @@
 
             <img class="img mg-b" src="../../assets/img/master-piano-recital-series/master-piano-recital-series-poster.jpg" width="100%">
             <img class="img mg-b" src="../../assets/img/master-piano-recital-series/master-piano-recital-series-fb-ad.jpg" width="100%">
-
-            <p class="bit-1 right">
-              <a href="https://masterpianorecitalseries.com/" target="_blank" class="btn">view website&nbsp;&nearr;</a>
-            </p>
 
           </div>
 

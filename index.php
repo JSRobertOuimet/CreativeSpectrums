@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +18,7 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
       <div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>
 
@@ -138,7 +137,7 @@
         <section>
         
           <header>
-            <h2 class="bit-1 title-small">Branding</h2>
+            <h2 class="bit-1 title-small">Latest</h2>
           </header>
 
           <a href="/projects/assent-compliance.php">
@@ -154,213 +153,16 @@
           </a>
 
           <a href="/project/la-parapharmacie.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie.jpg"></div>
+            <div class="bit-2 img-1-1 lazy mg-b" data-original="/assets/img/la-parapharmacie.jpg"></div>
           </a>
+
+          <p class="bit-1">
+            <a href="/work.php" class="btn">view all&nbsp;&nbsp;<span class="icon">&rarr;</span></a>
+          </p>
         
         </section>
 
-        <!--Logos-->
-        <section>
-
-          <header>
-            <h2 class="bit-1 title-small">Logos</h2>
-          </header>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/quadrant-engineering-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/la-naturopathe-en-ville-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/echo-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/regions-en-sante-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/retrofico-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/cote-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/officine-des-supplements-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/task-angels-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/libido-guru-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/rideau-canal-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/black-swan-nutrition-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/expert-piano-plateau-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/doors-open-for-music-at-southminster-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/concerts-on-the-canal-logo.svg" type="image/svg+xml"></div>
-          </a>
-
-        </section>
-
-        <!--Icons-->
-        <!--<section>
-
-          <header>
-            <h2 class="bit-1 title-small">Icons</h3>
-          </header>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/la-naturopathe-en-ville-icon.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/officine-des-supplements-icon.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/task-angels-icon.svg" type="image/svg+xml"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/libido-guru-icon.svg" type="image/svg+xml"></div>
-          </a>
-
-        </section>-->
-
-        <!--Print-->
-        <section>
-
-          <header>
-            <h2 class="bit-1 title-small">Print</h3>
-          </header>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/anaq-publicity.jpg"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/angelard-business-card.jpg"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/oicrm-programme.jpg"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/denis-gougeon-poster.jpg"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/all-the-secrets-you-ve-kept-till-now-murale.jpg"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/regions-en-sante-business-card.jpg"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/task-angels-business-card.jpg"></div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="assets/img/other-work/officine-des-supplements-business-card.jpg"></div>
-          </a>
-
-        </section>
-
       </article>
-
-      <!--Testimonials-->
-      <!--<article>
-        <header class="bit-1">
-          <h1 class="title-big">Testimonials</h1>
-          <h2 class="title-small">What they say.</h2>
-        </header>
-
-        <div class="slideshow-container">
-          <section class="mySlides fade testimonial" style="display: none;">
-            <div class="frame">
-              <div class="bit-3 desktop-only">
-                <div class="avatar"></div>
-              </div>
-              <div class="bit-66">
-                <p>“Jean-Simon est assidu, cultivé et sait garder le focus sur les résultats. Nous avons travaillé ensemble sur plusieurs mandats et à chaque fois, il a été un joueur clé pour lequel le statut quo n&#8217;est pas une option.”</p>
-                <p class="right"><span class="bold">Amine Lahlou</span>, CTO &commat; <a href="http://smbsol.com/" target="_blank">Symbiosys</a></p>
-              </div>
-            </div>
-          </section>
-
-          <section class="mySlides fade testimonial" style="display: none;">
-            <div>
-              <div class="bit-3">
-                <div class="avatar"></div>
-              </div>
-              <div class="bit-66">
-                <p >“Nous avons été très heureux de travailler avec Jean-Simon à l&#8217;élaboration d&#8217;un concept visuel basé sur une musique. Jean-Simon a fait la création et la réalisation d&#8217;une oeuvre graphique très inspirée qui a ensuite été imprimée sur tissus. Dans cette réalisation, son talent de designer et son expérience en musique ont été très profitables. Bravo.”</p>
-                <p class="right"><span class="bold">Lucie Charbonneau</span>, Artistic Director &commat; <a href="http://www.atypic.ca/en/" target="_blank">Atypic</a></p>
-              </div>
-            </div>          
-          </section>
-
-          <section class="mySlides fade testimonial" style="display: none;">
-            <div class="frame">
-              <div class="bit-3">
-                <div class="avatar"></div>
-              </div>
-              <div class="bit-66">
-                <p >“Je reçois des commentaires élogieux de la part de hauts dirigeants, et à l&#8217;unanimité, on me dit que cette carte [d&#8217;affaires] exceptionnelle est à l&#8217;image du service et de la coach d&#8217;exception que je suis. Je tiens personnellement à vous dire que vous avez répondu en tous points à mes besoins. Vous avez été le prolongement de ma créativité, l&#8217;écho de mes aspirations!”</p>
-                <p class="right"><span class="bold">Lina Côté</span>, Business Consultant &commat; <a href="http://www.coachdexception.com/" target="_blank">Coach d&#8217;exception</a></p>
-              </div>
-            </div>          
-          </section>
-
-          <section class="mySlides fade testimonial" style="display: none;">
-            <div>
-              <div class="bit-3">
-                <div class="avatar"></div>
-              </div>
-              <div class="bit-66">
-                <p >“Jean-Simon is very accommodating and understanding when it comes to client graphic design requirements. His input was helpful, communication was prompt and to the point. Great attention to detail and eye for style.”</p>
-                <p class="right"><span class="bold">Kyle van Riemsdyk</span>, Mechanical Designer &commat; <a href="http://www.gwal.com/" target="_blank">Goodkey Weedmark</a></p>
-              </div>
-            </div>
-          </section>
-
-          <section class="mySlides fade testimonial" style="display: block;">
-            <div>
-              <div class="bit-3">
-                <div class="avatar"></div>
-              </div>
-            </div>
-            <div class="bit-66">
-              <p >“Professionnel, créatif, à l'écoute et très habile techniquement, je le recommande fortement.”</p>
-            <p ><span class="bold">Rémy Vanherweghem</span>, Product Manager &commat; <a href="http://kemsolutions.com/" target="_blank">KEM Solutions</a></p>
-            </div>
-          </section>
-        </div>
-      </article>-->
 
       <!--Thoughts-->
       <!--<article>
@@ -403,7 +205,7 @@
       <article>
       
         <header class="bit-1">
-          <h1 class="title-small">Newsletter</h1>
+          <h1 class="title-big">Newsletter</h1>
         </header>
 
         <section>
@@ -431,11 +233,11 @@
 
     </main>
 
-    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/footer.php"; include_once($path); ?>
+    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/footer.php"; include_once($path); ?>
   
   </div>
 
-  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/scripts.php"; include_once($path); ?>
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/scripts.php"; include_once($path); ?>
 
 </body>
 

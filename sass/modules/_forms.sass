@@ -39,6 +39,10 @@ input[type=submit]
   cursor: pointer
   &:hover
     background: transparentize($primary-color, 0.25)
+  @media screen and (max-width: $small)
+    display: block
+    width: 100%
+    text-align: center
 
 label
   position: absolute

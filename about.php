@@ -18,7 +18,7 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
       <!--<div class="main-jumbotron" style="background-image: url('/assets/img/concentric-form-grey.svg')"></div>-->
       
@@ -112,11 +112,11 @@
 
     </article>
 
-    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/footer.php"; include_once($path); ?>
+    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/footer.php"; include_once($path); ?>
         
   </div>
 
-  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/scripts.php"; include_once($path); ?>
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/scripts.php"; include_once($path); ?>
 
 </body>
 

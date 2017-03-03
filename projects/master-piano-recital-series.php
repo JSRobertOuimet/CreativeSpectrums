@@ -18,7 +18,7 @@
     <!--Main header-->
     <header class="bit-1">
 
-      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/navbar.php"; include_once($path); ?>
+      <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
       <div class="project-jumbotron" style="background-image: url('/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-1.jpg')"></div>
 
@@ -165,7 +165,7 @@
 
     </main>
     
-    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/common/footer.php"; include_once($path); ?>
+    <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/footer.php"; include_once($path); ?>
   
   </div>
 

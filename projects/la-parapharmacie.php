@@ -20,7 +20,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
-      <div class="project-jumbotron" style="background-image: url('/assets/img/la-parapharmacie/la-parapharmacie-le-papa-de-la-para.jpg')"></div>
+      <div class="project-jumbotron lazy" data-original="/assets/svg/la-parapharmacie-logo.svg"></div>
 
     </header>
 
@@ -83,26 +83,26 @@
           
             <div class="bit-1">
 
-              <img class="bit-1 img-1-1 lazy mg-t" src="/assets/svg/la-parapharmacie-logo.svg">
+              <div class="bit-1 img-2-1 lazy mg-t" data-original="/assets/img/la-parapharmacie/la-parapharmacie-le-papa-de-la-para.jpg"></div>
 
-              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-allergy.jpg">
-              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-digestion.jpg">
-              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-liver.jpg">
-              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-reflux.jpg">
+              <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-allergy.jpg"></div>
+              <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-digestion.jpg"></div>
+              <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-liver.jpg"></div>
+              <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-reflux.jpg"></div>
               
-              <img class="bit-1 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-norms-product-creation.jpg" width="100%">
+              <img class="bit-1 img-1-1" src="/assets/img/la-parapharmacie/la-parapharmacie-norms-product-creation.jpg">
 
-              <img class="bit-3 img-1-1 lazy" src="/assets/svg/la-parapharmacie-icon.svg">
-              <img class="bit-3 img-1-1 lazy" src="/assets/svg/la-parapharmacie-icon-reversed-blue.svg">
-              <img class="bit-3 img-1-1 lazy" src="/assets/svg/la-parapharmacie-icon-reversed-green.svg">
+              <div class="bit-3 img-1-1 lazy" data-original="/assets/svg/la-parapharmacie-icon.svg"></div>
+              <div class="bit-3 img-1-1 lazy" data-original="/assets/svg/la-parapharmacie-icon-reversed-blue.svg"></div>
+              <div class="bit-3 img-1-1 lazy" data-original="/assets/svg/la-parapharmacie-icon-reversed-green.svg"></div>
 
-              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-addresses-clinique-intersante.jpg">
-              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-addresses-crudessence.jpg">
-              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-addresses-portes-de-sante-et-equilibre-lory.jpg">
-              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-addresses-sante-alchimiste-en-herbe.jpg">
+              <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-addresses-clinique-intersante.jpg"></div>
+              <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-addresses-crudessence.jpg"></div>
+              <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-addresses-portes-de-sante-et-equilibre-lory.jpg"></div>
+              <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-addresses-sante-alchimiste-en-herbe.jpg"></div>
 
-              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-appointement.jpg" width="100%">
-              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-order.jpg" width="100%">
+              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-appointement.jpg">
+              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-order.jpg">
 
             </div>
 

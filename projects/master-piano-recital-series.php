@@ -20,7 +20,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
-      <div class="project-jumbotron" style="background-image: url('/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-1.jpg')"></div>
+      <div class="project-jumbotron lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-1.jpg"></div>
 
     </header>
 
@@ -42,7 +42,7 @@
             
             <p>
               <span class="bold">Client</span><br>
-              <a href="https://masterpianorecitalseries.com/" target="_blank" class="link">Master Piano Recital Series&nbsp;&nearr;</a>
+              Master Piano Recital Series
             </p>
 
             <p>
@@ -92,40 +92,40 @@
 
           <div class="bit-1 mg-t">
 
-            <!--<div class="bit-1">
-              <div class="img-2-1" style="background-image: url('../../assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-2.jpg')"></div>
-            </div>-->
-
             <div class="bit-2">
-              <div class="img-1-1" style="background-image: url('../../assets/svg/master-piano-recital-series-logo.svg')"></div>
+              <div class="img-1-1 lazy" data-original="/assets/svg/master-piano-recital-series-logo.svg"></div>
             </div>
               
             <div class="bit-2">
-              <div class="img-1-1" style="background-image: url('../../assets/svg/master-piano-recital-series-logo-reversed.svg')"></div>
+              <div class="img-1-1 lazy" data-original="/assets/svg/master-piano-recital-series-logo-reversed.svg"></div>
             </div>
 
             <div class="bit-3">
-              <div class="img-1-1" style="background-image: url('../../assets/img/master-piano-recital-series/master-piano-recital-series-concert-1-square.jpg')"></div>
+              <div class="img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-1-square.jpg"></div>
             </div>
 
             <div class="bit-3">
-              <div class="img-1-1" style="background-image: url('../../assets/img/master-piano-recital-series/master-piano-recital-series-concert-2-square.jpg')"></div>
+              <div class="img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-2-square.jpg"></div>
             </div>
 
             <div class="bit-3">
-              <div class="img-1-1" style="background-image: url('../../assets/img/master-piano-recital-series/master-piano-recital-series-concert-3-square.jpg')"></div>
+              <div class="img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-3-square.jpg"></div>
             </div>
 
-            <img class="img mg-b" src="../../assets/img/master-piano-recital-series/master-piano-recital-series-concert-1-rectangle.jpg" width="100%">
-            <img class="img mg-b" src="../../assets/img/master-piano-recital-series/master-piano-recital-series-concert-2-rectangle.jpg" width="100%">
-            <img class="img mg-b" src="../../assets/img/master-piano-recital-series/master-piano-recital-series-concert-3-rectangle.jpg" width="100%">
+            <div class="bit-1">
+              <div class="img-2-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-2.jpg"></div>
+            </div>
 
-            <img class="img mg-b" src="../../assets/img/master-piano-recital-series/master-piano-recital-series-poster.jpg" width="100%">
-            <img class="img mg-b" src="../../assets/img/master-piano-recital-series/master-piano-recital-series-fb-ad.jpg" width="100%">
+            <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-1-rectangle.jpg" width="100%">
+            <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-2-rectangle.jpg" width="100%">
+            <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-3-rectangle.jpg" width="100%">
+
+            <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-poster.jpg" width="100%">
+            <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-fb-ad.jpg" width="100%">
 
           </div>
 
-          <p class="bit-2">
+          <p class="bit-2 mg-t">
             <span class="bold">Tags</span><br>
             <a href="#" class="tag">2015</a>
             <a href="#" class="tag">bilingual</a>
@@ -150,7 +150,7 @@
         <footer class="bit-1 other-projects">
           <h2 class="title-small">Other Projects</h2>
           <a href="/projects/mimib.php">
-            <div class="bit-2 other-project-prev" style="background-image: url('../../assets/img/master-piano-recital-series/01.jpg')">
+            <div class="bit-2 other-project-prev" data-original="/assets/img/master-piano-recital-series/01.jpg">
               <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>
             </div>
           </a>

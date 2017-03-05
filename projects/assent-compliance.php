@@ -20,7 +20,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
-      <div class="project-jumbotron" style="background-image: url('../../assets/img/assent-compliance/assent-compliance-logo-on-image.jpg')"></div>
+      <div class="project-jumbotron lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-on-image.jpg"></div>
 
     </header>
 
@@ -83,40 +83,40 @@
           <div class="bit-1 mg-t">
 
             <div class="bit-2">
-              <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/assent-compliance-logo-reversed-orange.jpg')"></div>
+              <div class="img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-reversed-orange.jpg"></div>
             </div>
             <div class="bit-2">
-              <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/assent-compliance-logo-reversed-grey.jpg')"></div>
+              <div class="img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-reversed-grey.jpg"></div>
             </div>
 
           </div>
 
           <div class="bit-3">
-            <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/assent-compliance-logo-typography-1.jpg')"></div>
+            <div class="img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-typography-1.jpg"></div>
           </div>
 
           <div class="bit-3">
-            <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/assent-compliance-logo-graph.jpg')"></div>
+            <div class="img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-graph.jpg"></div>
           </div>
 
           <div class="bit-3">
-            <div class="img-1-1" style="background-image: url('../../assets/img/assent-compliance/assent-compliance-logo-typography-2.jpg')"></div>
+            <div class="img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-typography-2.jpg"></div>
           </div>
 
           <div class="bit-1">
-            <div class="img-2-1" style="background-image: url('../../assets/img/assent-compliance/assent-compliance-logo-icons.jpg')"></div>
+            <div class="img-2-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-icons.jpg"></div>
           </div>
 
           <div class="bit-1">
-            <div class="img-2-1 mg-b" style="background-image: url('../../assets/img/assent-compliance/assent-compliance-logo-outlined.jpg')"></div>
+            <div class="img-2-1 lazy mg-b" data-original="/assets/img/assent-compliance/assent-compliance-logo-outlined.jpg"></div>
           </div>
 
-          <img class="img mg-b" src="../../assets/img/assent-compliance/assent-compliance-landing-page.jpg" width="100%">
-          <img class="img mg-b" src="../../assets/img/assent-compliance/assent-compliance-web-application-1.jpg" width="100%">
-          <img class="img mg-b" src="../../assets/img/assent-compliance/assent-compliance-web-application-2.jpg" width="100%">
-          <img class="img mg-b" src="../../assets/img/assent-compliance/assent-compliance-web-application-3.jpg" width="100%">
-          <img class="img mg-b" src="../../assets/img/assent-compliance/assent-compliance-web-application-4.jpg" width="100%">
-          <img class="img mg-b" src="../../assets/img/assent-compliance/assent-compliance-web-application-5.jpg" width="100%">
+          <img class="img mg-b lazy" src="/assets/img/assent-compliance/assent-compliance-landing-page.jpg" width="100%">
+          <img class="img mg-b lazy" src="/assets/img/assent-compliance/assent-compliance-web-application-1.jpg" width="100%">
+          <img class="img mg-b lazy" src="/assets/img/assent-compliance/assent-compliance-web-application-2.jpg" width="100%">
+          <img class="img mg-b lazy" src="/assets/img/assent-compliance/assent-compliance-web-application-3.jpg" width="100%">
+          <img class="img mg-b lazy" src="/assets/img/assent-compliance/assent-compliance-web-application-4.jpg" width="100%">
+          <img class="img mg-b lazy" src="/assets/img/assent-compliance/assent-compliance-web-application-5.jpg" width="100%">
 
           <p class="bit-2">
             <span class="bold">Tags</span><br>
@@ -125,7 +125,7 @@
             <a href="#" class="tag">branding</a>
             <a href="#" class="tag">compliance</a>
             <a href="#" class="tag">environment</a>
-            <a href="#" class="tag">grey</a><br>
+            <a href="#" class="tag">grey</a>
             <a href="#" class="tag">orange</a>
             <a href="#" class="tag">ottawa</a>   
             <a href="#" class="tag">ui/ux</a>
@@ -138,7 +138,7 @@
         <footer class="bit-1 other-projects">
           <h2 class="title-small">Other Projects</h2>
           <a href="/projects/mimib.php">
-            <div class="bit-2 other-project-prev" style="background-image: url('../../assets/img/mimib/mimib-photo-1.jpg')">
+            <div class="bit-2 other-project-prev" data-original="/assets/img/mimib/mimib-photo-1.jpg">
               <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>
             </div>
           </a>

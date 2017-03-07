@@ -28,7 +28,7 @@
               Branding,<br>
               Print &amp; Web
             </h1>
-            <p class="no-m3">Discover&nbsp;&nbsp;<span class="icon">&darr;</span></p>
+            <p class="no-m3">discover&nbsp;&nbsp;<span class="icon">&darr;</span></p>
           </div>        
         </div>
       
@@ -54,19 +54,27 @@
           </header>
 
           <a href="/projects/assent-compliance.php">
-            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-on-image.jpg"></div>
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-on-image.jpg">
+              <h3>explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
+            </div>
           </a>
 
           <a href="/projects/la-parapharmacie.php">
-            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-logo-on-image-thumbnail.jpg"></div>
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-logo-on-image-thumbnail.jpg">
+              <h3>explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
+            </div>
           </a>
 
           <a href="/projects/master-piano-recital-series.php">
-            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-thumbnail.jpg"></div>
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-thumbnail.jpg">
+              <h3>explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
+            </div>
           </a>
 
           <a href="/projects/mimib.php">
-            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/mimib/mimib-logo-on-image-thumbnail.jpg"></div>
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/mimib/mimib-logo-on-image-thumbnail.jpg">
+              <h3>explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
+            </div>
           </a>
 
           <p class="bit-1 mg-t">
@@ -78,7 +86,7 @@
       </article>
 
       <!--Newsletter-->
-      <article>
+      <!--<article>
       
         <header class="bit-1">
           <h1 class="title-big">Newsletter</h1>
@@ -103,7 +111,7 @@
           </form>
         </section>
 
-      </article>
+      </article>-->
 
       <!--<a href="http://www.1and1.com/web-hosting?kwk=520623385&ac=OM.US.US930K244547B7030a" rel="nofollow"><img src="http://adimg.uimserv.net/1und1/KWK/Classic-Hosting/US/NewHosting_kwk_us_sw_728x90.gif"/></a>-->
 

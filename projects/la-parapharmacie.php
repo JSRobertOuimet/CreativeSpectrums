@@ -109,14 +109,14 @@
 
             <p class="bit-2 mg-t">
               <span class="bold">Tags</span><br>
-              <a href="#" class="tag">2015</a>
-              <a href="#" class="tag">blue</a>
-              <a href="#" class="tag">branding</a>
-              <a href="#" class="tag">green</a>
-              <a href="#" class="tag">layout</a>
-              <a href="#" class="tag">montreal</a>
-              <a href="#" class="tag">health</a>
-              <a href="#" class="tag">print</a>
+              <span class="tag">2015</span>
+              <span class="tag">blue</span>
+              <span class="tag">branding</span>
+              <span class="tag">green</span>
+              <span class="tag">layout</span>
+              <span class="tag">montreal</span>
+              <span class="tag">health</span>
+              <span class="tag">print</span>
             </p>
 
             <p class="bit-1 mg-t">

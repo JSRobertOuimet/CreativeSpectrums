@@ -123,15 +123,15 @@
 
             <p class="bit-2 mg-t">
               <span class="bold">Tags</span><br>
-              <a href="#" class="tag">2015</a>
-              <a href="#" class="tag">branding</a>
-              <a href="#" class="tag">diy</a>
-              <a href="#" class="tag">fashion</a>
-              <a href="#" class="tag">multimedia</a>
-              <a href="#" class="tag">ottawa</a>
-              <a href="#" class="tag">print</a>
-              <a href="#" class="tag">rose</a>
-              <a href="#" class="tag">sewing</a>
+              <span class="tag">2015</span>
+              <span class="tag">branding</span>
+              <span class="tag">diy</span>
+              <span class="tag">fashion</span>
+              <span class="tag">multimedia</span>
+              <span class="tag">ottawa</span>
+              <span class="tag">print</span>
+              <span class="tag">rose</span>
+              <span class="tag">sewing</span>
             </p>
 
             <p class="bit-1 mg-t">

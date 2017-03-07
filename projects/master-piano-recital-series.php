@@ -127,21 +127,21 @@
 
           <p class="bit-2 mg-t">
             <span class="bold">Tags</span><br>
-            <a href="#" class="tag">2015</a>
-            <a href="#" class="tag">bilingual</a>
-            <a href="#" class="tag">black</a>
-            <a href="#" class="tag">branding</a>
-            <a href="#" class="tag">classical</a>
-            <a href="#" class="tag">google maps</a>
-            <a href="#" class="tag">grey</a>
-            <a href="#" class="tag">music</a>
-            <a href="#" class="tag">ottawa</a>
-            <a href="#" class="tag">print</a>
-            <a href="#" class="tag">social media</a>
-            <a href="#" class="tag">stripe</a>
-            <a href="#" class="tag">web design</a>
-            <a href="#" class="tag">web development</a>
-            <a href="#" class="tag">white</a>
+            <span class="tag">2015</span>
+            <span class="tag">bilingual</span>
+            <span class="tag">black</span>
+            <span class="tag">branding</span>
+            <span class="tag">classical</span>
+            <span class="tag">google maps</span>
+            <span class="tag">grey</span>
+            <span class="tag">music</span>
+            <span class="tag">ottawa</span>
+            <span class="tag">print</span>
+            <span class="tag">social media</span>
+            <span class="tag">stripe</span>
+            <span class="tag">web design</span>
+            <span class="tag">web development</span>
+            <span class="tag">white</span>
           </p>
 
           <p class="bit-1 mg-t">

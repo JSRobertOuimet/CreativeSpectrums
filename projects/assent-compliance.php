@@ -120,16 +120,16 @@
 
           <p class="bit-2 mg-t">
             <span class="bold">Tags</span><br>
-            <a href="#" class="tag">2015</a>
-            <a href="#" class="tag">application design</a>
-            <a href="#" class="tag">branding</a>
-            <a href="#" class="tag">compliance</a>
-            <a href="#" class="tag">environment</a>
-            <a href="#" class="tag">grey</a>
-            <a href="#" class="tag">orange</a>
-            <a href="#" class="tag">ottawa</a>
-            <a href="#" class="tag">ui/ux</a>
-            <a href="#" class="tag">web design</a>
+            <span class="tag">2015</span>
+            <span class="tag">application design</span>
+            <span class="tag">branding</span>
+            <span class="tag">compliance</span>
+            <span class="tag">environment</span>
+            <span class="tag">grey</span>
+            <span class="tag">orange</span>
+            <span class="tag">ottawa</span>
+            <span class="tag">ui/ux</span>
+            <span class="tag">web design</span>
           </p>
 
           <p class="bit-1 mg-t">

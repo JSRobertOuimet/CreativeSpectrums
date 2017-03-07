@@ -28,7 +28,7 @@
               Branding,<br>
               Print &amp; Web
             </h1>
-            <p>Discover&nbsp;&nbsp;<span class="icon">&darr;</span></p>
+            <p class="no-mg">Discover&nbsp;&nbsp;<span class="icon">&darr;</span></p>
           </div>        
         </div>
       
@@ -56,17 +56,13 @@
           <a href="/projects/assent-compliance.php">
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-on-image.jpg"></div>
           </a>
-          
-          <a href="/projects/mimib.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
+
+          <a href="/projects/la-parapharmacie.php">
+            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-logo-on-image.jpg"></div>
           </a>
 
           <a href="/projects/master-piano-recital-series.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-1.jpg"></div>
-          </a>
-
-          <a href="/projects/la-parapharmacie.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/svg/la-parapharmacie-logo.svg"></div>
+            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image.jpg"></div>
           </a>
 
           <p class="bit-1 mg-t">

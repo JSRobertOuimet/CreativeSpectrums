@@ -121,11 +121,11 @@
             <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-3-rectangle.jpg" width="100%">
 
             <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-poster.jpg" width="100%">
-            <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-fb-ad.jpg" width="100%">
+            <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-fb-ad.jpg" width="100%">
 
           </div>
 
-          <p class="bit-2 mg-t">
+          <p class="bit-2 no-mg">
             <span class="bold">Tags</span><br>
             <span class="tag">2015</span>
             <span class="tag">bilingual</span>
@@ -144,28 +144,13 @@
             <span class="tag">white</span>
           </p>
 
-          <p class="bit-1 mg-t">
-            <a href="#" class="btn">back to top&nbsp;&nbsp;<span class="icon">&uarr;</span></a>
-          </p>
-
         </section>
 
         <!--Needs to be dynamic-->
         <footer class="bit-1 other-projects">
-          <p class="bit-1 mg-t">
+          <p class="bit-1 no-mg">
             <a href="/work.php" class="btn">other work&nbsp;&nbsp;<span class="icon">&rarr;</span></a>
           </p>
-          <!--<h2 class="title-small">Other Projects</h2>
-          <a href="/projects/mimib.php">
-            <div class="bit-2 other-project-prev" data-original="/assets/img/master-piano-recital-series/01.jpg">
-              <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>
-            </div>
-          </a>
-          <a href="/projects/">
-            <div class="bit-2 other-project-next" style="background: purple">
-              <h2 class="title-small no-mg">next&nbsp;&rarr;</h3>
-            </div>
-          </a>-->
         </footer>
 
       </article>

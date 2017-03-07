@@ -28,7 +28,7 @@
               Branding,<br>
               Print &amp; Web
             </h1>
-            <p class="no-m3">discover&nbsp;&nbsp;<span class="icon">&darr;</span></p>
+            <p class="no-mg subtitle">discover&nbsp;&nbsp;<span class="icon">&darr;</span></p>
           </div>        
         </div>
       

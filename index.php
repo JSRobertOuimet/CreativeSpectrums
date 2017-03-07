@@ -5,7 +5,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Creative Spectrums &ndash; Home</title>
+  <title>Creative Spectrums &ndash; Branding, Print &amp; Web</title>
 
   <!--Main stylesheet-->
   <link rel="stylesheet" href="css/main.css">
@@ -28,7 +28,7 @@
               Branding,<br>
               Print &amp; Web
             </h1>
-            <p class="no-mg">Discover&nbsp;&nbsp;<span class="icon">&darr;</span></p>
+            <p class="no-m3">Discover&nbsp;&nbsp;<span class="icon">&darr;</span></p>
           </div>        
         </div>
       
@@ -54,15 +54,19 @@
           </header>
 
           <a href="/projects/assent-compliance.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-on-image.jpg"></div>
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-on-image.jpg"></div>
           </a>
 
           <a href="/projects/la-parapharmacie.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-logo-on-image.jpg"></div>
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-logo-on-image-thumbnail.jpg"></div>
           </a>
 
           <a href="/projects/master-piano-recital-series.php">
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image.jpg"></div>
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-thumbnail.jpg"></div>
+          </a>
+
+          <a href="/projects/mimib.php">
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/mimib/mimib-logo-on-image-thumbnail.jpg"></div>
           </a>
 
           <p class="bit-1 mg-t">

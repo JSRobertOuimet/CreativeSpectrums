@@ -20,7 +20,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
-      <div class="project-jumbotron lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-1.jpg"></div>
+      <div class="project-jumbotron lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image.jpg"></div>
 
     </header>
 
@@ -116,12 +116,12 @@
               <div class="img-2-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-2.jpg"></div>
             </div>
 
-            <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-1-rectangle.jpg" width="100%">
-            <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-2-rectangle.jpg" width="100%">
-            <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-3-rectangle.jpg" width="100%">
+            <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-1-rectangle.jpg" width="100%">
+            <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-2-rectangle.jpg" width="100%">
+            <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-3-rectangle.jpg" width="100%">
 
-            <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-poster.jpg" width="100%">
-            <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-fb-ad.jpg" width="100%">
+            <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-poster.jpg" width="100%">
+            <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-fb-ad.jpg" width="100%">
 
           </div>
 
@@ -144,11 +144,18 @@
             <a href="#" class="tag">white</a>
           </p>
 
+          <p class="bit-1 mg-t">
+            <a href="#" class="btn">back to top&nbsp;&nbsp;<span class="icon">&uarr;</span></a>
+          </p>
+
         </section>
 
         <!--Needs to be dynamic-->
         <footer class="bit-1 other-projects">
-          <h2 class="title-small">Other Projects</h2>
+          <p class="bit-1 mg-t">
+            <a href="/work.php" class="btn">other work&nbsp;&nbsp;<span class="icon">&rarr;</span></a>
+          </p>
+          <!--<h2 class="title-small">Other Projects</h2>
           <a href="/projects/mimib.php">
             <div class="bit-2 other-project-prev" data-original="/assets/img/master-piano-recital-series/01.jpg">
               <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>
@@ -158,7 +165,7 @@
             <div class="bit-2 other-project-next" style="background: purple">
               <h2 class="title-small no-mg">next&nbsp;&rarr;</h3>
             </div>
-          </a>
+          </a>-->
         </footer>
 
       </article>

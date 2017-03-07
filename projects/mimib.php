@@ -20,7 +20,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
-      <div class="project-jumbotron lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
+      <div class="project-jumbotron lazy" data-original="/assets/img/mimib/mimib-logo-on-image.jpg"></div>
 
     </header>
 
@@ -78,6 +78,10 @@
           <section>
 
             <div class="bit-1 mg-t">
+              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-white.svg"></div>
+            </div>
+
+            <div class="bit-1">
             
               <div class="bit-2">
                 <div class="img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-2.jpg"></div>
@@ -87,6 +91,22 @@
                 <div class="img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-3.jpg"></div>
               </div>
             
+            </div>
+
+            <div class="bit-4">
+              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-red.svg"></div>
+            </div>
+
+            <div class="bit-4">
+              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-rose.svg"></div>
+            </div>
+
+            <div class="bit-4">
+              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-yellow.svg"></div>
+            </div>
+
+            <div class="bit-4">
+              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-green.svg"></div>
             </div>
 
             <div class="bit-3">
@@ -101,7 +121,7 @@
               <div class="img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-6.jpg"></div>
             </div>
 
-            <p class="bit-2">
+            <p class="bit-2 mg-t">
               <span class="bold">Tags</span><br>
               <a href="#" class="tag">2015</a>
               <a href="#" class="tag">branding</a>
@@ -114,11 +134,18 @@
               <a href="#" class="tag">sewing</a>
             </p>
 
+            <p class="bit-1 mg-t">
+              <a href="#" class="btn">back to top&nbsp;&nbsp;<span class="icon">&uarr;</span></a>
+            </p>
+
           </section>
 
           <!--Needs to be dynamic-->
           <footer class="bit-1 other-projects">
-            <h2 class="title-small">Other Projects</h2>
+            <p class="bit-1 mg-t">
+              <a href="/work.php" class="btn">other work&nbsp;&nbsp;<span class="icon">&rarr;</span></a>
+            </p>
+            <!--<h2 class="title-small">Other Projects</h2>
             <a href="/projects/mimib.php">
               <div class="bit-2 other-project-prev" data-original="/assets/img/mimib/mimib-photo-1.jpg">
                 <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>
@@ -128,7 +155,7 @@
               <div class="bit-2 other-project-next" style="background: purple">
                 <h2 class="title-small no-mg">next&nbsp;&rarr;</h3>
               </div>
-            </a>
+            </a>-->
           </footer>
 
       </article>

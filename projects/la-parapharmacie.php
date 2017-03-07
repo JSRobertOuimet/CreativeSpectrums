@@ -20,7 +20,7 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
-      <div class="project-jumbotron lazy" data-original="/assets/svg/la-parapharmacie-logo.svg"></div>
+      <div class="project-jumbotron lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-logo-on-image.jpg"></div>
 
     </header>
 
@@ -30,7 +30,7 @@
       <!--Project-->
       <article>
         <header>
-          <h1 class="title-big">La Parapharmacie</h1>
+          <h1 class="title-big" style="letter-spacing: -1.25px;">La Parapharmacie</h1>
           <h2 class="title-small">Project Details</h2>
         </header>
 
@@ -83,7 +83,8 @@
           
             <div class="bit-1">
 
-              <div class="bit-1 img-2-1 lazy mg-t" data-original="/assets/img/la-parapharmacie/la-parapharmacie-le-papa-de-la-para.jpg"></div>
+              <div class="bit-1 img-2-1 lazy mg-t" data-original="/assets/svg/la-parapharmacie-logo.svg"></div>
+              <div class="bit-1 img-2-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-le-papa-de-la-para.jpg"></div>
 
               <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-allergy.jpg"></div>
               <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-digestion.jpg"></div>
@@ -118,11 +119,18 @@
               <a href="#" class="tag">print</a>
             </p>
 
+            <p class="bit-1 mg-t">
+              <a href="#" class="btn">back to top&nbsp;&nbsp;<span class="icon">&uarr;</span></a>
+            </p>
+
           </section>
 
           <!--Needs to be dynamic-->
           <footer class="bit-1 other-projects">
-            <h2 class="title-small">Other Projects</h2>
+            <p class="bit-1 mg-t">
+              <a href="/work.php" class="btn">other work&nbsp;&nbsp;<span class="icon">&rarr;</span></a>
+            </p>
+            <!--<h2 class="title-small">Other Projects</h2>
             <a href="/projects/mimib.php">
               <div class="bit-2 other-project-prev" style="background-image: url('/assets/img/mimib/mimib-photo-1.jpg')">
                 <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>
@@ -132,7 +140,7 @@
               <div class="bit-2 other-project-next" style="background: purple">
                 <h2 class="title-small no-mg">next&nbsp;&rarr;</h3>
               </div>
-            </a>
+            </a>-->
           </footer>
 
       </article>

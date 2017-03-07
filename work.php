@@ -40,17 +40,17 @@
           <a href="/projects/assent-compliance.php">
             <div class="bit-3 img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-on-image.jpg"></div>
           </a>
-          
-          <a href="/projects/mimib.php">
-            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
+
+          <a href="/projects/la-parapharmacie.php">
+            <img class="bit-3 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-logo-on-image-thumbnail.jpg">
           </a>
 
           <a href="/projects/master-piano-recital-series.php">
-            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-1.jpg"></div>
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image.jpg"></div>
           </a>
 
-          <a href="/projects/la-parapharmacie.php">
-            <img class="bit-3 img-1-1 lazy" src="/assets/svg/la-parapharmacie-logo.svg">
+          <a href="/projects/mimib.php">
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/mimib/mimib-logo-on-image-thumbnail.jpg"></div>
           </a>
         
         </section>

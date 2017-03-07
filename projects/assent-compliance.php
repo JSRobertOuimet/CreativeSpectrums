@@ -118,7 +118,7 @@
           <img class="img mg-b lazy" src="/assets/img/assent-compliance/assent-compliance-web-application-4.jpg" width="100%">
           <img class="img mg-b lazy" src="/assets/img/assent-compliance/assent-compliance-web-application-5.jpg" width="100%">
 
-          <p class="bit-2">
+          <p class="bit-2 mg-t">
             <span class="bold">Tags</span><br>
             <a href="#" class="tag">2015</a>
             <a href="#" class="tag">application design</a>
@@ -132,25 +132,28 @@
             <a href="#" class="tag">web design</a>
           </p>
 
-          <div class="bit-1 center mg-t">
-            <a href="#">Back to top</a>
-          </div>
+          <p class="bit-1 mg-t">
+            <a href="#" class="btn">back to top&nbsp;&nbsp;<span class="icon">&uarr;</span></a>
+          </p>
 
         </section>
 
         <!--Needs to be dynamic-->
         <footer class="bit-1 other-projects">
-          <h2 class="title-small">Other Projects</h2>
+          <p class="bit-1 mg-t">
+            <a href="/work.php" class="btn">other work&nbsp;&nbsp;<span class="icon">&rarr;</span></a>
+          </p>
+          <!--<h2 class="title-small">Other Projects</h2>
           <a href="/projects/mimib.php">
-            <div class="bit-2 other-project-prev" data-original="/assets/img/mimib/mimib-photo-1.jpg">
+            <div class="bit-2 other-project-prev" style="background-image: url('/assets/img/mimib/mimib-logo-on-image.jpg')">
               <h2 class="title-small no-mg">&larr;&nbsp;previous</h3>
             </div>
           </a>
           <a href="/projects/">
-            <div class="bit-2 other-project-next" style="background: purple">
+            <div class="bit-2 other-project-next" style="background-image: url('/assets/img/la-parapharmacie/la-parapharmacie-logo-on-image.jpg')">
               <h2 class="title-small no-mg">next&nbsp;&rarr;</h3>
             </div>
-          </a>
+          </a>-->
         </footer>
 
       </article>

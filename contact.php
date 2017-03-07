@@ -58,7 +58,7 @@
         </div>
 
         <p class="bit-1">
-          <a href="#" type="submit" class="btn">submit&nbsp;&nbsp;<span class="icon submit">&uarr;</span></a>
+          <a type="submit" class="btn">submit&nbsp;&nbsp;<span class="icon submit">&uarr;</span></a>
         </p>
         
       </form>

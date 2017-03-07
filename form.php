@@ -1,6 +1,6 @@
 <?php
 /* Set e-mail recipient */
-$myemail  = "jsrobertouimet@gmail.com";
+$myemail  = "hello@creativespectrums.com";
 
 /* Check all form inputs using check_input function */
 $firstname = check_input($_POST['first-name'], "Enter your first name.");
@@ -39,10 +39,6 @@ End of message
 
 /* Send the message using mail() function */
 mail($myemail, $subject, $message);
-
-/* Redirect visitor */
-header('Location: index.php');
-exit();
 
 /* Functions we used */
 function check_input($data, $problem='')

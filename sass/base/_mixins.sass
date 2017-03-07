@@ -18,6 +18,16 @@
       size: $mobile-size
       position: center
 
+.teaser-container
+  position: relative
+  height: 100vh
+  @media screen and (max-width: $large)
+    height: calc(100vh - 50px)
+
+.teaser
+  position: absolute
+  bottom: 15px
+
 // --------------------
 // Image
 // --------------------

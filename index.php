@@ -20,111 +20,24 @@
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
 
-      <div class="main-jumbotron" style="background-image: url('/assets/svg/creative-spectrums-concentric-form-grey.svg')"></div>
+      <div class="main-jumbotron" style="background-image: url('/assets/svg/creative-spectrums-concentric-form-grey.svg')">
+      
+        <div class="teaser-container">
+          <div class="teaser">
+            <h1 class="title-big mg-b" style="line-height: 1.1;">
+              Branding,<br>
+              Print &amp; Web
+            </h1>
+            <p>Discover&nbsp;&nbsp;<span class="icon">&darr;</span></p>
+          </div>        
+        </div>
+      
+      </div>
 
     </header>
 
     <!--Main Content-->
     <main>
-
-      <!--Expertise-->
-      <article>
-
-        <header class="bit-1">
-          <h1 class="title-big">Expertise</h1>
-        </header>
-
-        <div class="bit-1">
-
-          <div class="bit-3">
-            <h2 class="title-small">Branding</h2>
-              <p>
-                Corporate identity<br>
-                Brand guidelines<br>
-                Social media
-              </p>
-          </div>
-
-          <div class="bit-3">
-            <h2 class="title-small">Print</h2>
-              <p>
-                Business cards<br>
-                Stationary<br>
-                Events advertising
-              </p>
-          </div>
-
-          <div class="bit-3">
-            <h2 class="title-small">Web</h2>
-              <p>
-                Front-end development<br>
-                Content management<br>
-                Code optimization<br>
-                Hybrid applications
-              </p>
-          </div>
-
-        </div>
-
-      </article>
-
-      <!--Process-->
-      <!--<article>
-      
-        <header class="bit-1">
-          <h1 class="title-big">Process</h1>
-        </header>
-
-        <div class="bit-1">
-        
-          <div class="bit-3">
-          
-            <h2 class="title-small">Communication</h2>
-
-            <h3 class="subtitle">Clarify</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ex neque omnis nihil ipsum minima soluta dolore suscipit, officiis consectetur libero doloremque numquam et praesentium adipisci cum molestiae accusamus nostrum.</p>
-            
-            <h3 class="subtitle">Express</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ex neque omnis nihil ipsum minima soluta dolore suscipit, officiis consectetur libero doloremque numquam et praesentium adipisci cum molestiae accusamus nostrum.</p>
-
-            <h3 class="subtitle">Persuade</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ex neque omnis nihil ipsum minima soluta dolore suscipit, officiis consectetur libero doloremque numquam et praesentium adipisci cum molestiae accusamus nostrum.</p>
-
-          </div>
-
-          <div class="bit-3">
-          
-            <h2 class="title-small">Creation</h2>
-
-            <h3 class="subtitle">Imagine</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ex neque omnis nihil ipsum minima soluta dolore suscipit, officiis consectetur libero doloremque numquam et praesentium adipisci cum molestiae accusamus nostrum.</p>
-            
-            <h3 class="subtitle">Explore</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ex neque omnis nihil ipsum minima soluta dolore suscipit, officiis consectetur libero doloremque numquam et praesentium adipisci cum molestiae accusamus nostrum.</p>
-
-            <h3 class="subtitle">Touch</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ex neque omnis nihil ipsum minima soluta dolore suscipit, officiis consectetur libero doloremque numquam et praesentium adipisci cum molestiae accusamus nostrum.</p>
-          
-          </div>
-
-          <div class="bit-3">
-          
-            <h2 class="title-small">Administration</h2>
-
-            <h3 class="subtitle">Listen</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ex neque omnis nihil ipsum minima soluta dolore suscipit, officiis consectetur libero doloremque numquam et praesentium adipisci cum molestiae accusamus nostrum.</p>
-            
-            <h3 class="subtitle">Plan</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ex neque omnis nihil ipsum minima soluta dolore suscipit, officiis consectetur libero doloremque numquam et praesentium adipisci cum molestiae accusamus nostrum.</p>
-
-            <h3 class="subtitle">Guide</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ex neque omnis nihil ipsum minima soluta dolore suscipit, officiis consectetur libero doloremque numquam et praesentium adipisci cum molestiae accusamus nostrum.</p>
-          
-          </div>
-
-        </div>
-
-      </article>-->
 
       <!--Work-->
       <article>
@@ -163,43 +76,6 @@
         </section>
 
       </article>
-
-      <!--Thoughts-->
-      <!--<article>
-
-        <header class="bit-1">
-          <h1 class="title-big">Thoughts</h1>
-        </header>
-
-        <section>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
-              
-            </div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
-              
-            </div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
-              
-            </div>
-          </a>
-
-          <a href="#">
-            <div class="bit-4 img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-1.jpg"></div>
-              
-            </div>
-          </a>
-        
-        </section>
-      
-      </article>-->
 
       <!--Newsletter-->
       <article>

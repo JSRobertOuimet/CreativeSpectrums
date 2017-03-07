@@ -122,10 +122,10 @@
             <h2 class="bit-1 title-small">Print</h3>
           </header>
 
-          <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/anaq-publicity.jpg"></div>
+          <!--<div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/anaq-publicity.jpg"></div>-->
           <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/angelard-business-card.jpg"></div>
           <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/oicrm-programme.jpg"></div>
-          <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/denis-gougeon-poster.jpg"></div>
+          <!--<div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/denis-gougeon-poster.jpg"></div>-->
 
           <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/all-the-secrets-you-ve-kept-till-now-murale.jpg"></div>
           <div class="bit-4 img-1-1 lazy" data-original="/assets/img/other-work/regions-en-sante-business-card.jpg"></div>

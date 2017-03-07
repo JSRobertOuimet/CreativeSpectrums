@@ -1,6 +1,6 @@
 <?php
 /* Set e-mail recipient */
-$myemail  = "jsrobertouimet@gmail.com.com";
+$myemail  = "jsrobertouimet@gmail.com";
 
 /* Check all form inputs using check_input function */
 $firstname = check_input($_POST['first-name'], "Enter your first name.");
@@ -16,9 +16,9 @@ if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
 }
 
 /* If URL is not valid set $website to empty */
-if (!preg_match("/^(https?:\/\/+[\w\-]+\.[\w\-]+)/i", $website))
+if (!preg_match("/^(https?:\/\/+[\w\-]+\.[\w\-]+)/i", $siteurl))
 {
-    $website = '';
+    $siteurl = '';
 }
 
 /* Let's prepare the message for the e-mail */
@@ -29,7 +29,7 @@ Your contact form has been submitted by:
 First name: $firstname
 Last name: $firstname
 Email: $email
-Site URL: $site-url
+Site URL: $siteurl
 
 Message:
 $message

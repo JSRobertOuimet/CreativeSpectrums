@@ -118,7 +118,7 @@
             </div>
 
             <div class="bit-3">
-              <div class="img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-6.jpg"></div>
+              <div class="img-1-1 mg-b lazy" data-original="/assets/img/mimib/mimib-photo-6.jpg"></div>
             </div>
 
             <p class="bit-2 no-mg">

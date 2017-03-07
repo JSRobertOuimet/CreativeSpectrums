@@ -53,8 +53,8 @@
             <h2 class="bit-1 title-small">Latest</h2>
           </header>
 
-          <a href="/projects/assent-compliance.php">
-            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-on-image.jpg">
+          <a href="/projects/master-piano-recital-series.php">
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-thumbnail.jpg">
               <h3>explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
             </div>
           </a>
@@ -65,8 +65,8 @@
             </div>
           </a>
 
-          <a href="/projects/master-piano-recital-series.php">
-            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-thumbnail.jpg">
+          <a href="/projects/assent-compliance.php">
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/assent-compliance/assent-compliance-logo-on-image.jpg">
               <h3>explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
             </div>
           </a>

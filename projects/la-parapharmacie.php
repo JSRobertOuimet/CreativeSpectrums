@@ -83,7 +83,7 @@
           
             <div class="bit-1">
 
-              <div class="bit-1 img-2-1 lazy mg-t" data-original="/assets/svg/la-parapharmacie-logo.svg"></div>
+              <div class="bit-1 img-1-1 lazy mg-t" data-original="/assets/svg/la-parapharmacie-logo.svg"></div>
               <div class="bit-1 img-2-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-le-papa-de-la-para.jpg"></div>
 
               <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-allergy.jpg"></div>
@@ -102,7 +102,7 @@
               <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-addresses-portes-de-sante-et-equilibre-lory.jpg"></div>
               <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-addresses-sante-alchimiste-en-herbe.jpg"></div>
 
-              <img class="bit-2 img-1-1 lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-appointement.jpg">
+              <img class="bit-2 img-1-1 mg-b lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-appointement.jpg">
               <img class="bit-2 img-1-1 mg-b lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-order.jpg">
 
             </div>

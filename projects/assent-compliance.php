@@ -127,10 +127,14 @@
             <a href="#" class="tag">environment</a>
             <a href="#" class="tag">grey</a>
             <a href="#" class="tag">orange</a>
-            <a href="#" class="tag">ottawa</a>   
+            <a href="#" class="tag">ottawa</a>
             <a href="#" class="tag">ui/ux</a>
             <a href="#" class="tag">web design</a>
           </p>
+
+          <div class="bit-1 center mg-t">
+            <a href="#">Back to top</a>
+          </div>
 
         </section>
 

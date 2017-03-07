@@ -19,8 +19,6 @@
     <header class="bit-1">
 
       <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/navbar.php"; include_once($path); ?>
-
-      <!--<div class="main-jumbotron" style="background-image: url('/assets/svg/creative-spectrums-concentric-form-grey.svg')"></div>-->
       
     </header>
 

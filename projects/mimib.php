@@ -61,6 +61,8 @@
             <p>
               <span class="bold">Color Palette</span><br>
               <span class="color-swatch mimib-rose"></span>
+              <span class="color-swatch mimib-yellow"></span>
+              <span class="color-swatch mimib-green"></span>
             </p>
 
             <p>
@@ -81,6 +83,18 @@
               <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-white.svg"></div>
             </div>
 
+            <div class="bit-3">
+              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-rose.svg"></div>
+            </div>
+
+            <div class="bit-3">
+              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-yellow.svg"></div>
+            </div>
+
+            <div class="bit-3">
+              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-green.svg"></div>
+            </div>
+
             <div class="bit-1">
             
               <div class="bit-2">
@@ -91,22 +105,6 @@
                 <div class="img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-3.jpg"></div>
               </div>
             
-            </div>
-
-            <div class="bit-4">
-              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-red.svg"></div>
-            </div>
-
-            <div class="bit-4">
-              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-rose.svg"></div>
-            </div>
-
-            <div class="bit-4">
-              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-yellow.svg"></div>
-            </div>
-
-            <div class="bit-4">
-              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-green.svg"></div>
             </div>
 
             <div class="bit-3">

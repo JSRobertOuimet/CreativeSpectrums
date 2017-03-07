@@ -30,7 +30,7 @@
         <h2 class="title-small">Have a question?</h2>
       </header>
       
-      <form action="form.php" method="post">
+      <form name="form" action="form.php" method="post">
         
         <div class="form-group bit-1">
           <label for="name">First Name</label>
@@ -58,7 +58,7 @@
         </div>
 
         <p class="bit-1">
-          <input type="submit" class="btn">submit&nbsp;&nbsp;<span class="icon submit">&uarr;</span></input>
+          <span type="submit" class="btn" onclick="form.submit()">submit&nbsp;&nbsp;<span class="icon submit">&uarr;</span><span>
         </p>
         
       </form>

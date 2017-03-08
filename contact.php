@@ -33,12 +33,12 @@
 
       <p>
         <span class="bold">Phone</span><br>
-        <a href="tel:16135524904" class="link">+1 (613) 552-4904&nbsp;&nearr;</a>
+        <a href="tel:16135524904" class="link">+1 (613) 552-4904&nbsp;&rarr;</a>
       </p>
 
       <p>
         <span class="bold">Email</span><br>
-        <a href="mailto:hello@creativespectrums.com" class="link">hello@creativespectrums.com&nbsp;&nearr;</a>
+        <a href="mailto:hello@creativespectrums.com" class="link">hello@creativespectrums.com&nbsp;&rarr;</a>
       </p>
 
       <form name="form" action="/form.php" method="post" class="mg-t">

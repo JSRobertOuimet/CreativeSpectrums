@@ -71,8 +71,8 @@
 
             <p>
               <span class="bold">Fonts</span><br>
-              <a href="https://fonts.google.com/specimen/Playfair+Display" target="_blank" class="link">Playfair Display&nbsp;&nearr;</a><br>
-              <a href="https://www.fonts.com/font/adobe/kepler?QueryFontType=Web&src=GoogleWebFonts" target="_blank" class="link">Kepler&trade;&nbsp;&nearr;</a>
+              <a href="https://fonts.google.com/specimen/Playfair+Display" target="_blank" class="link">Playfair Display&nbsp;&rarr;</a><br>
+              <a href="https://www.fonts.com/font/adobe/kepler?QueryFontType=Web&src=GoogleWebFonts" target="_blank" class="link">Kepler&trade;&nbsp;&rarr;</a>
             </p>
 
             <p class="bit-1">
@@ -80,7 +80,7 @@
             </p>
 
             <p class="bit-1 right">
-              <a href="https://masterpianorecitalseries.com/" target="_blank" class="btn">view website&nbsp;&nearr;</a>
+              <a href="https://masterpianorecitalseries.com/" target="_blank" class="btn">view website&nbsp;&rarr;</a>
             </p>
 
           </div>

@@ -43,7 +43,7 @@
 
             <p>
               <span class="bold">Client</span><br>
-              <a href="https://www.assentcompliance.com/" target="_blank" class="link">Assent Compliance&nbsp;&nearr;</a>
+              <a href="https://www.assentcompliance.com/" target="_blank" class="link">Assent Compliance&nbsp;&rarr;</a>
             </p>
 
             <p>
@@ -70,7 +70,7 @@
 
             <p>
               <span class="bold">Font</span><br>
-              <a href="http://www.marksimonson.com/fonts/view/proxima-nova" target="_blank" class="link">Proxima Nova&nbsp;&nearr;</a>
+              <a href="http://www.marksimonson.com/fonts/view/proxima-nova" target="_blank" class="link">Proxima Nova&nbsp;&rarr;</a>
             </p>
 
           </div>

@@ -67,10 +67,10 @@
 
             <p>
               <span class="bold">Fonts</span><br>
-              <a href="http://www.fontfabric.com/canter-free-font/" target="_blank" class="link">Canter&nbsp;&nearr;</a><br>
-              <a href="https://www.myfonts.com/fonts/urw/futura/" target="_blank" class="link">Futura&nbsp;&nearr;</a><br>
-              <a href="https://www.fonts.com/font/itc/itc-american-typewriter" target="_blank" class="link">ITC American Typewriter&trade;&nbsp;&nearr;</a><br>
-              <a href="https://fonts.google.com/specimen/Lobster" target="_blank" class="link">Lobster&nbsp;&nearr;</a>
+              <a href="http://www.fontfabric.com/canter-free-font/" target="_blank" class="link">Canter&nbsp;&rarr;</a><br>
+              <a href="https://www.myfonts.com/fonts/urw/futura/" target="_blank" class="link">Futura&nbsp;&rarr;</a><br>
+              <a href="https://www.fonts.com/font/itc/itc-american-typewriter" target="_blank" class="link">ITC American Typewriter&trade;&nbsp;&rarr;</a><br>
+              <a href="https://fonts.google.com/specimen/Lobster" target="_blank" class="link">Lobster&nbsp;&rarr;</a>
             </p>
 
           </div>

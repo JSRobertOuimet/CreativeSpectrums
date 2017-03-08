@@ -40,7 +40,7 @@
             
             <p>
               <span class="bold">Client</span><br>
-              <a href="https://lapara.ca/" target="_blank" class="link">La Parapharmacie&nbsp;&nearr;</a>
+              <a href="https://lapara.ca/" target="_blank" class="link">La Parapharmacie&nbsp;&rarr;</a>
             </p>
 
             <p>
@@ -68,7 +68,7 @@
 
             <p>
               <span class="bold">Font</span><br>
-              <a href="https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:n019003t;" target="_blank" class="link">Nimbus Sans&nbsp;&nearr;</a><br>
+              <a href="https://www.urwpp.de/en/shop/?fontshop=datei:show_font_details;fontnummer:n019003t;" target="_blank" class="link">Nimbus Sans&nbsp;&rarr;</a><br>
             </p>
 
             <p class="mg-t">

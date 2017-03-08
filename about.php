@@ -32,7 +32,7 @@
 
         <div class="bit-1">
           <p>Welcome to my website. My name is Jean-Simon Robert Ouimet. I am a freelance graphic designer, former musician, and aspiring web developer living in Ottawa, Canada. I had the pleasure to work with clients in various industries: classical music, natural health products, environmental compliance, fashion, and engineering, among others.</p>
-          <p>Whether you are recruiting, looking for a contractor, or would like to collaborate on a new project, feel free to <a href="/contact.php" class="link">contact me&nbsp;&nearr;</a>.</p>
+          <p>Whether you are recruiting, looking for a contractor, or would like to collaborate on a new project, feel free to <a href="/contact.php" class="link">contact me&nbsp;&rarr;</a>.</p>
         </div>
 
         <div class="bit-2">
@@ -41,22 +41,22 @@
 
           <p>
             <span class="bold">Front-end Developer</span><br>
-            <a href="http://smbsol.com/" target="_blank" class="link">Symbiosys&nbsp;&nearr;</a>
+            <a href="http://smbsol.com/" target="_blank" class="link">Symbiosys&nbsp;&rarr;</a>
           <p>
             <span class="bold">Graphic Designer &amp; Front-end Developer</span><br>
-            <a href="https://www.facebook.com/CBTCOTT/" target="_blank" class="link">Concerts by the Canal&nbsp;&nearr;</a><br>
-            <a href="https://www.facebook.com/MusicatSouthminster/" target="_blank" class="link">Doors Open for Music at Southminster&nbsp;&nearr;</a><br>
-            <a href="https://www.facebook.com/Expert-Piano-Plateau-1072110896143589/" target="_blank" class="link">Expert Piano Plateau&nbsp;&nearr;</a><br>
-            <a href="https://lapara.ca/" target="_blank" class="link">La Parapharmacie&nbsp;&nearr;</a><br>
-            <a href="https://masterpianorecitalseries.com/" target="_blank" class="link">Master Piano Recital Series&nbsp;&nearr;</a><br>
-            <a href="https://www.facebook.com/rideauchorale/" target="_blank" class="link">Rideau Chorale&nbsp;&nearr;</a><br>
-            <a href="http://www.assentcompliance.com/" target="_blank" class="link">Assent Compliance&nbsp;&nearr;</a><br>
-            <a href="https://www.facebook.com/agencenancypaquette/" target="_blank" class="link">Agence Nancy Paquette&nbsp;&nearr;</a><br>
-            <a href="http://foireecosphere.org/" target="_blank" class="link">Foire Écosphère&nbsp;&nearr;</a><br>
-            <a href="http://www.coachdexception.com/" target="_blank" class="link">Lina Côté&nbsp;&nearr;</a><br>
-            <a href="http://kemsolutions.com/" target="_blank" class="link">KEM Solutions&nbsp;&nearr;</a><br>
-            <a href="https://www.quadrantengineering.ca/" target="_blank" class="link">Quadrant Engineering Ltd.&nbsp;&nearr;</a><br>
-            <a href="http://oicrm.org/" target="_blank" class="link">OICRM / Université de Montréal&nbsp;&nearr;</a>
+            <a href="https://www.facebook.com/CBTCOTT/" target="_blank" class="link">Concerts by the Canal&nbsp;&rarr;</a><br>
+            <a href="https://www.facebook.com/MusicatSouthminster/" target="_blank" class="link">Doors Open for Music at Southminster&nbsp;&rarr;</a><br>
+            <a href="https://www.facebook.com/Expert-Piano-Plateau-1072110896143589/" target="_blank" class="link">Expert Piano Plateau&nbsp;&rarr;</a><br>
+            <a href="https://lapara.ca/" target="_blank" class="link">La Parapharmacie&nbsp;&rarr;</a><br>
+            <a href="https://masterpianorecitalseries.com/" target="_blank" class="link">Master Piano Recital Series&nbsp;&rarr;</a><br>
+            <a href="https://www.facebook.com/rideauchorale/" target="_blank" class="link">Rideau Chorale&nbsp;&rarr;</a><br>
+            <a href="http://www.assentcompliance.com/" target="_blank" class="link">Assent Compliance&nbsp;&rarr;</a><br>
+            <a href="https://www.facebook.com/agencenancypaquette/" target="_blank" class="link">Agence Nancy Paquette&nbsp;&rarr;</a><br>
+            <a href="http://foireecosphere.org/" target="_blank" class="link">Foire Écosphère&nbsp;&rarr;</a><br>
+            <a href="http://www.coachdexception.com/" target="_blank" class="link">Lina Côté&nbsp;&rarr;</a><br>
+            <a href="http://kemsolutions.com/" target="_blank" class="link">KEM Solutions&nbsp;&rarr;</a><br>
+            <a href="https://www.quadrantengineering.ca/" target="_blank" class="link">Quadrant Engineering Ltd.&nbsp;&rarr;</a><br>
+            <a href="http://oicrm.org/" target="_blank" class="link">OICRM / Université de Montréal&nbsp;&rarr;</a>
           <p>
 
         </div>
@@ -74,7 +74,7 @@
 
           <p>
             <span class="bold">HTML Essential Training</span><br>
-            <a href="https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2.html?certificate=BAF5775CD63043A6A7534DE8ED9C138D" target="_blank" class="link">Lynda.com (BAF577)&nbsp;&nearr;</a>
+            <a href="https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2.html?certificate=BAF5775CD63043A6A7534DE8ED9C138D" target="_blank" class="link">Lynda.com (BAF577)&nbsp;&rarr;</a>
           </p>
 
           <p>
@@ -84,7 +84,7 @@
 
           <p>
             <span class="bold">JavaScript Essential Training</span><br>
-            <a href="https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html?certificate=60627FAEEAE3481C8F0B82A1E94CC886" target="_blank" class="link">Lynda.com (60627F)&nbsp;&nearr;</a>
+            <a href="https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html?certificate=60627FAEEAE3481C8F0B82A1E94CC886" target="_blank" class="link">Lynda.com (60627F)&nbsp;&rarr;</a>
           </p>
 
           <h2 class="title-small">Education</h2>
@@ -97,7 +97,7 @@
           <p>
             <span class="bold">Master of Arts (MA) &ndash; Music (Musicology)</span><br>
             Université de Montréal<br>
-            <a href="/assets/pdf/jean-simon-robert-ouimet-la-mediation-musicale.pdf" target="_blank" class="link">read thesis&nbsp;&nearr;</a>
+            <a href="/assets/pdf/jean-simon-robert-ouimet-la-mediation-musicale.pdf" target="_blank" class="link">read thesis&nbsp;&rarr;</a>
           </p>
 
           <p>

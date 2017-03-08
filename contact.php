@@ -27,10 +27,23 @@
     
       <header class="bit-1">
         <h1 class="title-big">Contact</h1>
-        <h2 class="title-small">Have a question?</h2>
       </header>
-      
-      <form name="form" action="/form.php" method="post">
+
+      <h2 class="title-small bit-1">Get in touch</h2>
+
+      <p>
+        <span class="bold">Phone</span><br>
+        <a href="tel:16135524904" class="link">+1 (613) 552-4904&nbsp;&nearr;</a>
+      </p>
+
+      <p>
+        <span class="bold">Email</span><br>
+        <a href="mailto:hello@creativespectrums.com" class="link">hello@creativespectrums.com&nbsp;&nearr;</a>
+      </p>
+
+      <form name="form" action="/form.php" method="post" class="mg-t">
+
+        <h2 class="title-small">Get a quote</h2>
         
         <div class="form-group bit-1">
           <label for="name">First Name</label>

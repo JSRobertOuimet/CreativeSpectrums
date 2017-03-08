@@ -60,6 +60,12 @@
               <h3>explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
             </div>
           </a>
+
+          <a href="/contact.php">
+            <div class="bit-3 img-1-1 your-branding">
+              <h3>get yours&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
+            </div>
+          </a>
         
         </section>
 

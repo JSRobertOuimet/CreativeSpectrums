@@ -30,7 +30,7 @@
         <h2 class="title-small">Have a question?</h2>
       </header>
       
-      <form name="form" action="form.php" method="post">
+      <form name="form" action="/form.php" method="post">
         
         <div class="form-group bit-1">
           <label for="name">First Name</label>

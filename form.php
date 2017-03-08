@@ -38,7 +38,7 @@ $message
 mail($myemail, $subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: index.php');
+header('Location: thanks.php');
 exit();
 
 /* Functions we used */

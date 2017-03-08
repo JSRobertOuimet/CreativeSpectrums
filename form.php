@@ -21,24 +21,25 @@ if (!preg_match("/^(https?:\/\/+[\w\-]+\.[\w\-]+)/i", $siteurl))
     $siteurl = '';
 }
 
-/* Let's prepare the message for the e-mail */
-$message = "Hello!
-
-Your contact form has been submitted by:
+/* Let’s prepare the message for the e-mail */
+$message ="
 
 First name: $firstname
-Last name: $firstname
+Last name: $lastname
 Email: $email
 Site URL: $siteurl
 
 Message:
 $message
 
-End of message
 ";
 
 /* Send the message using mail() function */
 mail($myemail, $subject, $message);
+
+/* Redirect visitor to the thank you page */
+header('Location: index.php');
+exit();
 
 /* Functions we used */
 function check_input($data, $problem='')

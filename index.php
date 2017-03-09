@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-5604506632330119",
+      enable_page_level_ads: true
+    });
+  </script>
   
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Creative Spectrums &ndash; Branding, Print &amp; Web</title>
@@ -92,36 +99,6 @@
         </section>
 
       </article>
-
-      <!--Newsletter-->
-      <!--<article>
-      
-        <header class="bit-1">
-          <h1 class="title-big">Newsletter</h1>
-        </header>
-
-        <section>
-          <form action="newsletter.php">
-            
-            <div class="bit-2">
-
-              <div class="form-group bit-1">
-                <label for="name">Email</label>
-                <input type="email" id="email" name="email" placeholder="email">
-              </div>
-
-              <p class="form-group bit-1 no-mg right">
-                <a href="#" type="submit" class="btn">submit&nbsp;&nbsp;<span class="icon submit">&uarr;</span></a>
-              </p>
-
-            </div>
-          
-          </form>
-        </section>
-
-      </article>-->
-
-      <!--<a href="http://www.1and1.com/web-hosting?kwk=520623385&ac=OM.US.US930K244547B7030a" rel="nofollow"><img src="http://adimg.uimserv.net/1und1/KWK/Classic-Hosting/US/NewHosting_kwk_us_sw_728x90.gif"/></a>-->
 
     </main>
 

@@ -13,6 +13,9 @@
       <!--<a href="https://www.pinterest.com/CrtvSpctrms/" target="_blank">Pinterest</a>-->
     </div>
   </nav>
+  <div class="bit-1">
+    <a title="Clicky Web Analytics" href="http://clicky.com/101028743"><img alt="Clicky Web Analytics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+  </div>
 </footer>
 
 <!--Mobile Footer-->
@@ -24,4 +27,5 @@
   <!--<a href="https://www.instagram.com/creativespectrums/" target="_blank" class="bit-1 center no-mg">Instagram</a>-->
   <!--<a href="https://www.pinterest.com/CrtvSpctrms/" target="_blank" class="bit-1 center no-mg">Pinterest</a>-->
   <p class="bit-1 copy center">&copy; Creative Spectrums <?php echo date("Y"); ?></p>
+  <a class="bit-1 center" title="Clicky Web Analytics" href="http://clicky.com/101028743"><img alt="Clicky Web Analytics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
 </footer>

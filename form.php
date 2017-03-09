@@ -10,16 +10,16 @@ $siteurl  = $_POST['siteurl'];
 $message = $_POST['message'];
 
 /* If e-mail is not valid show error message */
-// if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
-// {
-//     show_error("Email address not valid.");
-// }
+if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
+{
+    show_error("Email address not valid.");
+}
 
-// /* If URL is not valid set $website to empty */
-// if (!preg_match("/^(https?:\/\/+[\w\-]+\.[\w\-]+)/i", $siteurl))
-// {
-//     $siteurl = '';
-// }
+/* If URL is not valid set $website to empty */
+if (!preg_match("/^(https?:\/\/+[\w\-]+\.[\w\-]+)/i", $siteurl))
+{
+    $siteurl = '';
+}
 
 /* Let’s prepare the message for the e-mail */
 $message ="
@@ -58,6 +58,7 @@ function show_error($myError)
 {
 ?>
     <html>
+    <link rel="stylesheet" href="/css/main.css">
     <body>
 
     <b>Please correct the following error:</b><br />

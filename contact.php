@@ -41,7 +41,7 @@
         <a href="mailto:hello@creativespectrums.com" class="link">hello@creativespectrums.com&nbsp;&rarr;</a>
       </p>
 
-      <form name="form" method="post" action="/form.php" class="mg-t">
+      <!--<form name="form" method="post" action="/form.php" class="mg-t">
 
         <h2 class="title-small">Get a quote</h2>
         
@@ -74,7 +74,7 @@
           <span type="submit" class="btn" onclick="form.submit()">submit&nbsp;&nbsp;<span class="icon submit">&uarr;</span><span>
         </p>
         
-      </form>
+      </form>-->
 
     </article>
 

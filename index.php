@@ -85,7 +85,7 @@
           </a>
 
           <a href="/contact.php">
-            <div class="bit-3 img-1-1 your-branding">
+            <div class="bit-3 img-1-1 your-branding lazy">
               <h3>your brand&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
             </div>
           </a>

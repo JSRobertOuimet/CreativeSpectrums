@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-5604506632330119",
-      enable_page_level_ads: true
-    });
-  </script>
-  
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,13 +14,13 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
 
-  <!--Main stylesheet-->
-  <link rel="stylesheet" href="css/main.css">
+  <!--Stylesheets-->
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/links.php"; include_once($path); ?>
 </head>
 
 <body>
 
-  <div class="frame">
+  <div class="frame animated fadeIn">
 
     <!--Main header-->
     <header class="bit-1">

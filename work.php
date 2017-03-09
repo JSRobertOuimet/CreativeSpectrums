@@ -7,13 +7,13 @@
 
   <title>Creative Spectrums &ndash; Work</title>
 
-  <!--Main stylesheet-->
-  <link rel="stylesheet" href="css/main.css">
+  <!--Stylesheets-->
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/links.php"; include_once($path); ?>
 </head>
 
 <body>
 
-  <div class="frame">
+  <div class="frame animated fadeIn">
 
     <!--Main header-->
     <header class="bit-1">

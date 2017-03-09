@@ -7,8 +7,8 @@
 
   <title>La Parapharmacie</title>
 
-  <!--Main stylesheet-->
-  <link rel="stylesheet" href="/css/main.css">
+  <!--Stylesheets-->
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/links.php"; include_once($path); ?>
 </head>
 
 <body>

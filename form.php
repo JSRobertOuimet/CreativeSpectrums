@@ -3,23 +3,23 @@
 $myemail  = "hello@creativespectrums.com";
 
 /* Check all form inputs using check_input function */
-$firstname = check_input($_POST['first-name'], "Enter your first name.");
-$lastname = check_input($_POST['last-name'], "Enter your last name.");
-$email    = check_input($_POST['email']);
-$siteurl  = check_input($_POST['site-url']);
-$message = check_input($_POST['message'], "Write your message.");
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname'];
+$email    = $_POST['email'];
+$siteurl  = $_POST['siteurl'];
+$message = $_POST['message'];
 
 /* If e-mail is not valid show error message */
-if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
-{
-    show_error("Email address not valid.");
-}
+// if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
+// {
+//     show_error("Email address not valid.");
+// }
 
-/* If URL is not valid set $website to empty */
-if (!preg_match("/^(https?:\/\/+[\w\-]+\.[\w\-]+)/i", $siteurl))
-{
-    $siteurl = '';
-}
+// /* If URL is not valid set $website to empty */
+// if (!preg_match("/^(https?:\/\/+[\w\-]+\.[\w\-]+)/i", $siteurl))
+// {
+//     $siteurl = '';
+// }
 
 /* Let’s prepare the message for the e-mail */
 $message ="

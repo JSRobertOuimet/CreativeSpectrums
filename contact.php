@@ -7,13 +7,13 @@
 
   <title>Creative Spectrums &ndash; Contact</title>
 
-  <!--Main stylesheet-->
-  <link rel="stylesheet" href="/css/main.css">
+  <!--Stylesheets-->
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/links.php"; include_once($path); ?>
 </head>
 
 <body>
 
-  <div class="frame">
+  <div class="frame animated fadeIn">
 
     <!--Main header-->
     <header class="bit-1">
@@ -41,33 +41,33 @@
         <a href="mailto:hello@creativespectrums.com" class="link">hello@creativespectrums.com&nbsp;&rarr;</a>
       </p>
 
-      <form name="form" action="/form.php" method="post" class="mg-t">
+      <form name="form" method="post" action="/form.php" class="mg-t">
 
         <h2 class="title-small">Get a quote</h2>
         
         <div class="form-group bit-1">
           <label for="name">First Name</label>
-          <input type="text" id="first-name" name="first-name" placeholder="first name">
+          <input type="text" id="firstname" name="firstname" placeholder="first name" required>
         </div>
 
         <div class="form-group bit-1">
           <label for="name">Last Name</label>
-          <input type="text" id="last-name" name="last-name" placeholder="last name">
+          <input type="text" id="lastname" name="lastname" placeholder="last name" required>
         </div>
 
         <div class="form-group bit-1">
           <label for="name">Email</label>
-          <input type="email" id="email" name="email" placeholder="email">
+          <input type="email" id="email" name="email" placeholder="email" required>
         </div>
 
         <div class="form-group bit-1">
           <label for="name">Site URL</label>
-          <input type="text" id="site-url" name="site-url" placeholder="site url (optional)">
+          <input type="text" id="siteurl" name="siteurl" placeholder="site url (optional)">
         </div>
         
         <div class="form-group bit-1">
           <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="message" rows="10"></textarea>
+          <textarea id="message" name="message" placeholder="message" rows="10" required></textarea>
         </div>
 
         <p class="bit-1">

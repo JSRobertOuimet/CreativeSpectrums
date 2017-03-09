@@ -63,7 +63,7 @@
 
           <a href="/contact.php">
             <div class="bit-3 img-1-1 your-branding">
-              <h3>get yours&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
+              <h3>your brand&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
             </div>
           </a>
         

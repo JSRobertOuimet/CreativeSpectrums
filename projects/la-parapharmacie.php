@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/head.php"; include_once($path); ?>
   <title>La Parapharmacie</title>
-
-  <!--Stylesheets-->
-  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/links.php"; include_once($path); ?>
 </head>
 
 <body>

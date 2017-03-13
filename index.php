@@ -1,21 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/head.php"; include_once($path); ?>
   <title>Creative Spectrums &ndash; Branding, Print &amp; Web</title>
-
-  <!--Favicon-->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="theme-color" content="#ffffff">
-
-  <!--Stylesheets-->
-  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/links.php"; include_once($path); ?>
 </head>
 
 <body>
@@ -32,10 +19,10 @@
         <div class="teaser-container">
           <div class="teaser">
             <h1 class="title-big mg-b" style="line-height: 1.1;">
-              Branding,<br>
-              Print &amp; Web
+              Bring your<br>
+              brand to life.
             </h1>
-            <p class="no-mg subtitle">discover&nbsp;&nbsp;<span class="icon">&darr;</span></p>
+            <p class="no-mg subtitle">see how&nbsp;&nbsp;<span class="icon">&darr;</span></p>
           </div>        
         </div>
       

@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Creative Spectrums &ndash; About</title>
-
-  <!--Stylesheets-->
-  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/links.php"; include_once($path); ?>
+  <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/head.php"; include_once($path); ?>
 </head>
 
 <body>
@@ -32,7 +26,6 @@
 
         <div class="bit-1">
           <p>Welcome to my website. My name is Jean-Simon Robert Ouimet. I am a freelance graphic designer, former musician, and aspiring web developer living in Ottawa, Canada. I have had the pleasure to work with clients in various industries: classical music, natural health products, environmental compliance, fashion, and engineering, among others.</p>
-          <p>Whether you are recruiting, looking for a contractor, or would like to collaborate on a new project, feel free to <a href="/contact.php" class="link">contact me&nbsp;&rarr;</a>.</p>
         </div>
 
         <div class="bit-2">

@@ -22,7 +22,7 @@
               Bring your<br>
               brand to life.
             </h1>
-            <p class="no-mg subtitle">see how&nbsp;&nbsp;<span class="icon">&darr;</span></p>
+            <p class="no-mg subtitle">discover&nbsp;&nbsp;<span class="icon">&darr;</span></p>
           </div>        
         </div>
       

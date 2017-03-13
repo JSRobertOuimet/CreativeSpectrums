@@ -25,7 +25,11 @@
       <section>
 
         <div class="bit-1">
-          <p>Welcome to my website. My name is Jean-Simon Robert Ouimet. I am a freelance graphic designer, former musician, and aspiring web developer living in Ottawa, Canada. I have had the pleasure to work with clients in various industries: classical music, natural health products, environmental compliance, fashion, and engineering, among others.</p>
+          <h2 class="title-small">Jean-Simon Robert Ouimet</h2>
+        </div>
+
+        <div class="bit-1">
+          <p>Welcome! I am a freelance graphic designer, former musician, and web developer living in Ottawa, Canada. My clients hail from various domains: classical music, natural health products, environmental compliance, fashion, engineering, and more.</p>
         </div>
 
         <div class="bit-2">

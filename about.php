@@ -25,7 +25,8 @@
       <section>
 
         <div class="bit-1">
-          <h2 class="title-small">Jean-Simon Robert Ouimet</h2>
+          <h2 class="title-small desktop-only">Jean-Simon Robert Ouimet</h2>
+          <h2 class="title-small mobile-only">Jean-Simon<br>Robert Ouimet</h2>
         </div>
 
         <div class="bit-1">

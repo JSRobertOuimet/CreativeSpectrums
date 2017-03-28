@@ -61,11 +61,17 @@
 
         <div class="bit-2">
 
-          <h2 class="title-small">Languages</h2>
+          <h2 class="title-small">Languages &amp; Tools</h2>
 
           <p>
-            - HTML / CSS / JavaScript / PHP<br>
-            - Pug (Jade), Sass, Typescript
+            - HTML (Pug), CSS (Sass), JS<br>
+            - PHP/MySQL<br>
+            - UI Frameworks: Angular Material, Bootstrap, Ionic<br>
+            - Package Managers: npm<br>
+            - Task Runner: Gulp<br>
+            - Version Control: Git<br>
+            - JS Frameworks: Angular 2, jQuery<br>
+            - IDE: Atom, Sublime Text, VS Code<br>
           </p>
 
           <h2 class="title-small">Certificates</h2>

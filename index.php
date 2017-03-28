@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/head.php"; include_once($path); ?>
-  <title>Creative Spectrums &ndash; Branding, Print &amp; Web</title>
+  <title>Creative Spectrums &ndash; Bring your brand to life.</title>
 </head>
 
 <body>

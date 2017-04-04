@@ -57,8 +57,8 @@
 
             <p>
               <span class="bold">Color Palette</span><br>
-              <span class="color-swatch doms-burgundy"></span>
-              <span class="color-swatch doms-grey"></span>
+              <span class="color-swatch" style="background: #9E0912;"></span>
+              <span class="color-swatch" style="background: #4C4D4F;"></span>
             </p>
 
             <p>

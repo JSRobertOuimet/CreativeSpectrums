@@ -49,6 +49,12 @@
             </div>
           </a>
 
+          <a href="/projects/doors-open-for-music-at-southminster.php">
+            <div class="bit-3 img-1-1 lazy" data-original="/assets/img/doors-open-for-music-at-southminster/doms-logo-on-image-thumbnail.jpg">
+              <h3 class="grey">explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
+            </div>
+          </a>
+
           <a href="/projects/mimib.php">
             <div class="bit-3 img-1-1 lazy" data-original="/assets/img/mimib/mimib-logo-on-image-thumbnail.jpg">
               <h3>explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
@@ -85,7 +91,6 @@
           <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/black-swan-nutrition-logo.svg" type="image/svg+xml"></div>
           <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/expert-piano-plateau-logo.svg" type="image/svg+xml"></div>
 
-          <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/doors-open-for-music-at-southminster-logo.svg" type="image/svg+xml"></div>
           <div class="bit-4 img-1-1 lazy" data-original="/assets/svg/concerts-on-the-canal-logo.svg" type="image/svg+xml"></div>
 
         </section>

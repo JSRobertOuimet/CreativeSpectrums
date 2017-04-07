@@ -636,6 +636,10 @@ body {
 .pd-r {
   padding-right: 15px !important; }
 
+@media screen and (min-width: 1200px) {
+  .pd-l-d {
+    padding-left: 15px !important; } }
+
 .left {
   float: left !important; }
 

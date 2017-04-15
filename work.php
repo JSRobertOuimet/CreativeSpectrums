@@ -96,190 +96,30 @@
 
         </section>
 
+        <!--Print-->
         <section>
         
           <header>
-            <h2 class="bit-1 title-small">Miscellaneous</h2>
+            <h2 class="bit-1 title-small">Print</h2>
           </header>
 
-          <!--Lucie Charbonneau-->
-          <div class="bit-1 mg-b">
-          
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/other-work/all-the-secrets-you-ve-kept-till-now-murale.jpg"></div>
-
-            <div class="bit-2 pd-l-d">
-
-              <p>
-                <span class="subtitle">Client</span><br>
-                Private individual
-              </p>
-
-              <p>
-                <span class="subtitle">Industry</span><br>
-                Music
-              </p>
-
-              <p>
-                <span class="subtitle">Deliverable</span><br>
-                - Murale (mixed media), 72 x 72 in
-              </p>
-              
-            </div>
-
-          </div>
-
-          <!--OICRM (Programme)-->
-          <div class="bit-1 mg-b">
-          
+          <div class="bit-1">
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/other-work/oicrm-programme.jpg"></div>
-
-            <div class="bit-2">
-
-              <div class="pd-l-d">
-              
-                <p class="mg-b">
-                  <span class="subtitle">Client</span><br>
-                  <a href="http://oicrm.org/" target="_blank" class="link">OICRM&nbsp;&rarr;</a>
-                </p>
-
-                <p class="mg-b">
-                  <span class="subtitle">Industry</span><br>
-                  Music
-                </p>
-
-                <p>
-                  <span class="subtitle">Deliverable</span><br>
-                  - Bilingual programme (60 pages)
-                </p>
-              
-              </div>
-
-              <p class="bit-1 pd-l-d">
-                <a href="/assets/pdf/oicrm-programme.pdf" target="_blank" class="btn left">download programme&nbsp;&nbsp;<span class="icon download">&rarr;</span></a>
-              </p>
-              
-            </div>
-
-          </div>
-
-          <!--Task Angels-->
-          <div class="bit-1 mg-b">
-          
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/other-work/task-angels-business-card.jpg"></div>
 
-            <div class="bit-2 pd-l-d">
-
-              <p class="mg-b">
-                <span class="subtitle">Client</span><br>
-                <a href="http://www.taskangels.org/index.html" target="_blank" class="link">Task Angels&nbsp;&rarr;</a>
-              </p>
-
-              <p class="mg-b">
-                <span class="subtitle">Industry</span><br>
-                Renovation, maintenance and moving
-              </p>
-
-              <p>
-                <span class="subtitle">Deliverable</span><br>
-                - New visual identity (logo)<br>
-                - Business cards<br>
-              </p>
-              
-            </div>
-
-          </div>
-
-          <!--OICRM (Poster TRM)-->
-          <div class="bit-1 mg-b">
-          
-            <img class="bit-2 img mg-b border lazy" src="/assets/img/other-work/oicrm-poster-trm.jpg">
-
-            <div class="bit-2 pd-l-d">
-
-              <p class="mg-b">
-                <span class="subtitle">Client</span><br>
-                <a href="http://oicrm.org/" target="_blank" class="link">OICRM&nbsp;&rarr;</a>
-              </p>
-
-              <p class="mg-b">
-                <span class="subtitle">Industry</span><br>
-                Music
-              </p>
-
-              <p>
-                <span class="subtitle">Deliverable</span><br>
-                - Poster<br>
-              </p>
-              
-            </div>
-
-          </div>
-
-          <!--OICRM (Poster Denis Gougeon)-->
-          <div class="bit-1 mg-b">
-          
-            <img class="bit-2 img mg-b border lazy" src="/assets/img/other-work/oicrm-poster-denis-gougeon.jpg">
-
-            <div class="bit-2 pd-l-d">
-
-              <p class="mg-b">
-                <span class="subtitle">Client</span><br>
-                <a href="http://oicrm.org/" target="_blank" class="link">OICRM&nbsp;&rarr;</a>
-              </p>
-
-              <p class="mg-b">
-                <span class="subtitle">Industry</span><br>
-                Music
-              </p>
-
-              <p>
-                <span class="subtitle">Deliverable</span><br>
-                - Poster<br>
-              </p>
-              
-            </div>
-
-          </div>
-
-          <!--KEM (illustration)-->
-          <div class="bit-1 mg-b">
-          
             <img class="bit-2 img lazy" src="/assets/img/other-work/kem-illustration.jpg">
+            <img class="bit-2 img lazy" src="/assets/img/other-work/officine-des-supplements-business-card.jpg">
 
-            <div class="bit-2">
+            <img class="bit-2 img lazy" src="/assets/img/other-work/regions-en-sante-business-card.jpg">
+            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/other-work/all-the-secrets-you-ve-kept-till-now-murale.jpg"></div>
 
-              <div class="pd-l-d">
-              
-                <p class="mg-b">
-                  <span class="subtitle">Client</span><br>
-                  KEM Solutions
-                </p>
-
-                <p class="mg-b">
-                  <span class="subtitle">Industry</span><br>
-                  Health
-                </p>
-
-                <p>
-                  <span class="subtitle">Deliverable</span><br>
-                  - Illustrated advertisement (print)
-                </p>
-              
-              </div>
-
-              <p class="bit-1 pd-l-d">
-                <a href="/assets/pdf/kem-illustration.pdf" target="_blank" class="btn left">download ad&nbsp;&nbsp;<span class="icon download">&rarr;</span></a>
-              </p>
-              
-            </div>
-
+            <img class="bit-2 img lazy" src="/assets/img/other-work/oicrm-poster-trm.jpg">
+            <img class="bit-2 img lazy" src="/assets/img/other-work/oicrm-poster-denis-gougeon.jpg">
           </div>
 
         </section>
 
       </article>
-
-      <!--<a href="http://www.1and1.com/web-hosting?kwk=520623385&ac=OM.US.US930K244547B7030a" rel="nofollow"><img src="http://adimg.uimserv.net/1und1/KWK/Classic-Hosting/US/NewHosting_kwk_us_sw_728x90.gif"/></a>-->
 
     </main>
 

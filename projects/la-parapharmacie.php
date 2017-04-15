@@ -50,7 +50,8 @@
               <span class="bold">Deliverables</span><br>
               - New visual identity &amp; brand guidelines<br>
               - Business cards, flyers, leaflets, posters<br>
-              - Social media assets &amp; announcements
+              - Layout of administrative &amp; informative documents<br>
+              - Social media assets &amp; bilingual announcements
             </p>
 
             <p>

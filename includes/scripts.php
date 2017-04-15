@@ -8,12 +8,15 @@
 
 <!--Lazyload-->
 <script>
-$(function() {
+  $(function() {
     $("div.lazy").lazyload({
     effect : "fadeIn"
     });
-});
+  });
 </script>
+
+<!--ScrollReveal-->
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 <!--Clicky-->
 <script src="//static.getclicky.com/js" type="text/javascript"></script>

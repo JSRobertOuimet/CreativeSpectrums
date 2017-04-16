@@ -119,6 +119,10 @@
 
         </section>
 
+        <p class="bit-1 mg-t">
+          <a href="/contact.php" class="btn">contact&nbsp;&nbsp;<span class="icon">&rarr;</span></a>
+        </p>
+
       </article>
 
     </main>

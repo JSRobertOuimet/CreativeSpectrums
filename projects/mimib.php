@@ -102,8 +102,7 @@
             </div>
 
             <div class="bit-3">
-              <img class="bit-1" src="/assets/img/mimib/mimib-photo-4.jpg" alt="" data-action="zoom">
-              <!--<div class="img-1-1 lazy" data-original="/assets/img/mimib/mimib-photo-4.jpg"></div>-->
+              <img class="bit-1" src="/assets/img/mimib/mimib-photo-4.jpg" data-action="zoom">
             </div>
 
             <div class="bit-3">

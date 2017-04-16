@@ -391,6 +391,10 @@ label {
       background-size: cover;
       background-position: center; } }
 
+@media screen and (max-width: 960px) {
+  img {
+    margin-bottom: 15px; } }
+
 .img-1-1 {
   position: relative;
   background-repeat: no-repeat;

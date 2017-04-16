@@ -107,14 +107,14 @@
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/other-work/oicrm-programme.jpg"></div>
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/other-work/task-angels-business-card.jpg"></div>
 
-            <img class="bit-2 img lazy" src="/assets/img/other-work/kem-illustration.jpg">
-            <img class="bit-2 img lazy" src="/assets/img/other-work/officine-des-supplements-business-card.jpg">
+            <img class="bit-2 lazy" src="/assets/img/other-work/kem-illustration.jpg">
+            <img class="bit-2 lazy" src="/assets/img/other-work/officine-des-supplements-business-card.jpg">
 
-            <img class="bit-2 img lazy" src="/assets/img/other-work/regions-en-sante-business-card.jpg">
+            <img class="bit-2 lazy" src="/assets/img/other-work/regions-en-sante-business-card.jpg">
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/other-work/all-the-secrets-you-ve-kept-till-now-murale.jpg"></div>
 
-            <img class="bit-2 img lazy" src="/assets/img/other-work/oicrm-poster-trm.jpg">
-            <img class="bit-2 img lazy" src="/assets/img/other-work/oicrm-poster-denis-gougeon.jpg">
+            <img class="bit-2 lazy" src="/assets/img/other-work/oicrm-poster-trm.jpg">
+            <img class="bit-2 lazy" src="/assets/img/other-work/oicrm-poster-denis-gougeon.jpg">
           </div>
 
         </section>

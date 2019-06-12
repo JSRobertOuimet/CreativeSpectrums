@@ -5,11 +5,9 @@
   </div>
   <div class="right desktop-only">
     <a href="/index.php">home</a>
-    <!--<a href="/thoughts.php">thoughts</a>-->
     <a href="/work.php">work</a>
     <a href="/about.php">about</a>
     <a href="/contact.php">contact</a>
-    <!--<a href="/fr/french.php">/&nbsp;fr</a>-->
   </div>
 </nav>
 
@@ -31,11 +29,9 @@
   <div class="overlay-content">
     <div class="links-wrapper">
       <a href="/index.php">home</a>
-      <!--<a href="/thoughts.php">thoughts</a>-->
       <a href="/work.php">work</a>
       <a href="/about.php">about</a>
       <a href="/contact.php">contact</a>
-      <!--<a href="/fr/french.php">/&nbsp;fr</a>-->
     </div>
   </div>
 </nav>

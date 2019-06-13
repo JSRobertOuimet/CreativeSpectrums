@@ -5,7 +5,9 @@
   </div>
   <div class="right desktop-only">
     <a href="/index.php">home</a>
-    <a href="/work.php">work</a>
+    <a href="/design.php">design</a>
+    <a href="/development.php">development</a>
+    <a href="/music.php">music</a>
     <a href="/about.php">about</a>
     <a href="/contact.php">contact</a>
   </div>
@@ -29,7 +31,9 @@
   <div class="overlay-content">
     <div class="links-wrapper">
       <a href="/index.php">home</a>
-      <a href="/work.php">work</a>
+      <a href="/design.php">design</a>
+      <a href="/development.php">development</a>
+      <a href="/music.php">music</a>
       <a href="/about.php">about</a>
       <a href="/contact.php">contact</a>
     </div>

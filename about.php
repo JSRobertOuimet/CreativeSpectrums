@@ -2,21 +2,13 @@
 <html lang="en">
   <head>
     <title>Creative Spectrums &ndash; About</title>
-    <?php
-      $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/includes/head.php";
-      include_once($path);
-    ?>
+    <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
   </head>
   <body>
     <div class="frame animated fadeIn">
       <!--Main header-->
       <header class="bit-1">
-        <?php
-          $path = $_SERVER['DOCUMENT_ROOT'];
-          $path .= "/includes/navbar.php";
-          include_once($path);
-        ?>
+        <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/navbar.php"); ?>
       </header>
       <article>
         <header class="bit-1">
@@ -50,7 +42,8 @@
                 <a href="http://kemsolutions.com/" target="_blank" class="link">KEM Solutions&nbsp;&rarr;</a><br>
                 <a href="https://www.quadrantengineering.ca/" target="_blank" class="link">Quadrant Engineering Ltd.&nbsp;&rarr;</a><br>
                 <a href="http://oicrm.org/" target="_blank" class="link">OICRM / Université de Montréal&nbsp;&rarr;</a>
-                <p>
+              <p>
+            </p>
           </div>
           <div class="bit-2">
             <h2 class="title-small">Languages &amp; Tools</h2>
@@ -97,16 +90,8 @@
           </p>
         </section>
       </article>
-      <?php
-        $path = $_SERVER['DOCUMENT_ROOT'];
-        $path .= "/includes/footer.php";
-        include_once($path);
-      ?>
+      <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php"); ?>
     </div>
-    <?php
-      $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/includes/scripts.php";
-      include_once($path);
-    ?>
+    <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/scripts.php"); ?>
   </body>
 </html>

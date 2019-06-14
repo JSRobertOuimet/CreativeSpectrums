@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php $path = $_SERVER['DOCUMENT_ROOT'];
-    $path .= "/includes/head.php";
-    include_once($path); ?>
+    <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
     <title>Doors Open for Music at Southminster</title>
   </head>
   <body>
     <div class="frame">
       <!--Main header-->
       <header class="bit-1">
-        <?php
-          $path = $_SERVER['DOCUMENT_ROOT'];
-          $path .= "/includes/navbar.php";
-          include_once($path);
-        ?>
+        <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/navbar.php"); ?>
         <div class="project-jumbotron lazy" data-original="/assets/img/doors-open-for-music-at-southminster/doms-logo-on-image.jpg"></div>
       </header>
       <!--Main Content-->
@@ -114,16 +108,8 @@
           </footer>
         </article>
       </main>
-      <?php
-        $path = $_SERVER['DOCUMENT_ROOT'];
-        $path .= "/includes/footer.php";
-        include_once($path);
-      ?>
+      <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php"); ?>
     </div>
-    <?php
-      $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/includes/scripts.php";
-      include_once($path);
-    ?>
+    <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/scripts.php"); ?>
   </body>
 </html>

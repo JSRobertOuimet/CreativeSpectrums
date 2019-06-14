@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-      $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/includes/head.php";
-      include_once($path);
-    ?>
+    <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
     <title>Creative Spectrums &ndash; Bring your brand to life.</title>
   </head>
   <body>
     <div class="frame animated fadeIn">
       <!--Main header-->
       <header class="bit-1">
-        <?php
-          $path = $_SERVER['DOCUMENT_ROOT'];
-          $path .= "/includes/navbar.php";
-          include_once($path);
-        ?>
+        <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/navbar.php"); ?>
         <div class="main-jumbotron" style="background-image: url('/assets/svg/creative-spectrums-concentric-form-grey.svg')">
           <div class="teaser-container">
             <div class="teaser">
@@ -41,7 +33,6 @@
             <header>
               <h2 class="bit-1 title-small">Latest</h2>
             </header>
-
             <a href="/projects/master-piano-recital-series.php">
               <div class="bit-3 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-thumbnail.jpg">
                 <h3>explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
@@ -78,16 +69,8 @@
           </section>
         </article>
       </main>
-      <?php
-        $path = $_SERVER['DOCUMENT_ROOT'];
-        $path .= "/includes/footer.php";
-        include_once($path);
-      ?>
+      <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php"); ?>
     </div>
-    <?php
-      $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/includes/scripts.php";
-      include_once($path);
-    ?>
+    <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/scripts.php"); ?>
   </body>
 </html>

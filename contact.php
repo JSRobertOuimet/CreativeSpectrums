@@ -2,21 +2,13 @@
 <html lang="en">
   <head>
     <title>Creative Spectrums &ndash; Contact</title>
-    <?php
-      $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/includes/head.php";
-      include_once($path);
-    ?>
+    <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/head.php"); ?>
   </head>
   <body>
     <div class="frame animated fadeIn">
       <!--Main header-->
       <header class="bit-1">
-        <?php
-          $path = $_SERVER['DOCUMENT_ROOT'];
-          $path .= "/includes/navbar.php";
-          include_once($path);
-        ?>
+        <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/navbar.php"); ?>
       </header>
       <!--Contact-->
       <article>
@@ -34,16 +26,8 @@
           <a href="mailto:hello@creativespectrums.com" class="link">hello@creativespectrums.com&nbsp;&rarr;</a>
         </p>
       </article>
-      <?php
-        $path = $_SERVER['DOCUMENT_ROOT'];
-        $path .= "/includes/footer.php";
-        include_once($path);
-      ?>
+      <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php"); ?>
     </div>
-    <?php
-      $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/includes/scripts.php";
-      include_once($path);
-    ?>
+    <?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/scripts.php"); ?>
   </body>
 </html>

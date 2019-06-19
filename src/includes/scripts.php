@@ -1,10 +1,10 @@
 <script src="/js/overlay.js"></script>
 
 <!--Vendors-->
-<script src="/js/jquery-3.1.1.min.js"></script>
+<script src="/js/jquery-3.4.1.js"></script>
 <script src="/js/jquery.lazyload.js"></script>
 <script src="/js/transition.js"></script>
-<script src="/js/zoom.min.js"></script>
+<script src="/js/zoom.js"></script>
 
 <!--Lazyload-->
 <script>
@@ -16,7 +16,7 @@
 </script>
 
 <!--ScrollReveal-->
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="/js/scrollreveal.js"></script>
 
 <!--Clicky-->
 <script src="//static.getclicky.com/js" type="text/javascript"></script>

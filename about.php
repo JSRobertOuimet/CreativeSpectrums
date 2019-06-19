@@ -16,73 +16,44 @@
         </header>
         <section>
           <div class="bit-1">
-            <h2 class="title-small desktop-only">Jean-Simon Robert Ouimet</h2>
-            <h2 class="title-small mobile-only">Jean-Simon<br>Robert Ouimet</h2>
+            <p>My name is Jean-Simon Robert Ouimet, and I am a passionate visual designer with a strong inclination towards front-end web development. I like to translate business requirements into seamless experiences informed by user research. I love to turn those experiences into elegant interfaces using the latest technologies. I enjoy both working independently or as part of a team where cooperation is the common denominator. My mother tongue is French and I’m proudly bilingual. I’m a former musician who persistently strives to create that pitch-perfect moment that will make a positive change for my audience.</p>
           </div>
           <div class="bit-1">
-            <p>Welcome! I am a freelance graphic designer, former musician, and web developer living in Ottawa, Canada. My clients hail from various domains: classical music, natural health products, environmental compliance, fashion, engineering, and more.</p>
-          </div>
-          <div class="bit-2">
             <h2 class="title-small">Experience</h2>
             <p>
-              <span class="bold">Front-end Developer</span><br>
-              <a href="http://smbsol.com/" target="_blank" class="link">Symbiosys&nbsp;&rarr;</a>
-              <p>
-                <span class="bold">Graphic Designer &amp; Front-end Developer</span><br>
-                <a href="https://www.facebook.com/CBTCOTT/" target="_blank" class="link">Concerts by the Canal&nbsp;&rarr;</a><br>
-                <a href="https://www.facebook.com/MusicatSouthminster/" target="_blank" class="link">Doors Open for Music at Southminster&nbsp;&rarr;</a><br>
-                <a href="https://www.facebook.com/Expert-Piano-Plateau-1072110896143589/" target="_blank" class="link">Expert Piano Plateau&nbsp;&rarr;</a><br>
-                <a href="https://lapara.ca/" target="_blank" class="link">La Parapharmacie&nbsp;&rarr;</a><br>
-                <a href="https://masterpianorecitalseries.com/" target="_blank" class="link">Master Piano Recital Series&nbsp;&rarr;</a><br>
-                <a href="https://www.facebook.com/rideauchorale/" target="_blank" class="link">Rideau Chorale&nbsp;&rarr;</a><br>
-                <a href="http://www.assentcompliance.com/" target="_blank" class="link">Assent Compliance&nbsp;&rarr;</a><br>
-                <a href="https://www.facebook.com/agencenancypaquette/" target="_blank" class="link">Agence Nancy Paquette&nbsp;&rarr;</a><br>
-                <a href="http://foireecosphere.org/" target="_blank" class="link">Foire Écosphère&nbsp;&rarr;</a><br>
-                <a href="http://www.coachdexception.com/" target="_blank" class="link">Lina Côté&nbsp;&rarr;</a><br>
-                <a href="http://kemsolutions.com/" target="_blank" class="link">KEM Solutions&nbsp;&rarr;</a><br>
-                <a href="https://www.quadrantengineering.ca/" target="_blank" class="link">Quadrant Engineering Ltd.&nbsp;&rarr;</a><br>
-                <a href="http://oicrm.org/" target="_blank" class="link">OICRM / Université de Montréal&nbsp;&rarr;</a>
-              <p>
+              <a href="http://creativespectrums.com/" class="link">Creative Spectrums</a><br>
+              <span class="bold">Graphic Designer, Web Designer & Developer (From 2013)</span><br>
+              Gather requirements and define project scope within timeline and budget. Build profitable long-term relationships by providing excellent customer service. Create visual identities and brand guidelines for a variety of industries. Trace existing bitmap logos to vector graphics. Design administrative documents and marketing material for print and web. Design, develop and maintain websites.
+            </p>
+            <p>
+              <a href="https://kivuto.com/" target="_blank" class="link">Kivuto Solutions</a><br>
+              <span class="bold">UI/UX Designer (September 2018 &ndash; June 2019)</span><br>
+              Worked on ELMS, a multilingual enterprise-level application (50 million users). Ran user interviews to understand usage, pain points, and define personas. Created interactive prototypes to illustrate simplified user flows. Presented findings of user research and recommendations to senior management and project stakeholders. Designed functionality to collect, display and manage payment methods and addresses to support a new subscription-based billing model. Created and maintained a pattern library to accelerate design and development process while facilitating communication with stakeholders and QA testers.
+            </p>
+            <p>
+              <span class="bold">Front-end Web Developer (June 2017 &ndash; August 2018)</span><br>
+              Worked on Texidium, a multilingual e-reader consumer application. Conducted a UI inventory across five clients using atomic design principles. Worked in tandem with developers to modernized the UI of the application. Designed and implemented new features. Enhanced existing features based on user feedback. Defined requirements for a read aloud feature using user scenarios.
+            </p>
+            <p>
+              <a href="https://www.smbsol.com/" target="_blank" class="link">Symbiosys</a><br>
+              <span class="bold">Front-end Web Developer (June 2016 &ndash; September 2016)</span><br>
+              Implemented user interfaces from provided mock-ups for three hybrid applications: an investment management app, a video chat app based on mutual interests, and an online classified advertising app.
             </p>
           </div>
-          <div class="bit-2">
-            <h2 class="title-small">Languages &amp; Tools</h2>
-            <p>
-              - HTML (Pug), CSS (Sass), JS<br>
-              - PHP/MySQL<br>
-              - UI Frameworks: Angular Material, Bootstrap, Ionic<br>
-              - Package Managers: npm<br>
-              - Task Runner: Gulp<br>
-              - Version Control: Git<br>
-              - JS Frameworks: Angular 2, jQuery<br>
-              - IDE: Atom, Sublime Text, VS Code<br>
-            </p>
-            <h2 class="title-small">Certificates</h2>
-            <p>
-              <span class="bold">HTML Essential Training</span><br>
-              <a href="https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2.html?certificate=BAF5775CD63043A6A7534DE8ED9C138D" target="_blank" class="link">Lynda.com (BAF577)&nbsp;&rarr;</a>
-            </p>
-            <p>
-              <span class="bold">CSS Fundamentals</span><br>
-              Lynda.com (020F44)
-            </p>
-            <p>
-              <span class="bold">JavaScript Essential Training</span><br>
-              <a href="https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html?certificate=60627FAEEAE3481C8F0B82A1E94CC886" target="_blank" class="link">Lynda.com (60627F)&nbsp;&rarr;</a>
-            </p>
+
+          <div class="bit-1">
             <h2 class="title-small">Education</h2>
             <p>
-              <span class="bold">Attestation of College Studies (ACS) &ndash; Graphic Design</span><br>
-              Collège Salette
+              <a href="https://collegesalette.com/" target="_blank" class="link">Collège Salette</a><br>
+              <span class="bold">Attestation of College Studies (ACS) &ndash; Graphic Design</span>
             </p>
             <p>
+              <a href="https://www.umontreal.ca/en/" target="_blank" class="link">Université de Montréal</a><br>
               <span class="bold">Master of Arts (MA) &ndash; Music (Musicology)</span><br>
-              Université de Montréal<br>
-              <a href="/assets/pdf/jean-simon-robert-ouimet-la-mediation-musicale.pdf" target="_blank" class="link">read thesis&nbsp;&rarr;</a>
             </p>
             <p>
-              <span class="bold">Bachelor of Music (BMus) &ndash; Musicology</span><br>
-              Université de Montréal
+              <a href="https://www.umontreal.ca/en/" target="_blank" class="link">Université de Montréal</a><br>
+              <span class="bold">Bachelor of Music (BMus) &ndash; Musicology</span></span>
             </p>
           </div>
           <p class="bit-1 mg-t">

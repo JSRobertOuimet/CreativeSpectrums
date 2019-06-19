@@ -20,25 +20,25 @@ var settings = {
 
 var paths = {
 	input: 'src/',
-	output: 'dist/',
+	output: 'public/',
 	scripts: {
 		input: 'src/js/*',
 		polyfills: '.polyfill.js',
-		output: 'dist/js/'
+		output: 'public/js/'
 	},
 	styles: {
 		input: 'src/sass/main.sass',
-		output: 'dist/css/'
+		output: 'public/css/'
 	},
 	svgs: {
 		input: 'src/svg/*.svg',
-		output: 'dist/svg/'
+		output: 'public/svg/'
 	},
 	copy: {
 		input: 'src/**/*.{php,css,png,jpg,pdf,xml,ico,json,svg}',
-		output: 'dist/'
+		output: 'public/'
 	},
-	reload: './dist/'
+	reload: './public/'
 };
 
 

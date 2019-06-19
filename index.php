@@ -64,7 +64,7 @@
               </div>
             </a>
             <p class="bit-1 mg-t">
-              <a href="/work.php" class="btn">view all&nbsp;&nbsp;<span class="icon">&rarr;</span></a>
+              <a href="/design.php" class="btn">view all&nbsp;&nbsp;<span class="icon">&rarr;</span></a>
             </p>
           </section>
         </article>

@@ -103,7 +103,7 @@
           <!--Needs to be dynamic-->
           <footer class="bit-1 other-projects">
             <p class="bit-1 no-mg">
-              <a href="/work.php" class="btn">other work&nbsp;&nbsp;<span class="icon">&rarr;</span></a>
+              <a href="/design.php" class="btn">other work&nbsp;&nbsp;<span class="icon">&rarr;</span></a>
             </p>
           </footer>
         </article>

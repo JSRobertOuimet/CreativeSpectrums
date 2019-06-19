@@ -12,4 +12,4 @@
 <!--Stylesheets-->
 <link rel="stylesheet" href="/css/main.css">
 <link rel="stylesheet" href="/css/zoom.css">
-<link rel="stylesheet" href="/animate.css">
+<link rel="stylesheet" href="/css/animate.css">

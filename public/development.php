@@ -21,7 +21,7 @@
             <header>
               <h2 class="bit-1 title-small">Studies</h2>
             </header>
-            <iframe height="500" style="margin-bottom: 15px; width: 100%;" scrolling="no" title="Dimensions of Change" src="//codepen.io/JSRobertOuimet/embed/preview/Ebqywx/?height=500&theme-id=0&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+            <iframe height="500" style="margin-bottom: 30px; width: 100%;" scrolling="no" title="Dimensions of Change" src="//codepen.io/JSRobertOuimet/embed/preview/Ebqywx/?height=500&theme-id=0&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
               See the Pen <a href='https://codepen.io/JSRobertOuimet/pen/Ebqywx/'>Dimensions of Change</a> by Jean-Simon Robert Ouimet
               (<a href='https://codepen.io/JSRobertOuimet'>@JSRobertOuimet</a>) on <a href='https://codepen.io'>CodePen</a>.
             </iframe>

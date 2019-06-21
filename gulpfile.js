@@ -1,9 +1,4 @@
-/**
- * Settings
- * Turn on/off build features
- */
-
-var settings = {
+const settings = {
 	clean: true,
 	scripts: true,
 	polyfills: true,
@@ -13,227 +8,165 @@ var settings = {
 	reload: true
 };
 
-
-/**
- * Paths to project folders
- */
-
-var paths = {
-	input: 'src/',
-	output: 'public/',
+const paths = {
+	input: "src/",
+	output: "public/",
 	scripts: {
-		input: 'src/js/*',
-		polyfills: '.polyfill.js',
-		output: 'public/js/'
+		input: "src/js/*",
+		polyfills: ".polyfill.js",
+		output: "public/js/"
 	},
 	styles: {
-		input: 'src/sass/main.sass',
-		output: 'public/css/'
+		input: "src/sass/main.sass",
+		output: "public/css/"
 	},
 	svgs: {
-		input: 'src/svg/*.svg',
-		output: 'public/svg/'
+		input: "src/svg/*.svg",
+		output: "public/svg/"
 	},
 	copy: {
-		input: 'src/**/*.{php,css,png,jpg,pdf,xml,ico,json,svg}',
-		output: 'public/'
+		input: "src/**/*.{php,css,png,jpg,pdf,xml,ico,json,svg}",
+		output: "public/"
 	},
-	reload: './public/'
+	reload: "./public"
 };
 
-
-/**
- * Gulp Packages
- */
-
-// General
-var {gulp, src, dest, watch, series, parallel} = require('gulp');
-var del = require('del');
-var flatmap = require('gulp-flatmap');
-var lazypipe = require('lazypipe');
-var rename = require('gulp-rename');
+const {gulp, src, dest, watch, series, parallel} = require("gulp");
+const del = require("del");
+const flatmap = require("gulp-flatmap");
+const lazypipe = require("lazypipe");
 
 // Scripts
-var jshint = require('gulp-jshint');
-var concat = require('gulp-concat');
-var uglify = require('gulp-terser');
-var optimizejs = require('gulp-optimize-js');
+const concat = require("gulp-concat");
+const uglify = require("gulp-terser");
 
 // Styles
-var sass = require('gulp-sass');
-var prefix = require('gulp-autoprefixer');
-var minify = require('gulp-cssnano');
+const sass = require("gulp-sass");
+const prefix = require("gulp-autoprefixer");
+const minify = require("gulp-cssnano");
 
 // SVGs
-var svgmin = require('gulp-svgmin');
+const svgmin = require("gulp-svgmin");
 
 // BrowserSync
-var browserSync = require('browser-sync');
-
-
-/**
- * Gulp Tasks
- */
+const bs = require("browser-sync").create();
+const php = require("gulp-connect-php");
 
 // Remove pre-existing content from output folders
-var cleanDist = function (done) {
+const cleanDist = function (done) {
+	if(!settings.clean) return done();
 
-	// Make sure this feature is activated before running
-	if (!settings.clean) return done();
+	del.sync([ paths.output ]);
 
-	// Clean the dist folder
-	del.sync([
-		paths.output
-	]);
-
-	// Signal completion
 	return done();
-
 };
 
 // Repeated JavaScript tasks
-var jsTasks = lazypipe()
-	.pipe(optimizejs)
-	// .pipe(rename, {suffix: '.min'})
+const jsTasks = lazypipe()
 	.pipe(uglify)
-	.pipe(optimizejs)
 	.pipe(dest, paths.scripts.output);
 
-// Lint, minify, and concatenate scripts
-var buildScripts = function (done) {
+// Minify and concatenate scripts
+const buildScripts = function (done) {
+	if(!settings.scripts) return done();
 
-	// Make sure this feature is activated before running
-	if (!settings.scripts) return done();
-
-	// Run tasks on script files
 	return src(paths.scripts.input)
 		.pipe(flatmap(function(stream, file) {
 
-			// If the file is a directory
-			if (file.isDirectory()) {
+			if(file.isDirectory()) {
+				let suffix = "";
 
-				// Setup a suffix variable
-				var suffix = '';
+				if(settings.polyfills) {
+					suffix = ".polyfills";
 
-				// If separate polyfill files enabled
-				if (settings.polyfills) {
-
-					// Update the suffix
-					suffix = '.polyfills';
-
-					// Grab files that aren't polyfills, concatenate them, and process them
-					src([file.path + '/*.js', '!' + file.path + '/*' + paths.scripts.polyfills])
-						.pipe(concat(file.relative + '.js'))
+					src([file.path + "/*.js", "!" + file.path + "/*" + paths.scripts.polyfills])
+						.pipe(concat(file.relative + ".js"))
 						.pipe(jsTasks());
-
 				}
 
-				// Grab all files and concatenate them
-				// If separate polyfills enabled, this will have .polyfills in the filename
-				src(file.path + '/*.js')
-					.pipe(concat(file.relative + suffix + '.js'))
+				src(file.path + "/*.js")
+					.pipe(concat(file.relative + suffix + ".js"))
 					.pipe(jsTasks());
 
 				return stream;
-
 			}
 
-			// Otherwise, process the file
 			return stream.pipe(jsTasks());
-
 		}));
-
 };
 
-// Process, lint, and minify Sass files
-var buildStyles = function (done) {
+// Process and minify Sass files
+const buildStyles = function (done) {
+	if(!settings.styles) return done();
 
-	// Make sure this feature is activated before running
-	if (!settings.styles) return done();
-
-	// Run tasks on all Sass files
 	return src(paths.styles.input)
-		.pipe(sass({
-			outputStyle: 'compressed'
-		}))
+		.pipe(sass({ outputStyle: "compressed" }))
 		.pipe(prefix({
-			browsers: ['last 2 version', '> 0.25%'],
+			browsers: ["last 2 version", "> 0.25%"],
 			cascade: true,
 			remove: true
 		}))
-		// .pipe(rename({suffix: '.min'}))
 		.pipe(minify({
 			discardComments: {
 				removeAll: true
 			}
 		}))
 		.pipe(dest(paths.styles.output));
-
 };
 
 // Optimize SVG files
-var buildSVGs = function (done) {
+const buildSVGs = function (done) {
+	if(!settings.svgs) return done();
 
-	// Make sure this feature is activated before running
-	if (!settings.svgs) return done();
-
-	// Optimize SVG files
 	return src(paths.svgs.input)
 		.pipe(svgmin())
 		.pipe(dest(paths.svgs.output));
-
 };
 
 // Copy static files into output folder
-var copyFiles = function (done) {
+const copyFiles = function (done) {
+	if(!settings.copy) return done();
 
-	// Make sure this feature is activated before running
-	if (!settings.copy) return done();
-
-	// Copy static files
 	return src(paths.copy.input)
 		.pipe(dest(paths.copy.output));
-
 };
 
 // Watch for changes to the src directory
-var startServer = function (done) {
+const startServer = function (done) {
+	if(!settings.reload) return done();
 
-	// Make sure this feature is activated before running
-	if (!settings.reload) return done();
-
-	// Initialize BrowserSync
-	browserSync.init({
-		server: {
-			baseDir: paths.reload
-		}
+	php.server({
+		base: "./public",
+		port: 8000
 	});
 
-	// Signal completion
-	done();
+	bs.init({
+		baseDir: "./public",
+		notify: false,
+		port: 8000,
+		proxy: "localhost:8000"
+	});
 
+	done();
 };
 
 // Reload the browser when files change
-var reloadBrowser = function (done) {
-	if (!settings.reload) return done();
+const reloadBrowser = function (done) {
+	if(!settings.reload) return done();
+
 	browserSync.reload();
+
 	done();
 };
 
 // Watch for changes
-var watchSource = function (done) {
+const watchSource = function (done) {
 	watch(paths.input, series(exports.default, reloadBrowser));
+
 	done();
 };
 
-
-/**
- * Export Tasks
- */
-
 // Default task
-// gulp
 exports.default = series(
 	cleanDist,
 	parallel(
@@ -244,7 +177,6 @@ exports.default = series(
 	)
 );
 
-// Watch and reload
 // gulp watch
 exports.watch = series(
 	exports.default,

@@ -1,2 +1,13 @@
+# All
 node_modules/
+
+# Develop & Master
 public/
+
+# Production
+# src/
+# .gitignore
+# gulpfile.js
+# LICENSE
+# package-lock.json
+# package.json

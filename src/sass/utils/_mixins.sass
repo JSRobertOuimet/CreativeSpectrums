@@ -2,27 +2,21 @@
 // Jumbotron
 // --------------------
 
-@mixin jumbotron($desktop-size, $mobile-size)
+@mixin jumbotron($bg-size)
   position: relative
   width: 100%
   height: calc(100vh - 100px)
   background:
     repeat: no-repeat
-    size: $desktop-size
+    size: $bg-size
     position: center
   @media screen and (max-width: $large)
     margin-top: 50px
     height: calc(100vh - 65px)
-    background:
-      repeat: no-repeat
-      size: $mobile-size
-      position: center
 
 .teaser-container
   position: relative
-  height: calc(100vh - 100px)
-  @media screen and (max-width: $large)
-    height: calc(100vh - 65px)
+  height: calc(100vh - 65px)
 
 .teaser
   position: absolute

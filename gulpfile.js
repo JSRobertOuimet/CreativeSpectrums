@@ -154,7 +154,7 @@ const startServer = function (done) {
 const reloadBrowser = function (done) {
 	if(!settings.reload) return done();
 
-	browserSync.reload();
+	bs.reload();
 
 	done();
 };

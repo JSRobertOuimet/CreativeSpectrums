@@ -4,7 +4,8 @@
   "description": "Second iteration of Creative Spectrums.",
   "author": "Jean-Simon Robert Ouimet",
   "scripts": {
-    "dev": "gulp watch"
+    "build": "gulp",
+    "serve": "gulp watch"
   },
   "devDependencies": {
     "browser-sync": "2.26.3",

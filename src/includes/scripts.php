@@ -1,22 +1,20 @@
-<script src="/js/overlay.js"></script>
+<script src="/js/main.js"></script>
 
-<!--Vendors-->
-<script src="/js/jquery-3.4.1.js"></script>
-<script src="/js/jquery.lazyload.js"></script>
-<script src="/js/transition.js"></script>
-<script src="/js/zoom.js"></script>
-
-<!--Lazyload-->
 <script>
+  function openNav() {
+    document.getElementById("overlay").style.display = "block";
+  }
+
+  function closeNav() {
+    document.getElementById("overlay").style.display = "none";
+  }
+
   $(function() {
     $("div.lazy").lazyload({
     effect : "fadeIn"
     });
   });
 </script>
-
-<!--ScrollReveal-->
-<script src="/js/scrollreveal.js"></script>
 
 <!--Clicky-->
 <script src="//static.getclicky.com/js" type="text/javascript"></script>

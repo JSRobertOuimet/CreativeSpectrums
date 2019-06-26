@@ -1,14 +1,10 @@
 {
   "name": "creativespectrums",
-  "version": "3.0.0",
+  "version": "2.0.0",
   "description": "Second iteration of Creative Spectrums.",
-  "main": "gulpfile.js",
+  "author": "Jean-Simon Robert Ouimet",
   "scripts": {
     "dev": "gulp watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JSRobertOuimet/CreativeSpectrums.git"
   },
   "devDependencies": {
     "browser-sync": "2.26.3",
@@ -25,6 +21,7 @@
     "gulp-terser": "1.1.7",
     "lazypipe": "1.0.1"
   },
-  "author": "Jean-Simon Robert Ouimet",
-  "license": "MIT"
+  "browserslist": [
+    "last 2 versions"
+  ]
 }

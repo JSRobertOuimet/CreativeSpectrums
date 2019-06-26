@@ -1,140 +1,72 @@
-const settings = {
-	clean: true,
-	scripts: true,
-	polyfills: true,
-	styles: true,
-	svgs: true,
-	copy: true,
-	reload: true
-};
+const { gulp, src, dest, watch, series, parallel } = require("gulp");
+const del = require("del");
+const sass = require("gulp-sass");
+const prefix = require("gulp-autoprefixer");
+const minify = require("gulp-cssnano");
+const concat = require("gulp-concat");
+const uglify = require("gulp-terser");
+const svgmin = require("gulp-svgmin");
+const bs = require("browser-sync").create();
+const php = require("gulp-connect-php");
 
 const paths = {
 	input: "src/",
 	output: "public/",
-	scripts: {
-		input: "src/js/*",
-		polyfills: ".polyfill.js",
-		output: "public/js/"
-	},
-	styles: {
+	css: {
 		input: "src/sass/main.sass",
 		output: "public/css/"
 	},
+	js: {
+		input: "src/js/*",
+		output: "public/js/"
+	},
 	svgs: {
-		input: "src/svg/*.svg",
+		input: "src/svg/*",
 		output: "public/svg/"
 	},
-	copy: {
-		input: "src/**/*.{php,css,png,jpg,pdf,xml,ico,json,svg}",
+	other: {
+		input: "src/**/*.{php,png,jpg,svg,pdf,xml,ico,json}",
 		output: "public/"
 	},
 	reload: "./public"
 };
 
-const {gulp, src, dest, watch, series, parallel} = require("gulp");
-const del = require("del");
-const flatmap = require("gulp-flatmap");
-const lazypipe = require("lazypipe");
-
-// Scripts
-const concat = require("gulp-concat");
-const uglify = require("gulp-terser");
-
-// Styles
-const sass = require("gulp-sass");
-const prefix = require("gulp-autoprefixer");
-const minify = require("gulp-cssnano");
-
-// SVGs
-const svgmin = require("gulp-svgmin");
-
-// BrowserSync
-const bs = require("browser-sync").create();
-const php = require("gulp-connect-php");
-
-// Remove pre-existing content from output folders
-const cleanDist = function (done) {
-	if(!settings.clean) return done();
-
+function delPublic(done) {
 	del.sync([ paths.output ]);
-
-	return done();
+	done();
 };
 
-// Repeated JavaScript tasks
-const jsTasks = lazypipe()
-	.pipe(uglify)
-	.pipe(dest, paths.scripts.output);
-
-// Minify and concatenate scripts
-const buildScripts = function (done) {
-	if(!settings.scripts) return done();
-
-	return src(paths.scripts.input)
-		.pipe(flatmap(function(stream, file) {
-
-			if(file.isDirectory()) {
-				let suffix = "";
-
-				if(settings.polyfills) {
-					suffix = ".polyfills";
-
-					src([file.path + "/*.js", "!" + file.path + "/*" + paths.scripts.polyfills])
-						.pipe(concat(file.relative + ".js"))
-						.pipe(jsTasks());
-				}
-
-				src(file.path + "/*.js")
-					.pipe(concat(file.relative + suffix + ".js"))
-					.pipe(jsTasks());
-
-				return stream;
-			}
-
-			return stream.pipe(jsTasks());
-		}));
-};
-
-// Process and minify Sass files
-const buildStyles = function (done) {
-	if(!settings.styles) return done();
-
-	return src(paths.styles.input)
+function buildCSS(done) {
+	return src(paths.css.input)
 		.pipe(sass({ outputStyle: "compressed" }))
-		.pipe(prefix({
-			browsers: ["last 2 version", "> 0.25%"],
-			cascade: true,
-			remove: true
-		}))
+		.pipe(prefix())
 		.pipe(minify({
 			discardComments: {
 				removeAll: true
 			}
 		}))
-		.pipe(dest(paths.styles.output));
+		.pipe(dest(paths.css.output));
 };
 
-// Optimize SVG files
-const buildSVGs = function (done) {
-	if(!settings.svgs) return done();
+function buildJS() {
+	return src(paths.js.input)
+		.pipe(concat("main.js"))
+		.pipe(uglify())
+		.pipe(dest(paths.js.output))
+};
 
+function buildSVGs() {
 	return src(paths.svgs.input)
 		.pipe(svgmin())
 		.pipe(dest(paths.svgs.output));
 };
 
-// Copy static files into output folder
-const copyFiles = function (done) {
-	if(!settings.copy) return done();
-
-	return src(paths.copy.input)
-		.pipe(dest(paths.copy.output));
+function copyFiles(done) {
+	return src(paths.other.input)
+		.pipe(dest(paths.other.output));
 };
 
-// Watch for changes to the src directory
-const startServer = function (done) {
-	if(!settings.reload) return done();
-
+function startServer(done) {
 	php.server({
 		base: "./public",
 		port: 8000
@@ -150,30 +82,24 @@ const startServer = function (done) {
 	done();
 };
 
-// Reload the browser when files change
-const reloadBrowser = function (done) {
-	if(!settings.reload) return done();
-
+function reloadBrowser(done) {
 	bs.reload();
-
 	done();
 };
 
-// Watch for changes
-const watchSource = function (done) {
+function watchSource(done) {
 	watch(paths.input, series(exports.default, reloadBrowser));
-
 	done();
 };
 
-// Default task
+// gulp
 exports.default = series(
-	cleanDist,
+	delPublic,
 	parallel(
-		buildScripts,
-		buildStyles,
+		buildCSS,
+		buildJS,
 		buildSVGs,
-		copyFiles
+		copyFiles,
 	)
 );
 

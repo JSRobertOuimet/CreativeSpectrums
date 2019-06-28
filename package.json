@@ -4,14 +4,15 @@
   "description": "Second iteration of Creative Spectrums.",
   "author": "Jean-Simon Robert Ouimet",
   "scripts": {
-    "build": "gulp",
-    "serve": "gulp watch"
+    "serve": "gulp watch",
+    "build": "gulp"
   },
   "devDependencies": {
     "browser-sync": "2.26.3",
     "del": "3.0.0",
     "gulp": "4.0.0",
     "gulp-autoprefixer": "6.0.0",
+    "gulp-buster": "^1.1.0",
     "gulp-concat": "2.6.1",
     "gulp-connect-php": "^1.0.3",
     "gulp-cssnano": "2.1.3",

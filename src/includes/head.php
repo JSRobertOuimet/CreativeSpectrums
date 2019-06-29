@@ -1,4 +1,6 @@
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="author" content="Jean-Simon Robert Ouimet">
+<meta name="description" content="My name is Jean-Simon Robert Ouimet, and I am a passionate visual designer with a strong inclination towards front-end web development. I like to translate business requirements into seamless experiences informed by user research. I love to turn those experiences into elegant interfaces using the latest technologies. I enjoy both working independently or as part of a team where cooperation is the common denominator. My mother tongue is French and I’m proudly bilingual. I’m a former musician who persistently strives to create that pitch-perfect moment that will make a positive change for my audience.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!--Favicon-->

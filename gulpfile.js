@@ -36,7 +36,7 @@ function delPublic(done) {
 	done();
 };
 
-function buildCSS(done) {
+function buildCSS() {
 	return src(paths.css.input)
 		.pipe(sass({ outputStyle: "compressed" }))
 		.pipe(prefix())
@@ -61,7 +61,7 @@ function buildSVGs() {
 		.pipe(dest(paths.svgs.output));
 };
 
-function copyFiles(done) {
+function copyFiles() {
 	return src(paths.other.input)
 		.pipe(dest(paths.other.output));
 };
@@ -69,7 +69,8 @@ function copyFiles(done) {
 function startServer(done) {
 	php.server({
 		base: "./public",
-		port: 8000
+		port: 8000,
+		stdio: "ignore"
 	});
 
 	bs.init({

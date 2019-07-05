@@ -16,7 +16,7 @@
         </header>
         <section>
           <div class="bit-1">
-            <p>My name is Jean-Simon Robert Ouimet, and I am a passionate visual designer with a strong inclination towards front-end web development. I like to translate business requirements into seamless experiences informed by user research. I love to turn those experiences into elegant interfaces using the latest technologies. I enjoy both working independently or as part of a team where cooperation is the common denominator. My mother tongue is French and I’m proudly bilingual. I’m a former musician who persistently strives to create that pitch-perfect moment that will make a positive change for my audience.</p>
+            <p>My name is Jean-Simon Robert Ouimet, and I am a passionate visual designer with a strong inclination towards branding and front-end web development. I like to translate business requirements into seamless experiences informed by user research and brand recognition. I love to turn those experiences into elegant interfaces using the latest technologies. I enjoy both working independently or as part of a team where cooperation is the common denominator. My mother tongue is French and I’m proudly bilingual. I’m a former musician who persistently strives to create that pitch-perfect moment that will make a positive change for my audience.</p>
           </div>
           <div class="bit-1">
             <h2 class="title-small">Experience</h2>

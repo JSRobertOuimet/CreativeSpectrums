@@ -85,24 +85,6 @@
               <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-poster.jpg" width="100%">
               <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-fb-ad.jpg" width="100%">
             </div>
-            <p class="bit-2 no-mg">
-              <span class="bold">Tags</span><br>
-              <span class="tag">2015</span>
-              <span class="tag">bilingual</span>
-              <span class="tag">black</span>
-              <span class="tag">branding</span>
-              <span class="tag">classical</span>
-              <span class="tag">google maps</span>
-              <span class="tag">grey</span>
-              <span class="tag">music</span>
-              <span class="tag">ottawa</span>
-              <span class="tag">print</span>
-              <span class="tag">social media</span>
-              <span class="tag">stripe</span>
-              <span class="tag">web design</span>
-              <span class="tag">web development</span>
-              <span class="tag">white</span>
-            </p>
           </section>
           <!--Needs to be dynamic-->
           <footer class="bit-1 other-projects">

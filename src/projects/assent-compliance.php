@@ -80,19 +80,6 @@
             <img class="img mg-b lazy" src="/assets/img/assent-compliance/assent-compliance-web-application-3.jpg" width="100%">
             <img class="img mg-b lazy" src="/assets/img/assent-compliance/assent-compliance-web-application-4.jpg" width="100%">
             <img class="img mg-b lazy" src="/assets/img/assent-compliance/assent-compliance-web-application-5.jpg" width="100%">
-            <p class="bit-2 no-mg">
-              <span class="bold">Tags</span><br>
-              <span class="tag">2015</span>
-              <span class="tag">application design</span>
-              <span class="tag">branding</span>
-              <span class="tag">compliance</span>
-              <span class="tag">environment</span>
-              <span class="tag">grey</span>
-              <span class="tag">orange</span>
-              <span class="tag">ottawa</span>
-              <span class="tag">ui/ux</span>
-              <span class="tag">web design</span>
-            </p>
           </section>
           <!--Needs to be dynamic-->
           <footer class="bit-1 other-projects">

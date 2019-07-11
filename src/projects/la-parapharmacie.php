@@ -72,17 +72,6 @@
             <img class="bit-2 img-1-1 mg-b lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-appointement.jpg">
             <img class="bit-2 img-1-1 mg-b lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-order.jpg">
           </div>
-          <p class="bit-2 no-mg">
-            <span class="bold">Tags</span><br>
-            <span class="tag">2015</span>
-            <span class="tag">blue</span>
-            <span class="tag">branding</span>
-            <span class="tag">green</span>
-            <span class="tag">layout</span>
-            <span class="tag">montreal</span>
-            <span class="tag">health</span>
-            <span class="tag">print</span>
-          </p>
         </section>
         <!--Needs to be dynamic-->
         <footer class="bit-1 other-projects">

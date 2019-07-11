@@ -81,18 +81,6 @@
             <div class="bit-3">
               <div class="img-1-1 mg-b lazy" data-original="/assets/img/mimib/mimib-photo-6.jpg"></div>
             </div>
-            <p class="bit-2 no-mg">
-              <span class="bold">Tags</span><br>
-              <span class="tag">2015</span>
-              <span class="tag">branding</span>
-              <span class="tag">diy</span>
-              <span class="tag">fashion</span>
-              <span class="tag">multimedia</span>
-              <span class="tag">ottawa</span>
-              <span class="tag">print</span>
-              <span class="tag">rose</span>
-              <span class="tag">sewing</span>
-            </p>
           </section>
           <!--Needs to be dynamic-->
           <footer class="bit-1 other-projects">

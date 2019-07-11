@@ -91,14 +91,6 @@
                 </div>
               </div>
             </div>
-            <p class="bit-2 no-mg">
-              <span class="bold">Tags</span><br>
-              <span class="tag">2016</span>
-              <span class="tag">burgundy</span>
-              <span class="tag">branding</span>
-              <span class="tag">grey</span>
-              <span class="tag">layout</span>
-            </p>
           </section>
           <!--Needs to be dynamic-->
           <footer class="bit-1 other-projects">

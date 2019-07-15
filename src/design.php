@@ -71,6 +71,17 @@
             <div class="bit-3 img-1-1 lazy" data-original="/assets/svg/expert-piano-plateau-logo.svg" type="image/svg+xml"></div>
             <div class="bit-3 img-1-1 lazy" data-original="/assets/svg/concerts-on-the-canal-logo.svg" type="image/svg+xml"></div>
           </section>
+          <!-- Web -->
+          <section>
+            <header>
+              <h2 class="bit-1 title-small">Web</h2>
+            </header>
+            <a href="https://www.figma.com/file/a4R1Q2eEhyrtPHgQCvX80llE/Pattern-Library?node-id=0%3A1" target="_blank">
+              <div class="bit-2 img-1-1 lazy" data-original="/assets/img/other-work/pattern-library.jpg">
+                <h3 style="color: #4C4D4F;">explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
+              </div>
+            </a>
+          </section>
           <!--Print-->
           <section>
             <header>

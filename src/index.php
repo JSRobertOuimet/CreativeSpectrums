@@ -33,6 +33,11 @@
             <header>
               <h2 class="bit-1 title-small">Latest</h2>
             </header>
+            <a href="https://www.figma.com/file/a4R1Q2eEhyrtPHgQCvX80llE/Pattern-Library?node-id=0%3A1" target="_blank">
+              <div class="bit-3 img-1-1 lazy" data-original="/assets/img/other-work/pattern-library.jpg">
+                <h3 style="color: #4C4D4F;">explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
+              </div>
+            </a>
             <a href="/projects/master-piano-recital-series.php">
               <div class="bit-3 img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-thumbnail.jpg">
                 <h3>explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
@@ -56,11 +61,6 @@
             <a href="/projects/mimib.php">
               <div class="bit-3 img-1-1 lazy" data-original="/assets/img/mimib/mimib-logo-on-image-thumbnail.jpg">
                 <h3>explore&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
-              </div>
-            </a>
-            <a href="/contact.php">
-              <div class="bit-3 img-1-1 your-branding lazy">
-                <h3>your brand&nbsp;&nbsp;<span class="icon">&rarr;</span></h3>
               </div>
             </a>
             <p class="bit-1 mg-t">

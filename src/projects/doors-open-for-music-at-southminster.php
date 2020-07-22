@@ -34,8 +34,10 @@
             <div class="bit-2">
               <p>
                 <span class="bold">Deliverables</span><br>
-                - New visual identity<br>
-                - Concert programmes
+                <ul>
+                  <li>New visual identity</li>
+                  <li>Concert programmes</li>
+                </ul>
               </p>
               <p>
                 <span class="bold">Color Palette</span><br>
@@ -50,7 +52,7 @@
           </section>
           <!--Images-->
           <section>
-            <div class="bit-1 mg-t">
+            <div class="bit-1 mg-b">
               <div class="bit-1">
                 <div class="img-1-1 lazy" data-original="/assets/svg/doors-open-for-music-at-southminster-logo.svg"></div>
               </div>

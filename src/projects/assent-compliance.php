@@ -34,9 +34,11 @@
             <div class="bit-2">
               <p>
                 <span class="bold">Deliverables</span><br>
-                - New visual identity<br>
-                - Landing page design<br>
-                - Web application design
+                <ul>
+                  <li>New visual identity</li>
+                  <li>Landing page design</li>
+                  <li>Web application design</li>
+                </ul>
               </p>
               <p>
                 <span class="bold">Color Palette</span><br>

@@ -33,8 +33,10 @@
             <div class="bit-2">
               <p>
                 <span class="bold">Deliverables</span><br>
-                - New visual identity<br>
-                - Business card, price tags, signage<br>
+                <ul>
+                  <li>New visual identity</li>
+                  <li>Business card, price tags, signage</li>
+                </ul>
               </p>
               <p>
                 <span class="bold">Color Palette</span><br>
@@ -53,7 +55,7 @@
           </section>
           <section>
             <div class="bit-1 mg-t">
-              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-white.svg"></div>
+              <div class="img-1-1 lazy mg-b" data-original="/assets/svg/mimib-logo-white.svg"></div>
             </div>
             <div class="bit-3">
               <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-rose.svg"></div>
@@ -62,7 +64,7 @@
               <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-yellow.svg"></div>
             </div>
             <div class="bit-3">
-              <div class="img-1-1 lazy" data-original="/assets/svg/mimib-logo-green.svg"></div>
+              <div class="img-1-1 lazy mg-b" data-original="/assets/svg/mimib-logo-green.svg"></div>
             </div>
             <div class="bit-1">
               <div class="bit-2">

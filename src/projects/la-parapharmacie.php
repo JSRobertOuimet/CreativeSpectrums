@@ -33,10 +33,12 @@
           <div class="bit-2">
             <p>
               <span class="bold">Deliverables</span><br>
-              - New visual identity &amp; brand guidelines<br>
-              - Business cards, flyers, leaflets, posters<br>
-              - Layout of administrative &amp; informative documents<br>
-              - Social media assets &amp; bilingual announcements
+              <ul>
+                <li>New visual identity &amp; brand guidelines</li>
+                <li>Business cards, flyers, leaflets, posters</li>
+                <li>Layout of administrative &amp; informative documents</li>
+                <li>Social media assets &amp; bilingual announcements</li>
+              </ul>
             </p>
             <p>
               <span class="bold">Color Palette</span><br>
@@ -55,20 +57,20 @@
         </section>
         <section>
           <div class="bit-1">
-            <div class="bit-1 img-1-1 lazy mg-t" data-original="/assets/svg/la-parapharmacie-logo.svg"></div>
-            <div class="bit-1 img-2-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-le-papa-de-la-para.jpg"></div>
+            <div class="bit-1 img-1-1 lazy mg-t mg-b" data-original="/assets/svg/la-parapharmacie-logo.svg"></div>
+            <div class="bit-1 img-2-1 lazy mg-b" data-original="/assets/img/la-parapharmacie/la-parapharmacie-le-papa-de-la-para.jpg"></div>
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-allergy.jpg"></div>
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-digestion.jpg"></div>
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-liver.jpg"></div>
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-reflux.jpg"></div>
-            <img class="bit-1 img-1-1" src="/assets/img/la-parapharmacie/la-parapharmacie-norms-product-creation.jpg">
+            <div class="bit-2 img-1-1 lazy mg-b" data-original="/assets/img/la-parapharmacie/la-parapharmacie-vitrine-reflux.jpg"></div>
+            <img class="bit-1 img-1-1 lazy mg-b" src="/assets/img/la-parapharmacie/la-parapharmacie-norms-product-creation.jpg">
             <div class="bit-3 img-1-1 lazy" data-original="/assets/svg/la-parapharmacie-icon.svg"></div>
             <div class="bit-3 img-1-1 lazy" data-original="/assets/svg/la-parapharmacie-icon-reversed-blue.svg"></div>
-            <div class="bit-3 img-1-1 lazy" data-original="/assets/svg/la-parapharmacie-icon-reversed-green.svg"></div>
+            <div class="bit-3 img-1-1 lazy mg-b" data-original="/assets/svg/la-parapharmacie-icon-reversed-green.svg"></div>
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-addresses-clinique-intersante.jpg"></div>
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-addresses-crudessence.jpg"></div>
             <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-addresses-portes-de-sante-et-equilibre-lory.jpg"></div>
-            <div class="bit-2 img-1-1 lazy" data-original="/assets/img/la-parapharmacie/la-parapharmacie-addresses-sante-alchimiste-en-herbe.jpg"></div>
+            <div class="bit-2 img-1-1 lazy mg-b" data-original="/assets/img/la-parapharmacie/la-parapharmacie-addresses-sante-alchimiste-en-herbe.jpg"></div>
             <img class="bit-2 img-1-1 mg-b lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-appointement.jpg">
             <img class="bit-2 img-1-1 mg-b lazy" src="/assets/img/la-parapharmacie/la-parapharmacie-form-order.jpg">
           </div>

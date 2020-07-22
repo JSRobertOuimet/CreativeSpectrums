@@ -34,10 +34,12 @@
             <div class="bit-2">
               <p>
                 <span class="bold">Deliverables</span><br>
-                - New visual identity &amp; brand guidelines<br>
-                - E-commerce website design &amp; development<br>
-                - Promotional material: flyers, posters, programmes<br>
-                - Social media assets &amp; announcements
+                <ul>
+                  <li>New visual identity &amp; brand guidelines</li>
+                  <li>E-commerce website design &amp; development</li>
+                  <li>Promotional material: flyers, posters, programmes</li>
+                  <li>Social media assets &amp; announcements</li>
+                </ul>
               </p>
               <p>
                 <span class="bold">Color Palette</span><br>
@@ -65,7 +67,7 @@
                 <div class="img-1-1 lazy" data-original="/assets/svg/master-piano-recital-series-logo.svg"></div>
               </div>
               <div class="bit-2">
-                <div class="img-1-1 lazy" data-original="/assets/svg/master-piano-recital-series-logo-reversed.svg"></div>
+                <div class="img-1-1 lazy mg-b" data-original="/assets/svg/master-piano-recital-series-logo-reversed.svg"></div>
               </div>
               <div class="bit-3">
                 <div class="img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-1-square.jpg"></div>
@@ -74,15 +76,15 @@
                 <div class="img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-2-square.jpg"></div>
               </div>
               <div class="bit-3">
-                <div class="img-1-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-3-square.jpg"></div>
+                <div class="img-1-1 lazy mg-b" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-3-square.jpg"></div>
               </div>
               <div class="bit-1">
-                <div class="img-2-1 lazy" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-2.jpg"></div>
+                <div class="img-2-1 lazy mg-b" data-original="/assets/img/master-piano-recital-series/master-piano-recital-series-logo-on-image-2.jpg"></div>
               </div>
               <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-1-rectangle.jpg" width="100%">
               <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-2-rectangle.jpg" width="100%">
-              <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-3-rectangle.jpg" width="100%">
-              <img class="bit-1 img" src="/assets/img/master-piano-recital-series/master-piano-recital-series-poster.jpg" width="100%">
+              <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-concert-3-rectangle.jpg" width="100%">
+              <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-poster.jpg" width="100%">
               <img class="bit-1 img mg-b" src="/assets/img/master-piano-recital-series/master-piano-recital-series-fb-ad.jpg" width="100%">
             </div>
           </section>
